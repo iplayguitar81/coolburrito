@@ -2,105 +2,105 @@
     <h2 id="latest_games" class="Ripper">latest games</h2>
 
 <div id="owl-demo" class="owl-carousel owl-theme">
-    @foreach($scores as $item)
+    {{--@foreach($scores as $item)--}}
 
-        @php
-            $versus_or_at="";
-            $away_nick_dash="$item->afname";
-            $home_nick_dash="";
-            $home_or_away="";
-            $win_or_loss="";
+        {{--@php--}}
+            {{--$versus_or_at="";--}}
+            {{--$away_nick_dash="$item->afname";--}}
+            {{--$home_nick_dash="";--}}
+            {{--$home_or_away="";--}}
+            {{--$win_or_loss="";--}}
 
-    $game_date = new DateTime($item->datey, new DateTimeZone('America/Los_Angeles'));
-    $game_date = date_sub($game_date, date_interval_create_from_date_string('3 hour'));
-    $game_date = $game_date->format('M jS Y');
-
-
-        @endphp
+    {{--$game_date = new DateTime($item->datey, new DateTimeZone('America/Los_Angeles'));--}}
+    {{--$game_date = date_sub($game_date, date_interval_create_from_date_string('3 hour'));--}}
+    {{--$game_date = $game_date->format('M jS Y');--}}
 
 
-
-        @if ($item->h_initials=='POR')
-            @php
-                $versus_or_at="VS.";
-            @endphp
-
-            @if($item->htotal > $item->atotal)
-                @php
-                    $win_or_loss ="<span class='win_loss_box_show_win2'>W</span>";
-
-                @endphp
-            @else
-                @php
-                    $win_or_loss ="";
-                @endphp
-            @endif
-            @if($item->htotal < $item->atotal)
-                @php
-                    $win_or_loss ="<span class='win_loss_box_show_loss2'>L</span>";
-
-                @endphp
-
-
-            @endif
-
-            @php
-                $home_or_away = $item->afname.'<span class="box_total_h2"> '.$item->atotal+"</span><br/>at<br/> portland trail blazers <span class='box_total_h2'>".$item->htotal."</span>";
-            @endphp
-
-
-        @endif
-
-
-        @if ($item->a_initials=='POR')
-            @php
-                $versus_or_at="@";
-            @endphp
-
-            @if($item->atotal > $item->htotal)
-                @php
-                    $win_or_loss ="<span class='win_loss_box_show_win2'>W</span>";
-
-                @endphp
-            @else
-                @php
-                    $win_or_loss ="";
-                @endphp
-            @endif
-            @if($item->atotal < $item->htotal)
-                @php
-                    $win_or_loss ="<span class='win_loss_box_show_loss2'>L</span>";
-
-                @endphp
-
-
-            @endif
-
-            @php
-                $home_or_away = 'portland trailblazers'.'<span class="box_total_h2"> '.$item->atotal+"</span><br/>at<br/>'.$item->hfname.'<span class='box_total_h2'>".$item->htotal."</span>";
-            @endphp
-
-
-        @endif
+        {{--@endphp--}}
 
 
 
+        {{--@if ($item->h_initials=='POR')--}}
+            {{--@php--}}
+                {{--$versus_or_at="VS.";--}}
+            {{--@endphp--}}
 
-        <div class="item">
+            {{--@if($item->htotal > $item->atotal)--}}
+                {{--@php--}}
+                    {{--$win_or_loss ="<span class='win_loss_box_show_win2'>W</span>";--}}
 
-            <table class="header_last_game">
-                <tr><th colspan="3">{{$game_date}}</th></tr>
-                <tr><td><span class="initials">{{$item->a_initials}}</span><br/><span class='slider_score'>{{$item->atotal}}</span></td><td>{!! $versus_or_at !!}<br/>{!! $win_or_loss!!}</td><td><span class="initials">{{$item->h_initials}}</span><br/><span class='slider_score'>{{$item->htotal}}</span></td></tr>
-                <tr><td colspan="3" class="score-link"><a class="btn btn-danger btn-xs" role="button" aria-pressed="true" href="{{ route('boxscores.show', [$item->id, str_slug($item->game_string)]) }}">Box score</a></td></tr>
-            </table>
+                {{--@endphp--}}
+            {{--@else--}}
+                {{--@php--}}
+                    {{--$win_or_loss ="";--}}
+                {{--@endphp--}}
+            {{--@endif--}}
+            {{--@if($item->htotal < $item->atotal)--}}
+                {{--@php--}}
+                    {{--$win_or_loss ="<span class='win_loss_box_show_loss2'>L</span>";--}}
+
+                {{--@endphp--}}
 
 
-        </div>
+            {{--@endif--}}
+
+            {{--@php--}}
+                {{--$home_or_away = $item->afname.'<span class="box_total_h2"> '.$item->atotal+"</span><br/>at<br/> portland trail blazers <span class='box_total_h2'>".$item->htotal."</span>";--}}
+            {{--@endphp--}}
+
+
+        {{--@endif--}}
+
+
+        {{--@if ($item->a_initials=='POR')--}}
+            {{--@php--}}
+                {{--$versus_or_at="@";--}}
+            {{--@endphp--}}
+
+            {{--@if($item->atotal > $item->htotal)--}}
+                {{--@php--}}
+                    {{--$win_or_loss ="<span class='win_loss_box_show_win2'>W</span>";--}}
+
+                {{--@endphp--}}
+            {{--@else--}}
+                {{--@php--}}
+                    {{--$win_or_loss ="";--}}
+                {{--@endphp--}}
+            {{--@endif--}}
+            {{--@if($item->atotal < $item->htotal)--}}
+                {{--@php--}}
+                    {{--$win_or_loss ="<span class='win_loss_box_show_loss2'>L</span>";--}}
+
+                {{--@endphp--}}
+
+
+            {{--@endif--}}
+
+            {{--@php--}}
+                {{--$home_or_away = 'portland trailblazers'.'<span class="box_total_h2"> '.$item->atotal+"</span><br/>at<br/>'.$item->hfname.'<span class='box_total_h2'>".$item->htotal."</span>";--}}
+            {{--@endphp--}}
+
+
+        {{--@endif--}}
 
 
 
 
-    @endforeach
+        {{--<div class="item">--}}
+
+            {{--<table class="header_last_game">--}}
+                {{--<tr><th colspan="3">{{$game_date}}</th></tr>--}}
+                {{--<tr><td><span class="initials">{{$item->a_initials}}</span><br/><span class='slider_score'>{{$item->atotal}}</span></td><td>{!! $versus_or_at !!}<br/>{!! $win_or_loss!!}</td><td><span class="initials">{{$item->h_initials}}</span><br/><span class='slider_score'>{{$item->htotal}}</span></td></tr>--}}
+                {{--<tr><td colspan="3" class="score-link"><a class="btn btn-danger btn-xs" role="button" aria-pressed="true" href="{{ route('boxscores.show', [$item->id, str_slug($item->game_string)]) }}">Box score</a></td></tr>--}}
+            {{--</table>--}}
+
+
+        {{--</div>--}}
+
+
+
+
+    {{--@endforeach--}}
 </div>
 <br/>
 
