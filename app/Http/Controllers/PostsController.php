@@ -328,7 +328,7 @@ class PostsController extends Controller
                 $filename = uniqid(). $photo2->getClientOriginalName();
                 $photo2->move('images/', $filename);
                 $thumb_string="md-img-".$filename;
-                Image::make( 'https://www.trailblazersfans.com/images/'.$filename)->resize(600, 270)->save('images/'.$thumb_string);
+                Image::make( 'https://level3.checkenginefree.com/images/'.$filename)->resize(600, 270)->save('images/'.$thumb_string);
 
 
 
@@ -453,7 +453,7 @@ class PostsController extends Controller
         //here is where I need to add the thumbnail also....
         $thumb_string="thmb-".$filename;
 
-        Image::make( 'https://www.trailblazersfans.com/images/'.$filename)->resize(300, 200)->save('images/'.$thumb_string);
+        Image::make( 'https://level3.checkenginefree.com/images/'.$filename)->resize(300, 200)->save('images/'.$thumb_string);
 
         // save the image details into the database
 
@@ -626,7 +626,7 @@ class PostsController extends Controller
 
         $photo2->move('images/', $filename);
         $thumb_string="thmb-".$filename;
-        Image::make( 'https://www.trailblazersfans.com/images/'.$filename)->resize(600, 270)->save('images/'.$thumb_string);
+        Image::make( 'https://level3.checkenginefree.com/images/'.$filename)->resize(600, 270)->save('images/'.$thumb_string);
 
         $response = $this->image->post_image(1);
         return $response;
