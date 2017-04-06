@@ -34,12 +34,20 @@
         </div>
 
 
-        @foreach($posts as $item)
-            <p>{{ $item->title }}</p>
-            <p>{{ $item->body }}</p>
-            <img class="img-thumbnail" src="images/{{$item->imgPath}}">
 
-        @endforeach
+
+
+        <div class="ui-grid-b">
+            <div class="ui-block-a"><div class="ui-bar ui-bar-a" style="height:60px"> @foreach($posts as $item)
+                        <p>{{ $item->title }}</p>
+                        <p>{{ $item->body }}</p>
+                        <img class="img-thumbnail" src="images/{{$item->imgPath}}">
+
+                    @endforeach</div></div>
+            <div class="ui-block-b"><div class="ui-bar ui-bar-a" style="height:60px">AD GOES HERE</div></div>
+            <div class="ui-block-c"><div class="ui-bar ui-bar-a" style="height:60px">More News</div></div>
+        </div><!-- /grid-b -->
+
 
         <br/>
         <div id="search_holder">
