@@ -34,21 +34,22 @@
         </div>
 
 
+        @foreach($posts as $item)
+
+        <div class="ui-corner-all custom-corners">
+            <div class="ui-bar ui-bar-a">
+                <h3> {!! $item->title !!}</h3>
+            </div>
+            <div class="ui-body ui-body-a">
+                <img class="img-thumbnail" src="images/{!! $item->imgPath !!}">
+                <p>{!! $item->body !!}</p>
+            </div>
+        </div>
 
 
 
-        <div class="ui-grid-b">
-            <div class="ui-block-a"><div class="ui-bar ui-bar-a" style="height:60px">
 
-                    @foreach($posts as $item)
-                        <p>{!! $item->title !!}</p>
-                        <p>{!! $item->body !!}</p>
-                        <img class="img-thumbnail" src="images/{!! $item->imgPath !!}">
 
-                    @endforeach</div></div>
-            <div class="ui-block-b"><div class="ui-bar ui-bar-a" style="height:60px">AD GOES HERE</div></div>
-            <div class="ui-block-c"><div class="ui-bar ui-bar-a" style="height:60px">More News</div></div>
-        </div><!-- /grid-b -->
 
 
         <br/>
