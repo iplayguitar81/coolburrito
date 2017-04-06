@@ -64,7 +64,7 @@
 
     </div>
 
-        <a href="#myPanel" class="ui-btn ui-icon-info ui-btn-icon-left ui-shadow-icon ui-btn-b"><span class="orangose">Check Out Our Blog!</span></a>
+        <a href="#myPanel" class="ui-btn ui-icon-info ui-btn-icon-left ui-shadow-icon ui-btn-b"><span class="orangose">Read the Blog!</span></a>
 
 
         <br/>
