@@ -56,16 +56,29 @@
             <a href="#pageone" data-rel="close" class="ui-btn ui-btn-inline ui-shadow ui-corner-all ui-btn-a ui-icon-delete ui-btn-icon-left" ><span class="orangose3">Back to Map</span></a>
         <h2>Latest from Our Blog</h2>
 
-            @foreach($posts as $item)
+            <ul data-role="listview" data-inset="true">
+
+                @foreach($posts as $item)
+
+                <li><a href="#">
+                        <img class="ui-li-thumb" src="images/{!! $item->imgPath !!}">
+                        <h2>{!! $item->title !!}</h2>
+                        <p>{!! $item->body !!}</p></a>
+                </li>
+                @endforeach
+
+            </ul>
 
 
-                <h3> {!! $item->title !!}</h3>
 
 
-                <img class="ui-li-thumb" src="images/{!! $item->imgPath !!}">
-                {!! $item->body !!}
 
-            @endforeach
+
+
+
+
+
+
 
 
     </div>
