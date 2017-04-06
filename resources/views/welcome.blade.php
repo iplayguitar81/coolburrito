@@ -37,30 +37,19 @@
 
 
 
-        <div class="rwd-example">
-            <!-- Lead story block -->
-            <div class="ui-block-a">
-                <div class="ui-body ui-body-d">
-                    <h2>Apple schedules 'iPad Mini' event for October 23</h2>
-                    <p>One of the worst-kept secrets in tech has been confirmed: Apple will hold an event October 23 in San Jose, California, at which the company is widely expected to unveil a smaller, cheaper version of its popular iPad called "Mini".</p>
+        <div class="ui-grid-c">
+            @foreach($posts as $item)
+            <div class="ui-block-a"><div class="ui-bar ui-bar-a" style="height:60px">
+                    <h3> {!! $item->title !!}</h3>
+                    <img class="img-thumbnail" src="images/{!! $item->imgPath !!}">
+                    <p>{!! $item->body !!}</p>
                 </div>
-            </div>
-            <!-- secondary story block #1 -->
-            <div class="ui-block-a">
-                <div class="ui-body ui-body-d">
-                    <h4>Microsoft Surface tablet goes on sale for $499</h4>
-                    <p>The Microsoft Surface tablet picture has come into focus. The Redmond giant filled in the blanks on the new tablet's availability and specs.</p>
                 </div>
-            </div>
-            <!-- secondary story block #2 -->
-            <div class="ui-block-c">
-                <div class="ui-body ui-body-d">
-                    <h4>AOL unveils Alto, an email service that syncs 5 accounts</h4>
-                    <p>AOL, struggling to shed its outdated image, is reimagining one of the most visibly aging parts of its platform: Its email service. </p>
-                </div>
-            </div>
-        </div><!-- /rwd-example -->
-
+                @endforeach
+            <div class="ui-block-b"><div class="ui-bar ui-bar-a" style="height:60px">Block B</div></div>
+            <div class="ui-block-c"><div class="ui-bar ui-bar-a" style="height:60px">Block C</div></div>
+            <div class="ui-block-d"><div class="ui-bar ui-bar-a" style="height:60px">Block D</div></div>
+        </div><!-- /grid-c -->
 
 
 
