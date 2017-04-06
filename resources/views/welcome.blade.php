@@ -43,7 +43,7 @@
                     @foreach($posts as $item)
                         <p>{!! $item->title !!}</p>
                         <p>{!! $item->body !!}</p>
-                        <img class="img-thumbnail" src="images/{{$item->imgPath}}">
+                        <img class="img-thumbnail" src="images/{!! $item->imgPath !!}">
 
                     @endforeach</div></div>
             <div class="ui-block-b"><div class="ui-bar ui-bar-a" style="height:60px">AD GOES HERE</div></div>
