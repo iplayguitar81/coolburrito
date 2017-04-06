@@ -54,7 +54,7 @@
               us auto part stores that offer check engine services free"/>
     <meta name="description" content="checkenginefree.com is a resource for folks to locate auto parts stores near them that offer free* check engine light diagnostic services.  This website is meant to be used as a tool for those searching for an auto parts store nearest to them in the USA!" />
     <title>checkenginefree.com | mapplication</title>
-    <link rel="SHORTCUT ICON" HREF="images/favicon.png">
+    <link rel="SHORTCUT ICON" href="images/favicon.png">
     <!-- <link rel="stylesheet" type="text/css" href="storelocator.css">-->
     <!-- <link rel="stylesheet" href="//code.jquery.com/mobile/1.4.3/jquery.mobile-1.4.3.min.css">-->
     <script>
