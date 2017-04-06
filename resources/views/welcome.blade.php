@@ -62,7 +62,7 @@
                 <h3> {!! $item->title !!}</h3>
 
 
-                <img class="img-thumbnail" src="images/{!! $item->imgPath !!}">
+                <img class="ui-li-thumb" src="images/{!! $item->imgPath !!}">
                 {!! $item->body !!}
 
             @endforeach
