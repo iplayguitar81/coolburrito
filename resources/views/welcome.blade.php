@@ -9,6 +9,15 @@
 
 
             <img class='img-responsive' alt='checkenginefree.com' src='/images/checkenginelogoyay3.png'/>
+
+            <div class="ui-grid-solo">
+                <div class="ui-block-a">
+                    <a href="#" class="ui-btn ui-corner-all ui-shadow">First Column Button</a><br>
+                    <span>First Column: This is some text. This is some text. This is some text. This is some text. This is some text. This is some text. This is some text. This is some text. This is some text. This is some text. This is some text. This is some text. This is some text. This is some text. This is some text.</span>
+                </div>
+            </div>
+
+
             @foreach($posts as $item)
 
 
