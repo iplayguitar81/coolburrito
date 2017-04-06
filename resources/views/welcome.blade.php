@@ -47,6 +47,7 @@
 
 
         <div data-role="panel" id="myPanel" data-position="right">
+            <a href="#pageone" data-rel="close" class="ui-btn ui-btn-inline ui-shadow ui-corner-all ui-btn-a ui-icon-delete ui-btn-icon-left">Close Blog Panel</a>
         <h2>Latest from Our Blog</h2>
 
             @foreach($posts as $item)
@@ -60,9 +61,9 @@
 
             @endforeach
 
-        <a href="#pageone" data-rel="close" class="ui-btn ui-btn-inline ui-shadow ui-corner-all ui-btn-a ui-icon-delete ui-btn-icon-left">Close panel</a>
+
     </div>
-        <a href="#myPanel" class="ui-btn ui-btn-inline ui-corner-all ui-shadow">Open Panel</a>
+        <a href="#myPanel" class="ui-btn ui-btn-inline ui-corner-all ui-shadow">Our Blog</a>
 
 
         <br/>
