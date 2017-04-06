@@ -39,7 +39,7 @@
 
         <div class="rwd-example">
             <!-- Lead story block -->
-            <div class="ui-block-c">
+            <div class="ui-block-a">
                 <div class="ui-body ui-body-d">
                     <h2>Apple schedules 'iPad Mini' event for October 23</h2>
                     <p>One of the worst-kept secrets in tech has been confirmed: Apple will hold an event October 23 in San Jose, California, at which the company is widely expected to unveil a smaller, cheaper version of its popular iPad called "Mini".</p>
