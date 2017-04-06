@@ -46,9 +46,8 @@
                 </div>
                 </div>
                 @endforeach
-            <div class="ui-block-b"><div class="ui-bar ui-bar-a" style="height:60px">Block B</div></div>
-            <div class="ui-block-c"><div class="ui-bar ui-bar-a" style="height:60px">Block C</div></div>
-            <div class="ui-block-d"><div class="ui-bar ui-bar-a" style="height:60px">Block D</div></div>
+            <div class="ui-block-b"><div class="ui-bar ui-bar-a">Block B</div></div>
+            <div class="ui-block-c"><div class="ui-bar ui-bar-a">Block C</div></div>
         </div><!-- /grid-c -->
 
 
