@@ -70,7 +70,7 @@
             </ul>
 
 <hr>
-            <a href="#pageone" data-rel="close" class="ui-btn ui-btn-inline ui-shadow ui-corner-all ui-btn-a ui-icon-delete ui-btn-icon-left" ><span class="orangose3">Close/span></a>
+            <a href="#pageone" data-rel="close" class="ui-btn ui-btn-inline ui-shadow ui-corner-all ui-btn-a ui-icon-delete ui-btn-icon-left" ><span class="orangose3">Close</span></a>
 
 
 
