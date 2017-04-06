@@ -46,14 +46,14 @@
         </div>
 
 
-        <div class="ui-grid-solo">
-            <div class="ui-block-c">
-                <span>First Column: This is some text. This is some text. This is some text. This is some text. This is some text. This is some text. This is some text. This is some text. This is some text. This is some text. This is some text. This is some text. This is some text. This is some text. This is some text.</span>
-            </div>
-        </div>
+        <div data-role="panel" id="myPanel" data-position="right">
+        <h2>Panel Header</h2>
+        <p>You can close the panel by clicking outside the panel, pressing the Esc key, by swiping, or by clicking the button below:</p>
+        <a href="#pageone" data-rel="close" class="ui-btn ui-btn-inline ui-shadow ui-corner-all ui-btn-a ui-icon-delete ui-btn-icon-left">Close panel</a>
+    </div>
+        <a href="#myPanel" class="ui-btn ui-btn-inline ui-corner-all ui-shadow">Open Panel</a>
 
-
-        @foreach($posts as $item)
+    @foreach($posts as $item)
 
 
             <h3> {!! $item->title !!}</h3>
