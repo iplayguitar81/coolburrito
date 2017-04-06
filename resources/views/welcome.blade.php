@@ -10,24 +10,7 @@
 
             <img class='img-responsive' alt='checkenginefree.com' src='/images/checkenginelogoyay3.png'/>
 
-            <div class="ui-grid-solo">
-                <div class="ui-block-a">
-                    <a href="#" class="ui-btn ui-corner-all ui-shadow">First Column Button</a><br>
-                    <span>First Column: This is some text. This is some text. This is some text. This is some text. This is some text. This is some text. This is some text. This is some text. This is some text. This is some text. This is some text. This is some text. This is some text. This is some text. This is some text.</span>
-                </div>
-            </div>
 
-
-            @foreach($posts as $item)
-
-
-                <h3> {!! $item->title !!}</h3>
-
-
-                <img class="img-thumbnail" src="images/{!! $item->imgPath !!}">
-                {!! $item->body !!}
-
-            @endforeach
             <div data-role="navbar">
                 <ul class="nav-trickery">
                     <li><a href="#mappins" class="ui-state-persist" data-icon="navigation"><span class="orangose">Map</span></a></li>
@@ -56,6 +39,26 @@
                 {{--</script>--}}
 
             {{--</div>--}}
+
+            <div class="ui-grid-solo">
+                <div class="ui-block-a">
+                    <a href="#" class="ui-btn ui-corner-all ui-shadow">First Column Button</a><br>
+                    <span>First Column: This is some text. This is some text. This is some text. This is some text. This is some text. This is some text. This is some text. This is some text. This is some text. This is some text. This is some text. This is some text. This is some text. This is some text. This is some text.</span>
+                </div>
+            </div>
+
+
+            @foreach($posts as $item)
+
+
+                <h3> {!! $item->title !!}</h3>
+
+
+                <img class="img-thumbnail" src="images/{!! $item->imgPath !!}">
+                {!! $item->body !!}
+
+            @endforeach
+
 
         </div>
         <br/>
