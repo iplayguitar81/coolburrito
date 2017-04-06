@@ -8,15 +8,13 @@
 
             @foreach($posts as $item)
 
-            <div class="ui-corner-all custom-corners">
-            <div class="ui-bar ui-bar-a">
+
             <h3> {!! $item->title !!}</h3>
-            </div>
-            <div class="ui-body ui-body-a">
+
+
             <img class="img-thumbnail" src="images/{!! $item->imgPath !!}">
-            <p>{!! $item->body !!}</p>
-            </div>
-            </div>
+            {!! $item->body !!}
+
             @endforeach
 
             <img class='img-responsive' alt='checkenginefree.com' src='/images/checkenginelogoyay3.png'/>
