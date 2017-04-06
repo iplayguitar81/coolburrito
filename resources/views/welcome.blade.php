@@ -47,8 +47,7 @@
 
 
         <div class="ui-grid-solo">
-            <div class="ui-block-d">
-                <a href="#" class="ui-btn ui-corner-all ui-shadow">First Column Button</a><br>
+            <div class="ui-block-c">
                 <span>First Column: This is some text. This is some text. This is some text. This is some text. This is some text. This is some text. This is some text. This is some text. This is some text. This is some text. This is some text. This is some text. This is some text. This is some text. This is some text.</span>
             </div>
         </div>
