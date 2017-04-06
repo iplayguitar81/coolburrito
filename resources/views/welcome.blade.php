@@ -40,6 +40,7 @@
             <img class="img-thumbnail" src="../images/{{$item->img_string}}">
 
         @endforeach
+
         <br/>
         <div id="search_holder">
             <input id="address"  data-clear-btn="true"  data-theme="a" data-type="search" placeholder="Address, City, State, or Zip"/>
