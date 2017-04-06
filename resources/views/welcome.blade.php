@@ -37,7 +37,7 @@
 
 
 
-        <div class="ui-grid-c">
+        <div class="ui-grid-b">
             @foreach($posts as $item)
             <div class="ui-block-a"><div class="ui-bar ui-bar-a">
                     <h3> {!! $item->title !!}</h3>
