@@ -6,19 +6,19 @@
     <div data-role="page" data-theme="b" id="mappins">
         <div data-role="header" style="overflow:hidden;" data-theme="b"  data-tap-toggle="false" data-position="fixed">
 
+
+
+            <img class='img-responsive' alt='checkenginefree.com' src='/images/checkenginelogoyay3.png'/>
             @foreach($posts as $item)
 
 
-            <h3> {!! $item->title !!}</h3>
+                <h3> {!! $item->title !!}</h3>
 
 
-            <img class="img-thumbnail" src="images/{!! $item->imgPath !!}">
-            {!! $item->body !!}
+                <img class="img-thumbnail" src="images/{!! $item->imgPath !!}">
+                {!! $item->body !!}
 
             @endforeach
-
-            <img class='img-responsive' alt='checkenginefree.com' src='/images/checkenginelogoyay3.png'/>
-
             <div data-role="navbar">
                 <ul class="nav-trickery">
                     <li><a href="#mappins" class="ui-state-persist" data-icon="navigation"><span class="orangose">Map</span></a></li>
