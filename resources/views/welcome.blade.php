@@ -1,4 +1,4 @@
-@extends('public.images.layout')
+@extends('layout')
 
 @section('content')
 
@@ -13,7 +13,27 @@
                     <li><a href="#contact" data-icon="mail"><span class="orangose">Contact</span></a></li>
                 </ul>
             </div><!-- /navbar -->
+            <div id="google_ad3">
+                <style>
+                    .checkrespond1 { width: 320px; height: 50px; }
+                    @media(min-width: 500px) { .checkrespond1 { width: 468px; height: 60px; } }
+                    @media(min-width: 800px) { .checkrespond1 { width: 728px; height: 90px; } }
+                </style>
 
+
+
+
+                <script src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                <!-- checkrespond1 -->
+                <ins class="adsbygoogle checkrespond1"
+                style="display:inline-block"
+                data-ad-client="ca-pub-4617308558434719"
+                data-ad-slot="7732229387"></ins>
+                <script>
+                (adsbygoogle = window.adsbygoogle || []).push({});
+                </script>
+
+            </div>
 
         </div>
         <br/>
@@ -26,42 +46,22 @@
 
 
 
-        <div id="google_ad3">
-            <style>
-                .checkrespond1 { width: 320px; height: 50px; }
-                @media(min-width: 500px) { .checkrespond1 { width: 468px; height: 60px; } }
-                @media(min-width: 800px) { .checkrespond1 { width: 728px; height: 90px; } }
-            </style>
 
 
 
 
-            {{--<script src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>--}}
-            {{--<!-- checkrespond1 -->--}}
-            {{--<ins class="adsbygoogle checkrespond1"--}}
-            {{--style="display:inline-block"--}}
-            {{--data-ad-client="ca-pub-4617308558434719"--}}
-            {{--data-ad-slot="7732229387"></ins>--}}
-            {{--<script>--}}
-            {{--(adsbygoogle = window.adsbygoogle || []).push({});--}}
-            {{--</script>--}}
+    {{--@foreach($posts as $item)--}}
 
-        </div>
-
-
-
-    @foreach($posts as $item)
-
-        <div class="ui-corner-all custom-corners">
-            <div class="ui-bar ui-bar-a" style="width: 65% ">
-                <h3> {!! $item->title !!}</h3>
-            </div>
-            <div class="ui-body ui-body-a">
-                <img class="img-thumbnail" src="images/{!! $item->imgPath !!}">
-                <p>{!! $item->body !!}</p>
-            </div>
-        </div>
-        @endforeach
+        {{--<div class="ui-corner-all custom-corners">--}}
+            {{--<div class="ui-bar ui-bar-a">--}}
+                {{--<h3> {!! $item->title !!}</h3>--}}
+            {{--</div>--}}
+            {{--<div class="ui-body ui-body-a">--}}
+                {{--<img class="img-thumbnail" src="images/{!! $item->imgPath !!}">--}}
+                {{--<p>{!! $item->body !!}</p>--}}
+            {{--</div>--}}
+        {{--</div>--}}
+        {{--@endforeach--}}
 
         <br/>
         <div id="search_holder">
