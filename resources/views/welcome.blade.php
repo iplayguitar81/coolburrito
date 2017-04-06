@@ -63,7 +63,7 @@
 
 
     </div>
-        <a href="#myPanel" class="ui-btn ui-btn-inline ui-corner-all ui-shadow">Our Blog</a>
+        <a href="#myPanel" class="ui-btn ui-btn-inline ui-corner-all ui-shadow">Check Out Our Blog</a>
 
 
         <br/>
