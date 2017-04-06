@@ -15,12 +15,23 @@
             </div><!-- /navbar -->
         </div>
         <br/>
+
+
+        <div data-role="header" data-position="fixed">
+            <h1>Fixed header</h1>
+            <a href="#nav-panel" data-icon="bars" data-iconpos="notext">Menu</a>
+            <a href="#add-form" data-icon="gear" data-iconpos="notext">Add</a>
+        </div><!-- /header -->
         <div id="google_ad3">
             <style>
                 .checkrespond1 { width: 320px; height: 50px; }
                 @media(min-width: 500px) { .checkrespond1 { width: 468px; height: 60px; } }
                 @media(min-width: 800px) { .checkrespond1 { width: 728px; height: 90px; } }
             </style>
+
+
+
+
             {{--<script src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>--}}
             {{--<!-- checkrespond1 -->--}}
             {{--<ins class="adsbygoogle checkrespond1"--}}
