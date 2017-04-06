@@ -21,7 +21,7 @@
                 </style>
 
 
-                <img class='img-responsive' alt='checkenginefree.com' src='/images/placeholder_banner_ad.jpg'/>
+
 
                 {{--<script src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>--}}
                 {{--<!-- checkrespond1 -->--}}
