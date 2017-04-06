@@ -35,6 +35,13 @@
 
 
 
+        <div  class="ui-block-a" style="width:80%"><input id="outgoingMsg" placeholder="Your Message . . ."></div>
+        <div  class="ui-block-b" style="width:20%" >
+            <div  style="margin: 10px 0 0 0;">
+                <a id="callDialog" href="#dialog" type="button" data-theme="b" data-rel="dialog"  data-transition="slidedown">Send</a>
+            </div>
+        </div>
+
 
 
         <div class="ui-grid-b">
@@ -49,6 +56,9 @@
             <div class="ui-block-b"><div class="ui-bar ui-bar-a">Block B</div></div>
             <div class="ui-block-c"><div class="ui-bar ui-bar-a">Block C</div></div>
         </div><!-- /grid-c -->
+
+
+
 
 
 
