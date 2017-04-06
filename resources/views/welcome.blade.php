@@ -32,6 +32,8 @@
             {{--</script>--}}
 
         </div>
+
+
         @foreach($posts as $item)
             <p>{{ $item->title }}</p>
             <p>{{ $item->body }}</p>
