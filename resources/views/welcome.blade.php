@@ -17,7 +17,12 @@
                     <li><a href="#about" data-icon="info"><span class="orangose">About</span></a></li>
                     <li><a href="#contact" data-icon="mail"><span class="orangose">Contact</span></a></li>
                 </ul>
-                <a href="#myPanel" class="ui-btn ui-icon-info ui-btn-icon-left ui-shadow-icon ui-btn-b"><span class="orangose">Read the Blog!</span></a>
+
+
+                <ul class="nav-trickery">
+                    <li> <a href="#myPanel" class="ui-btn ui-icon-info ui-btn-icon-left ui-shadow-icon ui-btn-b"><span class="orangose">Read the Blog!</span></a></li>
+                </ul>
+
             </div><!-- /navbar -->
             {{--<div id="google_ad3">--}}
                 {{--<style>--}}
