@@ -20,7 +20,7 @@
 
 
                 <ul class="nav-trickery">
-                    <li> <a href="#myPanel" class="ui-btn ui-icon-info ui-btn-icon-left ui-shadow-icon ui-btn-c"><span class="orangose">Read the Blog!</span></a></li>
+                    <li> <a href="#myPanel" class="ui-btn ui-icon-info ui-btn-icon-left ui-shadow-icon ui-btn-c"><span class="orangose3">Read Our Blog!</span></a></li>
                 </ul>
 
             </div><!-- /navbar -->
