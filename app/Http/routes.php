@@ -60,7 +60,7 @@ Route::get('/', function () {
         ['published','1'],
     ])->orderBy('created_at','desc')->limit(4)->get();
 
-    return view('welcome', compact('posts', 'users','ratings','scores', 'main'));
+    return view('/welcome', compact('posts', 'users','ratings','scores', 'main'));
 });
 
 //social login package establish authorize route......
