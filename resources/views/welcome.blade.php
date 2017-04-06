@@ -39,7 +39,7 @@
 
         <div class="ui-grid-c">
             @foreach($posts as $item)
-            <div class="ui-block-a"><div class="ui-bar ui-bar-a" style="height:60px">
+            <div class="ui-block-a"><div class="ui-bar ui-bar-a">
                     <h3> {!! $item->title !!}</h3>
                     <img class="img-thumbnail" src="images/{!! $item->imgPath !!}">
                     <p>{!! $item->body !!}</p>
