@@ -47,7 +47,7 @@
 
 
         <div data-role="panel" id="myPanel" data-position="right">
-        <h2>Panel Header</h2>
+        <h2>Check out Our Blog</h2>
 
             @foreach($posts as $item)
 
