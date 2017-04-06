@@ -53,7 +53,7 @@
     {{--@foreach($posts as $item)--}}
 
         {{--<div class="ui-corner-all custom-corners">--}}
-            {{--<div class="ui-bar ui-bar-a">--}}
+            {{--<div class="ui-bar ui-bar-a" style="width: 65% ">--}}
                 {{--<h3> {!! $item->title !!}</h3>--}}
             {{--</div>--}}
             {{--<div class="ui-body ui-body-a">--}}
