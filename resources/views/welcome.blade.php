@@ -23,15 +23,15 @@
 
 
 
-                <script src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-                <!-- checkrespond1 -->
-                <ins class="adsbygoogle checkrespond1"
-                style="display:inline-block"
-                data-ad-client="ca-pub-4617308558434719"
-                data-ad-slot="7732229387"></ins>
-                <script>
-                (adsbygoogle = window.adsbygoogle || []).push({});
-                </script>
+                {{--<script src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>--}}
+                {{--<!-- checkrespond1 -->--}}
+                {{--<ins class="adsbygoogle checkrespond1"--}}
+                {{--style="display:inline-block"--}}
+                {{--data-ad-client="ca-pub-4617308558434719"--}}
+                {{--data-ad-slot="7732229387"></ins>--}}
+                {{--<script>--}}
+                {{--(adsbygoogle = window.adsbygoogle || []).push({});--}}
+                {{--</script>--}}
 
             </div>
 
