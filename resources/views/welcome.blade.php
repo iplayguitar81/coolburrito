@@ -4,7 +4,7 @@
 
 
     <div data-role="page" data-theme="b" id="mappins">
-        <div data-role="header" style="overflow:hidden;" data-theme="b"  data-tap-toggle="false">
+        <div data-role="header" style="overflow:hidden;" data-theme="b"  data-tap-toggle="false" data-position="fixed">
             <img class='img-responsive' alt='checkenginefree.com' src='/images/checkenginelogoyay3.png'/>
             <div data-role="navbar">
                 <ul class="nav-trickery">
@@ -17,11 +17,7 @@
         <br/>
 
 
-        <div data-role="header" data-position="fixed">
-            <h1>Fixed header</h1>
-            <a href="#nav-panel" data-icon="bars" data-iconpos="notext">Menu</a>
-            <a href="#add-form" data-icon="gear" data-iconpos="notext">Add</a>
-        </div><!-- /header -->
+
         <div id="google_ad3">
             <style>
                 .checkrespond1 { width: 320px; height: 50px; }
