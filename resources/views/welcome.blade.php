@@ -46,14 +46,14 @@
 
         <div class="ui-grid-b">
             @foreach($posts as $item)
-            <div class="ui-block-a" style="width:20%"><div class="ui-bar ui-bar-a">
+            <div class="ui-block-a" ><div class="ui-bar ui-bar-a">
                     <h3> {!! $item->title !!}</h3>
                     <img class="img-thumbnail" src="images/{!! $item->imgPath !!}">
                     <p>{!! $item->body !!}</p>
                 </div>
                 </div>
                 @endforeach
-            <div class="ui-block-b" style="width:80%"><div class="ui-bar ui-bar-a">Block B</div></div>
+            <div class="ui-block-b"><div class="ui-bar ui-bar-a">Block B</div></div>
         </div><!-- /grid-c -->
 
 
