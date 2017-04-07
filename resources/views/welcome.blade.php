@@ -58,6 +58,7 @@
 
             <ul data-role="listview" data-split-theme="a" data-inset="true" >
 
+                <hr>
                 @foreach($posts as $item)
 
                 <li data-icon="arrow-r" ><a  href="{{ url('posts', $item->id) }}">
