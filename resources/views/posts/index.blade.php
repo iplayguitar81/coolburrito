@@ -1,46 +1,6 @@
 @extends('public.images.layout')
 @section('content')
 @section('title', 'Blog')
-<div class="col-md-12">
-    <h1>Posts &nbsp;&nbsp;&nbsp;</h1>
-
-    {{--{{'This is the code to test output for locally stored CSV file... see controller'}}--}}
-    {{--@foreach($results as $tubular)--}}
-    {{--<p>{{$tubular->title}}</p>--}}
-    {{--<p>{{$tubular->subhead}}</p>--}}
-    {{--<p>{{$tubular->body}}</p>--}}
-    {{--<p>{{$tubular->imgpath}}</p>--}}
-    {{--@endforeach--}}
-
-
-
-
-
-{{--@foreach($posts as $item)--}}
-
-        {{--<article class="uk-article">--}}
-
-            {{--<h1 class="uk-article-title"><a href="{{ url('posts', $item->id) }}">{{ $item->title }}</a></h1>--}}
-            {{--<p class="uk-article-lead">{{$item->subHead}}</p>--}}
-            {{--<p class="uk-article-meta">{{ $item->created_at }}</p>--}}
-
-            {{--<div class="uk-grid">--}}
-                {{--<div class="uk-width-medium-1-2 uk-push-1-2"><img class="uk-responsive-width" src="../images/{{ $item->imgPath}}"></div>--}}
-                {{--<div class="uk-width-medium-1-2 uk-pull-1-2">{{$item->body}}</div>--}}
-            {{--</div>--}}
-
-
-
-
-
-        {{--</article>--}}
-        {{--<hr class="uk-article-divider">--}}
-    {{--@endforeach--}}
-   {{--<p>{{ print_r($route) }}</p> heres where i need to figure out how to
-   display the route name better.....
-   --}}
-</div>
-@endsection
 
 <div data-role="page" data-theme="b" id="loggin2">
     <div data-role="header" data-tap-toggle="false" data-theme="b">
@@ -96,44 +56,48 @@
                 @endforeach
                 </tbody>
             </table>
-            <div class="pagination"> {!! $posts->render() !!} </div>
-
-                    </div>
-                </div>
 
 
-
-                <div class="form-group">
-                    <div class="col-md-6 col-md-offset-4">
-                        <div class="checkbox">
-                            <label>
-                                <input type="checkbox" name="remember"> Remember Me
-                            </label>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="form-group">
-                    <div class="col-md-6 col-md-offset-4">
-                        <button type="submit" class="btn btn-primary">
-                            <i class="fa fa-btn fa-sign-in"></i>Login
-                        </button>
-
-                        <a class="btn btn-link" href="{{ url('/password/reset') }}">Forgot Your Password?</a>
-                    </div>
-                </div>
-            </form>
-
-            <br/>
-            <hr/>
-            <br/>
-            <br/>
         </div>
     </div>
 
 
-    <div data-role="footer" style="overflow:hidden;" data-theme="b" data-tap-toggle="false">
-        <span class="credit">checkenginefree.com &copy; 2017</span>
-        <p class="disclaimer">*We make no guarantees that the location information given on this site is accurate.  If you find that there is an inaccurate location listing then please take the time to report it to us using the 'Report this as inaccurate' link.  This will help to ensure that the integrity of our data is to the benefit of yourself and other users.  If you wish to add a new location that folks are able to get their check engine light diagnosed for free then please visit the contact page in order to submit that information to us.  Once it is confirmed we will add it to our databases.  We also make no guarantees that the location listed will offer a free check engine light diagnostic.  This site makes a point of listing the chains that are famous for making such offerings.  Thanks for visiting!  Please tell your friends and family!  :D</p>
-    </div><!-- /footer -->
+
+    <div class="form-group">
+        <div class="col-md-6 col-md-offset-4">
+            <div class="checkbox">
+                <label>
+                    <input type="checkbox" name="remember"> Remember Me
+                </label>
+            </div>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <div class="col-md-6 col-md-offset-4">
+            <button type="submit" class="btn btn-primary">
+                <i class="fa fa-btn fa-sign-in"></i>Login
+            </button>
+
+            <a class="btn btn-link" href="{{ url('/password/reset') }}">Forgot Your Password?</a>
+        </div>
+    </div>
+    </form>
+
+    <br/>
+    <hr/>
+    <br/>
+    <br/>
 </div>
+</div>
+
+
+<div data-role="footer" style="overflow:hidden;" data-theme="b" data-tap-toggle="false">
+    <span class="credit">checkenginefree.com &copy; 2017</span>
+    <p class="disclaimer">*We make no guarantees that the location information given on this site is accurate.  If you find that there is an inaccurate location listing then please take the time to report it to us using the 'Report this as inaccurate' link.  This will help to ensure that the integrity of our data is to the benefit of yourself and other users.  If you wish to add a new location that folks are able to get their check engine light diagnosed for free then please visit the contact page in order to submit that information to us.  Once it is confirmed we will add it to our databases.  We also make no guarantees that the location listed will offer a free check engine light diagnostic.  This site makes a point of listing the chains that are famous for making such offerings.  Thanks for visiting!  Please tell your friends and family!  :D</p>
+</div><!-- /footer -->
+</div>
+
+
+@endsection
+
