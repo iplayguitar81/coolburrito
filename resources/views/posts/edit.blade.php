@@ -260,6 +260,7 @@
 
 <script src="{{url('/js/jquery.js')}}"></script>
 <script src="{{url('https://cdnjs.cloudflare.com/ajax/libs/dropzone/4.3.0/min/dropzone.min.js')}}"></script>
+<script src="{{url('/js/owl.carousel.js')}}"></script>
 <script src="{{url('/js/image_upload.js')}}"></script>
 
 <script src="//cdn.tinymce.com/4/tinymce.min.js"></script>
