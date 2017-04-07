@@ -104,6 +104,7 @@
     margin-left: -20px;"></div></div>
                 <div class="ui-block-b"><div class="ui-bar ui-bar-a" style="height:160px">{{$game_date}}</div></div>
             </div><!-- /grid-a -->
+<br/>
 
             @endforeach
 <hr>
