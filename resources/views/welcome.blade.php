@@ -64,6 +64,9 @@
                         <img class="ui-li-thumb" src="images/{!! $item->imgPath !!}">
                         <h2>{!! $item->title !!}</h2>
                         <p>{!! $item->body !!}</p></a>
+
+                    <br/>
+                    <a href="#" class="ui-btn ui-btn-inline">Anchor</a>
                 </li>
                 @endforeach
 
