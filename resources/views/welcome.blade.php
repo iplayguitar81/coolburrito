@@ -56,7 +56,7 @@
             <a href="#pageone" data-rel="close" class="ui-btn ui-btn-inline ui-shadow ui-corner-all ui-btn-a ui-icon-delete ui-btn-icon-left" ><span class="orangose3">Back to Map</span></a>
         <h2>Latest from Our Blog</h2>
 
-            <ul data-role="listview" data-split-theme="a" data-inset="true">
+            <ul data-role="listview" data-split-theme="a" data-inset="true" style="background-color: lightgrey">
 
                 @foreach($posts as $item)
 
