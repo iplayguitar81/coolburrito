@@ -9,6 +9,7 @@ function readURL(input) {
                 // .height(200);
         };
 
+        
         reader.readAsDataURL(input.files[0]);
     }
 }
