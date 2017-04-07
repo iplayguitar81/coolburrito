@@ -79,7 +79,7 @@
                         <h2>{!! $item->title !!}</h2>
                         <span class="text-body-checkengine" style="float:right;">
 
-                           <p>{!! str_limit($item->body, $limit = 20, $end = '...') !!}<p/> </span>
+                           <p>{!! str_limit($item->body, $limit = 30, $end = '...') !!}<p/> </span>
                     </a>
 
 
