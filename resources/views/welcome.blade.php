@@ -58,11 +58,22 @@
 
             <ul data-role="listview" data-split-theme="a" data-inset="true" >
 
+
                 <hr>
                 @foreach($posts as $item)
 
+                    @php
+                    $game_date = new DateTime($item->created_at, new DateTimeZone('America/Los_Angeles'));
+                    $game_date = date_sub($game_date, date_interval_create_from_date_string('3 hour'));
+                    $game_date = $game_date->format('M jS Y');
+                    @endphp
+
+
+
+
                 <li data-icon="arrow-r" ><a  href="{{ url('posts', $item->id) }}">
                         <img class="ui-li-thumb" src="images/{!! $item->imgPath !!}">
+                        {{$game_date}}
                         <h2>{!! $item->title !!}</h2>
                         <p>{!! $item->body !!}</p></a>
 
