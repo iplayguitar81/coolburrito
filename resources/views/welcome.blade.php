@@ -54,7 +54,7 @@
 
         <div data-role="panel"  id="myPanel" data-position="right" class="ui-body-a">
             <a href="#pageone" data-rel="close" class="ui-btn ui-btn-inline ui-shadow ui-corner-all ui-btn-a ui-icon-delete ui-btn-icon-left ui-body-a" ><span class="orangose3">Back to Map</span></a>
-        <h2><img src="/images/latest-blog-reports.png" alt="Latest Blog Reports"></h2>
+        <h2><img class="text-center" src="/images/latest-blog-reports.png" alt="Latest Blog Reports"></h2>
 
             <ul data-role="listview" data-split-theme="a" data-inset="true" >
 
