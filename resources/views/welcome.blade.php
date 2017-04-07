@@ -75,7 +75,8 @@
                         <img class="ui-li-thumb" src="images/{!! $item->imgPath !!}">
                         {{$game_date}}
                         <h2>{!! $item->title !!}</h2>
-                        <p>{!! $item->body !!}</p></a>
+                        {!! $item->body !!}
+                    </a>
 
 
                     <br/>
