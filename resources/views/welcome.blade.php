@@ -75,7 +75,7 @@
                         <img class="ui-li-thumb" src="images/{!! $item->imgPath !!}">
                         {{$game_date}}
                         <h2>{!! $item->title !!}</h2>
-                        {!! $item->body !!}
+                        <span class="text-body-checkengine">{!! $item->body !!}</span>
                     </a>
 
 
