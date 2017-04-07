@@ -119,6 +119,8 @@
     </div><!-- /footer -->
 </div>
 
+<script type="text/javascript" src="//code.jquery.com/mobile/1.4.3/jquery.mobile-1.4.3.min.js" ></script>
+
 @endsection
 
 
