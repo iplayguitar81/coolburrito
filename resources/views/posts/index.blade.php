@@ -1,4 +1,4 @@
-@extends('public.images.layout')
+@extends('layout')
 @section('content')
 @section('title', 'Blog')
 <div class="col-md-12">
