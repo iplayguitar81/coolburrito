@@ -159,9 +159,9 @@
         <h4>Article Images</h4>
         {{--{{$post->images}}--}}
 
-        <div class="row">
+        <div class="">
 
-            <div class="col-md-12">
+            <div class="">
 
                 <div id="gallery-images">
 
