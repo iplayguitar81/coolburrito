@@ -104,7 +104,7 @@
     margin-left: -20px;"></div></div>
                 <div class="ui-block-b"><div class="ui-bar ui-bar-a" style="height:160px">{{$game_date}}
                         <h2>{!! $item->title !!}</h2>
-                    <p>{!! $item->body !!}</p></div></div>
+                    <p>{!! str_limit($item->body, $limit = 35, $end = '...') !!}</p></div></div>
             </div><!-- /grid-a -->
 <br/>
 
