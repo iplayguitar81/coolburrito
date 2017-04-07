@@ -60,12 +60,12 @@
 
                 @foreach($posts as $item)
 
-                <li><a href="#"><span class="arrow-r" >
+                <li><a class="arrow-r" href="#">
                         <img class="ui-li-thumb" src="images/{!! $item->imgPath !!}">
                         <h2>{!! $item->title !!}</h2>
                         <p>{!! $item->body !!}</p></a>
 
-                    </span>
+
                     <br/>
                 </li>
                 @endforeach
