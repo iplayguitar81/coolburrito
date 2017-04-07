@@ -56,11 +56,11 @@
             <a href="#pageone" data-rel="close" class="ui-btn ui-btn-inline ui-shadow ui-corner-all ui-btn-a ui-icon-delete ui-btn-icon-left" ><span class="orangose3">Back to Map</span></a>
         <h2>Latest from Our Blog</h2>
 
-            <ul data-role="listview" data-split-theme="a" data-inset="true" >
+            <ul data-role="listview" data-split-theme="b" data-inset="true" >
 
                 @foreach($posts as $item)
 
-                <li data-icon="arrow-r" data-theme="b"><a  href="{{ url('posts', $item->id) }}">
+                <li data-icon="arrow-r" ><a  href="{{ url('posts', $item->id) }}">
                         <img class="ui-li-thumb" src="images/{!! $item->imgPath !!}">
                         <h2>{!! $item->title !!}</h2>
                         <p>{!! $item->body !!}</p></a>
