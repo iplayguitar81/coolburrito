@@ -78,7 +78,7 @@
                         {{$game_date}}
                         <h2>{!! $item->title !!}</h2>
                         <span class="text-body-checkengine">
-                            &nbsp;&nbsp;{{ Str::limit($item->body, 10) }}</span>
+                            &nbsp;&nbsp;{{ limit($item->body, 10) }}</span>
                     </a>
 
 
