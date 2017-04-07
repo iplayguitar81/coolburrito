@@ -78,8 +78,8 @@
                         {{$game_date}}
                         <h2>{!! $item->title !!}</h2>
                         <span class="text-body-checkengine">
-                            &nbsp;&nbsp;
-                            {!! str_limit($item->body, $limit = 150, $end = '...') !!} </span>
+
+                           <p>{!! str_limit($item->body, $limit = 150, $end = '...') !!}<p/> </span>
                     </a>
 
 
