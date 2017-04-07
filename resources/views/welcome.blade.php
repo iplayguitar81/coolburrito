@@ -89,7 +89,7 @@
 
             </ul>
             <div class="ui-grid-a">
-                <div class="ui-block-a"><div class="ui-bar ui-bar-a" style="height:60px">Block A</div></div>
+                <div class="ui-block-a"><div class="ui-bar ui-bar-a" style="height:60px"><ul><li><img class="ui-li-thumb" src="images/58e6e97165f85Auto_Parts_Store.jpg"></li></ul></div></div>
                 <div class="ui-block-b"><div class="ui-bar ui-bar-a" style="height:60px">Block B</div></div>
             </div><!-- /grid-a -->
 <hr>
