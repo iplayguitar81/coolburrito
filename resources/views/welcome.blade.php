@@ -52,8 +52,8 @@
         </div>
 
 
-        <div data-role="panel" class="ui-body-b" id="myPanel" data-position="right">
-            <a href="#pageone" data-rel="close" class="ui-btn ui-btn-inline ui-shadow ui-corner-all ui-btn-a ui-icon-delete ui-btn-icon-left" ><span class="orangose3">Back to Map</span></a>
+        <div data-role="panel"  id="myPanel" data-position="right">
+            <a href="#pageone" data-rel="close" class="ui-btn ui-btn-inline ui-shadow ui-corner-all ui-body-a ui-btn-a ui-icon-delete ui-btn-icon-left" ><span class="orangose3">Back to Map</span></a>
         <h2>Latest from Our Blog</h2>
 
             <ul data-role="listview" data-split-theme="b" data-inset="true" >
