@@ -55,7 +55,7 @@
 
                             {{strip_tags(str_limit($item->body, 20))}}
 
-                        </td><td><img class="img-responsive thumbnail" src="../images/{{ $item->imgPath}}"></td>
+                        </td><td><img class="img-responsive thumbnail" src="../images/{{ $item->imgPath}}" style="width: 325px; height:126px"></td>
                         @can('isAdmin')
 
                         @if($item->user_id == $user)
