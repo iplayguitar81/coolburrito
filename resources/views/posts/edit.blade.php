@@ -258,7 +258,6 @@
 @endsection
 
 
-
 <script src="{{url('/js/jquery.js')}}"></script>
 <script src="{{url('/js/image_upload.js')}}"></script>
 
@@ -268,3 +267,4 @@
     tinymce.init({ mode : 'specific_textareas', plugins: 'media, link', editor_selector : 'form-control' });
 
 </script>
+
