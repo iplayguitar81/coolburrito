@@ -4,7 +4,7 @@
 
     @can('isAdmin')
 
-    <div class="col-md-12">
+    <div class="">
         <h1 class="" style="font-family:Pacifico,cursive;color:#E63C4D;font-size:4em;">Edit Post</h1>
 
         @if ($errors->any())
