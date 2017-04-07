@@ -14,48 +14,50 @@
     <div id="wrappa2">
         <h2 class="contact_header">Posts</h2>
         <div id="about_us_words">
-            <table class="table">
-                <thead>
-                <tr>
-                    <th>{{ trans('posts.title') }}</th><th>{{ trans('posts.subhead') }}</th><th>Date</th><th>{{ trans('posts.body') }}</th><th>Image</th>@can('isAdmin')<th>Actions</th>@endcan
-                </tr>
-                </thead>
-                <tbody>
+
+
+            {{--<table class="table">--}}
+                {{--<thead>--}}
+                {{--<tr>--}}
+                    {{--<th>{{ trans('posts.title') }}</th><th>{{ trans('posts.subhead') }}</th><th>Date</th><th>{{ trans('posts.body') }}</th><th>Image</th>@can('isAdmin')<th>Actions</th>@endcan--}}
+                {{--</tr>--}}
+                {{--</thead>--}}
+                {{--<tbody>--}}
                 {{-- */$x=0;/* --}}
-                @foreach($posts as $item)
+                {{--@foreach($posts as $item)--}}
                     {{-- */$x++;/* --}}
-                    <tr>
+                    {{--<tr>--}}
                         {{--<td>{{ $x }}</td>--}}
-                        <td><a href="{{ route('posts.show', [$item->id, str_slug($item->title)]) }}">{{ $item->title }}</a> <span class="pull-left"><br/>{{'Post images: '. $item->images()->count() }}</span></td><td>{{ $item->subHead }}</td><td>{{ $item->created_at->format('M dS Y') }}</td><td>
+                        {{--<td><a href="{{ route('posts.show', [$item->id, str_slug($item->title)]) }}">{{ $item->title }}</a> <span class="pull-left"><br/>{{'Post images: '. $item->images()->count() }}</span></td><td>{{ $item->subHead }}</td><td>{{ $item->created_at->format('M dS Y') }}</td><td>--}}
 
-                            {{strip_tags(str_limit($item->body, 20))}}
+                            {{--{{strip_tags(str_limit($item->body, 20))}}--}}
 
-                        </td><td><img class="img-responsive thumbnail" src="../images/{{ $item->imgPath}}"></td>
-                        @can('isAdmin')
+                        {{--</td><td><img class="img-responsive thumbnail" src="../images/{{ $item->imgPath}}"></td>--}}
+                        {{--@can('isAdmin')--}}
 
-                        @if($item->user_id == $user)
+                        {{--@if($item->user_id == $user)--}}
 
-                            <td>
-                                <a href="{{ url('/posts/' . $item->id . '/edit') }}" class="btn btn-success">{{Auth::user()->name}}- -Update Post</a><br/><br/>
-                                {!! Form::open([
-                                    'method'=>'DELETE',
-                                    'url' => ['/posts', $item->id],
-                                    'style' => 'display:inline'
-                                ]) !!}
+                            {{--<td>--}}
+                                {{--<a href="{{ url('/posts/' . $item->id . '/edit') }}" class="btn btn-success">{{Auth::user()->name}}- -Update Post</a><br/><br/>--}}
+                                {{--{!! Form::open([--}}
+                                    {{--'method'=>'DELETE',--}}
+                                    {{--'url' => ['/posts', $item->id],--}}
+                                    {{--'style' => 'display:inline'--}}
+                                {{--]) !!}--}}
 
 
-                                {!! Form::submit(Auth::user()->name.' - -Delete Post', ['class' => 'btn btn-danger']) !!}
+                                {{--{!! Form::submit(Auth::user()->name.' - -Delete Post', ['class' => 'btn btn-danger']) !!}--}}
 
-                                @endif
+                                {{--@endif--}}
 
-                                {!! Form::close() !!}
-                            </td>
-                            @endcan
-                    </tr>
+                                {{--{!! Form::close() !!}--}}
+                            {{--</td>--}}
+                            {{--@endcan--}}
+                    {{--</tr>--}}
 
-                @endforeach
-                </tbody>
-            </table>
+                {{--@endforeach--}}
+                {{--</tbody>--}}
+            {{--</table>--}}
 
 
         </div>
