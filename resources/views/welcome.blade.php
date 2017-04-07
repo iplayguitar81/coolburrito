@@ -88,7 +88,10 @@
                 @endforeach
 
             </ul>
-
+            <div class="ui-grid-a">
+                <div class="ui-block-a"><div class="ui-bar ui-bar-a" style="height:60px">Block A</div></div>
+                <div class="ui-block-b"><div class="ui-bar ui-bar-a" style="height:60px">Block B</div></div>
+            </div><!-- /grid-a -->
 <hr>
             <a href="#pageone" data-rel="close" class="ui-btn ui-btn-inline ui-shadow ui-corner-all ui-btn-a ui-icon-delete ui-btn-icon-right" ><span class="orangose3">Close</span></a>
 
