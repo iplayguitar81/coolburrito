@@ -66,6 +66,8 @@
                     $game_date = new DateTime($item->created_at, new DateTimeZone('America/Los_Angeles'));
                     $game_date = date_sub($game_date, date_interval_create_from_date_string('3 hour'));
                     $game_date = $game_date->format('M jS Y');
+
+
                     @endphp
 
 
@@ -76,7 +78,7 @@
                         {{$game_date}}
                         <h2>{!! $item->title !!}</h2>
                         <span class="text-body-checkengine">
-                            &nbsp;&nbsp;{!! $item->body !!}</span>
+                            &nbsp;&nbsp;{{ Str::limit($item->body, 10) }}</span>
                     </a>
 
 
