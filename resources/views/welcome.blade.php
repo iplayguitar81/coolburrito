@@ -60,7 +60,7 @@
 
                 @foreach($posts as $item)
 
-                <li data-icon="arrow-r" style="background-color: lightgrey"><a  href="{{ url('posts', $item->id) }}">
+                <li data-icon="arrow-r" data-theme="b"><a  href="{{ url('posts', $item->id) }}">
                         <img class="ui-li-thumb" src="images/{!! $item->imgPath !!}">
                         <h2>{!! $item->title !!}</h2>
                         <p>{!! $item->body !!}</p></a>
