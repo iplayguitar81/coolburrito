@@ -100,7 +100,7 @@
                 @endphp
 
                 <div class="ui-grid-a">
-                <div class="ui-block-a"><div class="ui-bar ui-bar-a" style="height:60px"><img class="ui-li-thumb" src="images/{!! $item->imgPath !!}" style="margin-top: -20px;
+                <div class="ui-block-a"><div class="ui-bar ui-bar-a" style="height:160px"><img class="ui-li-thumb" src="images/{!! $item->imgPath !!}" style="margin-top: -20px;
     margin-left: -20px;"></div></div>
                 <div class="ui-block-b"><div class="ui-bar ui-bar-a" style="height:160px">{{$game_date}}</div></div>
             </div><!-- /grid-a -->
