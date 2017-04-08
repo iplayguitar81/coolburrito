@@ -100,13 +100,15 @@
                 @endphp
 
                 <div class="ui-grid-solo">
-                    <div class="ui-block-a"><img class="ui-li-thumb" src="images/{!! $item->imgPath !!}"></div>
-                </div>
-                <div class="ui-grid-solo">
-                    <div class="ui-block-a">{{$game_date}}
+                    <div class="ui-block-a"><img class="ui-li-thumb" src="images/{!! $item->imgPath !!}">{{$game_date}}
                         <h2>{!! $item->title !!}</h2>
                         <p>{!! str_limit($item->body, $limit = 35, $end = '...') !!}</p></div>
                 </div>
+                {{--<div class="ui-grid-solo">--}}
+                    {{--<div class="ui-block-a">{{$game_date}}--}}
+                        {{--<h2>{!! $item->title !!}</h2>--}}
+                        {{--<p>{!! str_limit($item->body, $limit = 35, $end = '...') !!}</p></div>--}}
+                {{--</div>--}}
 
                 <div class="ui-grid-a">
                 <div class="ui-block-a"><div class="ui-bar ui-bar-a" style="height:160px"><img class="ui-li-thumb" src="images/{!! $item->imgPath !!}" ></div></div>
