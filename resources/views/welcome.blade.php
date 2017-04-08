@@ -124,7 +124,7 @@
 {{--<br/>--}}
 
             @endforeach
-<hr>
+
             <a href="#pageone" data-rel="close" class="ui-btn ui-btn-inline ui-shadow ui-corner-all ui-btn-a ui-icon-delete ui-btn-icon-right" ><span class="orangose3">Close</span></a>
 
 
