@@ -104,6 +104,7 @@
                         <h2>{!! $item->title !!}</h2>
                         <p>{!! str_limit($item->body, $limit = 35, $end = '...') !!}</p></div>
                 </div>
+            <hr>
                 {{--<div class="ui-grid-solo">--}}
                     {{--<div class="ui-block-a">{{$game_date}}--}}
                         {{--<h2>{!! $item->title !!}</h2>--}}
