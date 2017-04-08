@@ -103,7 +103,7 @@
                     <div class="ui-block-a"><img style="width: 265px; height: 190px;" class="ui-li-thumb" src="images/{!! $item->imgPath !!}">{{$game_date}}
                         <h2>{!! $item->title !!}</h2>
                         <p>{!! str_limit($item->body, $limit = 35, $end = '...') !!}</p>
-                        <a href="{{ url('posts', $item->id) }}" class="ui-btn ui-btn-inline"><span class="">Read More></span></a>
+                        <a href="{{ url('posts', $item->id) }}" class="ui-btn ui-btn-inline"><span class="">Read More</span></a>
                     </div>
                 </div>
             <hr>
