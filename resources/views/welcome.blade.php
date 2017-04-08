@@ -56,38 +56,38 @@
             <a href="#pageone" data-rel="close" class="ui-btn ui-btn-inline ui-shadow ui-corner-all ui-btn-a ui-icon-navigation ui-btn-icon-right ui-body-a" ><span class="orangose3">Back to Map</span></a>
         <img style="display:block; margin: 0 auto;" src="/images/latest-blog-posts.png" alt="Latest Blog Posts">
 
-            <ul data-role="listview" data-split-theme="a" data-inset="true" >
+            {{--<ul data-role="listview" data-split-theme="a" data-inset="true" >--}}
 
 
-                <hr>
-                @foreach($posts as $item)
+                {{--<hr>--}}
+                {{--@foreach($posts as $item)--}}
 
-                    @php
-                    $game_date = new DateTime($item->created_at, new DateTimeZone('America/Los_Angeles'));
-                    $game_date = date_sub($game_date, date_interval_create_from_date_string('3 hour'));
-                    $game_date = $game_date->format('M jS Y');
-
-
-                    @endphp
+                    {{--@php--}}
+                    {{--$game_date = new DateTime($item->created_at, new DateTimeZone('America/Los_Angeles'));--}}
+                    {{--$game_date = date_sub($game_date, date_interval_create_from_date_string('3 hour'));--}}
+                    {{--$game_date = $game_date->format('M jS Y');--}}
 
 
+                    {{--@endphp--}}
 
 
-                <li data-icon="arrow-r" ><a  href="{{ url('posts', $item->id) }}">
-                        <img class="ui-li-thumb" src="images/{!! $item->imgPath !!}">
-                        {{$game_date}}
-                        <h2>{!! $item->title !!}</h2>
-                        <span class="text-body-checkengine" style="float:right;">
-
-                           <p>{!! str_limit($item->body, $limit = 35, $end = '...') !!}<p/> </span>
-                    </a>
 
 
-                    <br/>
-                </li>
-                @endforeach
+                {{--<li data-icon="arrow-r" ><a  href="{{ url('posts', $item->id) }}">--}}
+                        {{--<img class="ui-li-thumb" src="images/{!! $item->imgPath !!}">--}}
+                        {{--{{$game_date}}--}}
+                        {{--<h2>{!! $item->title !!}</h2>--}}
+                        {{--<span class="text-body-checkengine" style="float:right;">--}}
 
-            </ul>
+                           {{--<p>{!! str_limit($item->body, $limit = 35, $end = '...') !!}<p/> </span>--}}
+                    {{--</a>--}}
+
+
+                    {{--<br/>--}}
+                {{--</li>--}}
+                {{--@endforeach--}}
+
+            {{--</ul>--}}
 
             @foreach($posts as $item)
 
