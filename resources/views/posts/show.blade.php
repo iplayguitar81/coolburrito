@@ -223,7 +223,7 @@
             <li><a href="http://www.reddit.com/submit?url=https%3A%2F%2Ftrailblazersfans.com&title=" target="_blank" title="Submit to Reddit" onclick="window.open('http://www.reddit.com/submit?url=' + encodeURIComponent(document.URL) + '&title=' +  encodeURIComponent(document.title)); return false;"><img alt="Submit to Reddit" src="{{url('images/Reddit.png')}}"></a></li>
         </ul>
         <br/>
-        <p class="uk-article-lead"><img class="img-responsive center-block" src='{{"../../images/". $post->imgPath}}'></p>
+        <p class="uk-article-lead"><img class="img-responsive center-block" src='{{"../../images/". $posts->imgPath}}'></p>
 
         <br/>
         <div class="center-block text-center">
@@ -264,7 +264,7 @@
         <br/>
     </div>
 
-    <div class="col-md-12">
+    <div class="">
 
         <h2 class="text-center Bebas" >leave a facebook comment!</h2>
         <div class="fb-comments center-block" data-href="https://level3.checkenginefree.com/posts/{{$post->id}}/{{str_slug($post->title)}}" data-numposts="10"></div>
