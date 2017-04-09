@@ -1,7 +1,7 @@
 {{--@extends('public.images.layout')--}}
 
 
-<div data-role="page" data-theme="b" id="mappins">
+<div data-role="page" data-theme="b" id="articleShow">
     <div data-role="header" style="overflow:hidden;" data-theme="b"  data-tap-toggle="false" data-position="fixed">
 
 
