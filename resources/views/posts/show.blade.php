@@ -1,4 +1,7 @@
 @extends('layout')
+
+
+
 <div id="fb-root"></div>
 <div id="fb-root"></div>
 <script>(function(d, s, id) {
@@ -18,7 +21,22 @@
         $game_date = date_sub($game_date, date_interval_create_from_date_string('3 hour'));
         $game_date = $game_date->format('M jS Y');
     @endphp
-<div class="row">
+
+    <div data-role="page" data-theme="b" id="loggin2">
+        <div data-role="header" data-tap-toggle="false" data-theme="b">
+            <img class='img-responsive' alt='checkenginefree.com' src='/images/checkenginelogoyay3.png'/>
+            <div data-role="navbar">
+                <ul class="nav-trickery">
+                    <li><a href="https://level3.checkenginefree.com"  data-icon="navigation"><span class="orangose">Map</span></a></li>
+                </ul>
+            </div><!-- /navbar -->
+        </div>
+        <div id="wrappa2">
+            <h2 class="contact_header">Login</h2>
+            <div id="about_us_words">
+
+
+            <div class="row">
     <div class="col-md-12">
 
     <article class="center-block">
@@ -112,9 +130,20 @@
     </div>
 
 
+            </div>
+        </div>
 
 
-    @endsection
+        <div data-role="footer" style="overflow:hidden;" data-theme="b" data-tap-toggle="false">
+            <span class="credit">checkenginefree.com &copy; 2017</span>
+            <p class="disclaimer">*We make no guarantees that the location information given on this site is accurate.  If you find that there is an inaccurate location listing then please take the time to report it to us using the 'Report this as inaccurate' link.  This will help to ensure that the integrity of our data is to the benefit of yourself and other users.  If you wish to add a new location that folks are able to get their check engine light diagnosed for free then please visit the contact page in order to submit that information to us.  Once it is confirmed we will add it to our databases.  We also make no guarantees that the location listed will offer a free check engine light diagnostic.  This site makes a point of listing the chains that are famous for making such offerings.  Thanks for visiting!  Please tell your friends and family!  :D</p>
+        </div><!-- /footer -->
+    </div>
+
+
+
+
+@endsection
 
 {{--<script src="{{url('/js/jquery.js')}}"></script>--}}
 
