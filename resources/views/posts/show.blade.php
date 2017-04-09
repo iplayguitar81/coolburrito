@@ -1,4 +1,177 @@
-@extends('layout')
+{{--@extends('public.images.layout')--}}
+
+
+<div data-role="page" data-theme="b" id="mappins">
+    <div data-role="header" style="overflow:hidden;" data-theme="b"  data-tap-toggle="false" data-position="fixed">
+
+
+
+        <img class='img-responsive' alt='checkenginefree.com' src='/images/checkenginelogoyay3.png'/>
+
+
+        <div data-role="navbar">
+            <ul class="nav-trickery">
+                <li><a href="#mappins" class="ui-state-persist" data-icon="navigation"><span class="orangose">Map</span></a></li>
+                <li><a href="#about" data-icon="info"><span class="orangose">About</span></a></li>
+                <li><a href="#contact" data-icon="mail"><span class="orangose">Contact</span></a></li>
+            </ul>
+
+
+            <ul class="nav-trickery">
+                <li> <a href="#myPanel" class="ui-btn ui-icon-info ui-btn-icon-left ui-shadow-icon ui-btn-a"><span class="orangose3">Read Our Blog!</span></a></li>
+            </ul>
+
+        </div><!-- /navbar -->
+        {{--<div id="google_ad3">--}}
+        {{--<style>--}}
+        {{--.checkrespond1 { width: 320px; height: 50px; }--}}
+        {{--@media(min-width: 500px) { .checkrespond1 { width: 468px; height: 60px; } }--}}
+        {{--@media(min-width: 800px) { .checkrespond1 { width: 728px; height: 90px; } }--}}
+        {{--</style>--}}
+
+
+
+
+        {{--<script src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>--}}
+        {{--<!-- checkrespond1 -->--}}
+        {{--<ins class="adsbygoogle checkrespond1"--}}
+        {{--style="display:inline-block"--}}
+        {{--data-ad-client="ca-pub-4617308558434719"--}}
+        {{--data-ad-slot="7732229387"></ins>--}}
+        {{--<script>--}}
+        {{--(adsbygoogle = window.adsbygoogle || []).push({});--}}
+        {{--</script>--}}
+
+        {{--</div>--}}
+
+
+
+
+    </div>
+
+
+    <div data-role="panel"  id="myPanel" data-position="right" class="ui-body-a">
+        <a href="#pageone" data-rel="close" class="ui-btn ui-btn-inline ui-shadow ui-corner-all ui-btn-a ui-icon-navigation ui-btn-icon-right ui-body-a" ><span class="orangose3">Back to Map</span></a>
+        <img style="display:block; margin: 0 auto;" src="/images/latest-blog-posts.png" alt="Latest Blog Posts">
+        <br/>
+        <hr>
+
+        {{--<ul data-role="listview" data-split-theme="a" data-inset="true" >--}}
+
+
+        {{--<hr>--}}
+        {{--@foreach($posts as $item)--}}
+
+        {{--@php--}}
+        {{--$game_date = new DateTime($item->created_at, new DateTimeZone('America/Los_Angeles'));--}}
+        {{--$game_date = date_sub($game_date, date_interval_create_from_date_string('3 hour'));--}}
+        {{--$game_date = $game_date->format('M jS Y');--}}
+
+
+        {{--@endphp--}}
+
+
+
+
+        {{--<li data-icon="arrow-r" ><a  href="{{ url('posts', $item->id) }}">--}}
+        {{--<img class="ui-li-thumb" src="images/{!! $item->imgPath !!}">--}}
+        {{--{{$game_date}}--}}
+        {{--<h2>{!! $item->title !!}</h2>--}}
+        {{--<span class="text-body-checkengine" style="float:right;">--}}
+
+        {{--<p>{!! str_limit($item->body, $limit = 35, $end = '...') !!}<p/> </span>--}}
+        {{--</a>--}}
+
+
+        {{--<br/>--}}
+        {{--</li>--}}
+        {{--@endforeach--}}
+
+        {{--</ul>--}}
+
+        @foreach($posts as $item)
+
+            @php
+            $game_date = new DateTime($item->created_at, new DateTimeZone('America/Los_Angeles'));
+            $game_date = date_sub($game_date, date_interval_create_from_date_string('3 hour'));
+            $game_date = $game_date->format('M jS Y');
+
+
+            @endphp
+
+            <div class="ui-grid-solo">
+                <div class="ui-block-a">{{$game_date}}<img style="width: 265px; height: 190px;" class="ui-li-thumb" src="images/{!! $item->imgPath !!}">
+                    <h2><a href="{{ url('posts', $item->id) }}">{!! $item->title !!}</a></h2>
+                    <p>{!! str_limit($item->body, $limit = 35, $end = '...') !!}</p>
+                    <a href="{{ url('posts', $item->id) }}" class="ui-btn ui-btn-inline"><span class="">Read More</span></a>
+                </div>
+            </div>
+            <hr>
+            {{--<div class="ui-grid-solo">--}}
+            {{--<div class="ui-block-a">{{$game_date}}--}}
+            {{--<h2>{!! $item->title !!}</h2>--}}
+            {{--<p>{!! str_limit($item->body, $limit = 35, $end = '...') !!}</p></div>--}}
+            {{--</div>--}}
+
+            {{--<div class="ui-grid-a">--}}
+            {{--<div class="ui-block-a"><div class="ui-bar ui-bar-a" style="height:160px"><img class="ui-li-thumb" src="images/{!! $item->imgPath !!}" ></div></div>--}}
+            {{--<div class="ui-block-b"><div class="ui-bar ui-bar-a" style="height:160px">{{$game_date}}--}}
+            {{--<h2>{!! $item->title !!}</h2>--}}
+            {{--<p>{!! str_limit($item->body, $limit = 35, $end = '...') !!}</p></div></div>--}}
+            {{--</div><!-- /grid-a -->--}}
+            {{--<br/>--}}
+
+        @endforeach
+
+        <a href="#pageone" data-rel="close" class="ui-btn ui-btn-inline ui-shadow ui-corner-all ui-btn-a ui-icon-delete ui-btn-icon-right" ><span class="orangose3">Close</span></a>
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+
+
+
+
+    <br/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    {{--@foreach($posts as $item)--}}
+
+    {{--<div class="ui-corner-all custom-corners">--}}
+    {{--<div class="ui-bar ui-bar-a">--}}
+    {{--<h3> {!! $item->title !!}</h3>--}}
+    {{--</div>--}}
+    {{--<div class="ui-body ui-body-a">--}}
+    {{--<img class="img-thumbnail" src="images/{!! $item->imgPath !!}">--}}
+    {{--<p>{!! $item->body !!}</p>--}}
+    {{--</div>--}}
+    {{--</div>--}}
+    {{--@endforeach--}}
+
+    <br/>
+
+
+
+
 <div id="fb-root"></div>
 <div id="fb-root"></div>
 <script>(function(d, s, id) {
@@ -92,7 +265,7 @@
     <div class="col-md-12">
 
         <h2 class="text-center Bebas" >leave a facebook comment!</h2>
-        <div class="fb-comments center-block" data-href="https://www.trailblazersfans.com/posts/{{$post->id}}/{{str_slug($post->title)}}" data-numposts="10"></div>
+        <div class="fb-comments center-block" data-href="https://level3.checkenginefree.com/posts/{{$post->id}}/{{str_slug($post->title)}}" data-numposts="10"></div>
 
         <br/>
 
@@ -111,6 +284,13 @@
 
     </div>
 
+
+
+        <div data-role="footer" style="overflow:hidden;" data-theme="b" data-tap-toggle="false">
+            <span class="credit">checkenginefree.com &copy; 2017</span>
+            <p class="disclaimer">*We make no guarantees that the location information given on this site is accurate.  If you find that there is an inaccurate location listing then please take the time to report it to us using the 'Report this as inaccurate' link.  This will help to ensure that the integrity of our data is to the benefit of yourself and other users.  If you wish to add a new location that folks are able to get their check engine light diagnosed for free then please visit the contact page in order to submit that information to us.  Once it is confirmed we will add it to our databases.  We also make no guarantees that the location listed will offer a free check engine light diagnostic.  This site makes a point of listing the chains that are famous for making such offerings.  Thanks for visiting!  Please tell your friends and family!  :D</p>
+        </div><!-- /footer -->
+</div>
 
 
 
