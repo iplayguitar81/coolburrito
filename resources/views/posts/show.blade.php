@@ -89,7 +89,7 @@
 
         {{--</ul>--}}
 
-        @foreach($posts as $item)
+        @foreach($post as $item)
 
             @php
             $game_date = new DateTime($item->created_at, new DateTimeZone('America/Los_Angeles'));
