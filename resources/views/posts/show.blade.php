@@ -32,7 +32,7 @@
             </div><!-- /navbar -->
         </div>
         <div id="wrappa2">
-            <h2 class="contact_header">Login</h2>
+            <h2 class="contact_header">{{$post->title}}</h2>
             <div id="about_us_words">
 
 
@@ -107,7 +107,7 @@
         <br/>
     </div>
 
-    <div class="col-md-12">
+    <div class="">
 
         <h2 class="text-center Bebas" >leave a facebook comment!</h2>
         <div class="fb-comments center-block" data-href="https://www.trailblazersfans.com/posts/{{$post->id}}/{{str_slug($post->title)}}" data-numposts="10"></div>
