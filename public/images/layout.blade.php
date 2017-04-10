@@ -247,7 +247,7 @@
         transform:scale(.96, .96);
     }
 </style>
-
+<script src="{{url('/js/jquery.js')}}"></script>
 <script>
 
     $(function(){
