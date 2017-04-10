@@ -1,4 +1,4 @@
-@extends('layout')
+{{--@extends('layout')--}}
 
 
 
@@ -22,7 +22,7 @@
         $game_date = $game_date->format('M jS Y');
     @endphp
 
-    <div data-role="" data-theme="b" id="loggin2">
+    <div data-role="page" data-theme="b" id="loggin2">
         <div data-role="header" data-tap-toggle="false" data-theme="b">
             <img class='img-responsive' alt='checkenginefree.com' src='/images/checkenginelogoyay3.png'/>
             <div data-role="navbar">
