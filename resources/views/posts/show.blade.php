@@ -22,7 +22,7 @@
         $game_date = $game_date->format('M jS Y');
     @endphp
 
-    <div data-role="" data-theme="b" id="loggin2">
+    <div data-role="page" data-theme="b" id="loggin2">
         <div data-role="header" data-tap-toggle="false" data-theme="b">
             <img class='img-responsive' alt='checkenginefree.com' src='/images/checkenginelogoyay3.png'/>
             <div data-role="navbar">
@@ -145,19 +145,261 @@
 
 @endsection
 
+
+<style scoped>
+    @import "https://fonts.googleapis.com/css?family=Pacifico";
+    @import "https://fonts.googleapis.com/css?family=Boogaloo";
+    @import "https://cdnjs.cloudflare.com/ajax/libs/dropzone/4.3.0/min/dropzone.min.css";
+    @import "{{url('/css/default-skin.css')}}";
+    @import "{{url('/css/lightslider.css')}}";
+    {{--getting this part right........ among files to remove after figuring out right gallery sitch:--}}
+     {{--@import "{{url('/css/slick.css')}}";--}}
+    {{--@import "{{url('/css/slick-theme.css')}}";--}}
+    {{--@import "{{url('/css/slick-theme.css')}}";--}}
+    @import "{{url('/css/owl.carousel.css')}}";
+    @import "{{url('/css/owl.theme.css')}}";
+    @import "{{url('/css/photoswipe.css')}}";
+    @import "//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css";
+    @import "//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css";
+    @import "//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css";
+    @import "https://cdnjs.cloudflare.com/ajax/libs/bootswatch/3.3.6/fonts/glyphicons-halflings-regular.woff";
+    #gallery-images img {
+        width: 240px;
+        height: 160px;
+        border: 2px solid black;
+        margin-bottom: 10px;
+    }
+    #gallery-images ul {
+        margin: 0;
+    }
+    #gallery-images li {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        float: left;
+        padding-right: 10px;
+    }
+    /*#owl-demo .item{*/
+    /*margin: 3px;*/
+    /*width: 80%;*/
+    /*margin-left:10%;*/
+    /*margin-right:10%;*/
+    /*}*/
+    /*#owl-demo .item img{*/
+    /*display: block;*/
+    /*width: 100%;*/
+    /*!*height: auto;*!*/
+    /*}*/
+    /*.customNavigation{*/
+    /*text-align: center;*/
+    /*}*/
+    /*.customNavigation a{*/
+    /*-webkit-user-select: none;*/
+    /*-khtml-user-select: none;*/
+    /*-moz-user-select: none;*/
+    /*-ms-user-select: none;*/
+    /*user-select: none;*/
+    /*-webkit-tap-highlight-color: rgba(0, 0, 0, 0);*/
+    /*}*/
+    .owl-carousel li {
+        list-style:none;
+        margin-right: .3em;
+    }
+    .owl-carousel li img {
+        border-radius:.5em;
+        transition:transform .15s ease-out;
+    }
+    .owl-carousel li img:hover {
+        transform:scale(.98, .98);
+    }
+    .owl-carousel li img:active {
+        transform:scale(.96, .96);
+    }
+</style>
+
+
 <script src="{{url('/js/jquery.js')}}"></script>
 
 
 
+<script>
+
+    $(function(){
+
+        // Drawing the HTML for PhotoSwipe
+        function buildPswdHtml(){
+            $("body").append([
+                '<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">',
+                '  <div class="pswp__bg"></div>',
+                '  <div class="pswp__scroll-wrap">',
+                '    <div class="pswp__container">',
+                '      <div class="pswp__item"></div>',
+                '      <div class="pswp__item"></div>',
+                '      <div class="pswp__item"></div>',
+                '    </div>',
+                '    <div class="pswp__ui pswp__ui--hidden">',
+                '      <div class="pswp__top-bar">',
+                '          <div class="pswp__counter"></div>',
+                '          <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>',
+                '          <button class="pswp__button pswp__button--share" title="Share"></button>',
+                '          <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>',
+                '          <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>',
+                '          <div class="pswp__preloader">',
+                '            <div class="pswp__preloader__icn">',
+                '              <div class="pswp__preloader__cut">',
+                '                <div class="pswp__preloader__donut"></div>',
+                '              </div>',
+                '            </div>',
+                '          </div>',
+                '      </div>',
+                '      <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">',
+                '        <div class="pswp__share-tooltip"></div> ',
+                '      </div>',
+                '      <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"></button>',
+                '      <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)"></button>',
+                '      <div class="pswp__caption">',
+                '        <div class="pswp__caption__center"></div>',
+                '      </div>',
+                '    </div>',
+                '  </div>',
+                '</div>'
+            ].join(""));
+        }
+
+
+        // From the gallery, get the items for PhotoSwipe
+        function getGalleryItems($gallery){
+            var items = [];
+
+            $gallery.find("a").each(function(){
+                var $anchor = $(this),
+                        size = $anchor.attr("data-size").split("x"),
+                        title = $anchor.attr("data-title"),
+                        item = {
+                            el: $anchor.get(0),
+                            src: $anchor.attr("href"),
+                            w: parseInt(size[0]),
+                            h: parseInt(size[1])
+                        };
+
+                // caption
+                if( title ) item.title = title;
+
+                items.push(item);
+            });
+
+            return items;
+        }
+
+
+        //Opening the PhotoSwipe
+        function openGallery($gallery, index, items, pswpOptions){
+            var $pswp = $(".pswp"),
+                    owl = $gallery.data("owlCarousel"),
+                    gallery;
+
+            //Set an option value
+            var options = $.extend(true, {
+                // Image number to open
+                index: index,
+
+                //Zoom setting at the time of image click
+                getThumbBoundsFn: function(index){
+                    var $thumbnail = $(items[index].el).find("img"),
+                            offset = $thumbnail.offset();
+                    return {
+                        x: offset.left,
+                        y: offset.top,
+                        w: $thumbnail.outerWidth()
+                    };
+                }
+            }, pswpOptions);
+
+            //Display the PhotoSwipe
+            gallery = new PhotoSwipe($pswp.get(0), PhotoSwipeUI_Default, items, options);
+            gallery.init();
+
+            // In accordance with the switching of PhotoSwipe slide , OwlCarousel also adjusts position
+            gallery.listen("beforeChange", function(x){
+                owl.goTo(this.getCurrentIndex());
+            });
+
+            gallery.listen("close", function(){
+                this.currItem.initialLayout = options.getThumbBoundsFn(this.getCurrentIndex());
+            });
+        }
+
+
+        // Initialization
+        function initializeGallery($elem, owlOptions, pswpOptions){
+
+            //If the DOM for PhotoSwipe does not exist , a new drawing
+            if( $(".pswp").size() === 0 ){
+                buildPswdHtml();
+            }
+
+            // Scan to accommodate a plurality of gallery
+            $elem.each(function(i){
+                var $gallery = $(this),
+                        uid = i + 1,
+                        items = getGalleryItems($gallery),
+                        options = $.extend(true, {}, pswpOptions);
+
+                // Initialization of OwlCarousel
+                $gallery.owlCarousel(owlOptions);
+
+                //Assign a unique ID to each gallery
+                options.galleryUID = uid;
+                $gallery.attr("data-pswp-uid", uid);
+
+                // With the click of each item , start PhotoSwipe
+                $gallery.find(".owl-item").on("click", function(e){
+                    if( !$(e.target).is("img") ) return;
+
+                    //items pass a copy because it is rewritten to PhotoSwipe.init ()
+                    openGallery($gallery, $(this).index(), items.concat(), options);
+                    return false;
+                });
+            });
+        }
+
+
+        // In the sample to perform the processing for the `.owl-carousel`
+        var owlOptions = {
+            //what to mess with if you want to change the amount of slides on the page no matter what as default 3 will show up...
+//                    itemsCustom: [[0, 3]],
+                    items: 3,
+                    responsiveRefreshRate: 0,
+                    navigation: true,
+//                    pagination: true,
+//                    paginationNumbers: true,
+                    scrollPerPage: false,
+                    dots: true,
+                    dotsEach: true
+                },
+                pswpOptions = {
+                    bgOpacity: 0.9,
+                    history: false,
+                    shareEl: true
+                };
+
+        initializeGallery($(".owl-carousel"), owlOptions, pswpOptions);
+
+    });
 
 
 
+</script>
 
 
 
-
-
+<script type="text/javascript"  src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js" ></script>
 <script type="text/javascript" src="//code.jquery.com/mobile/1.4.3/jquery.mobile-1.4.3.min.js" ></script>
 
 <script src="{{url('/js/jquery-1.11.3.min.js')}}"></script>
 <script src="{{url('/js/star-rating.js')}}"></script>
+<script src="{{url('/js/owl.carousel.js')}}"></script>
+<script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
+
+<script src="{{url('/js/photoswipe.min.js')}}"></script>
+<script src="{{url('/js/photoswipe-ui-default.min.js')}}"></script>
