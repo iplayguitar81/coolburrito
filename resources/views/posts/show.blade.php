@@ -145,7 +145,7 @@
 
 @endsection
 
-
+<script src="{{url('/js/jquery.js')}}"></script>
 <style scoped>
     @import "https://fonts.googleapis.com/css?family=Pacifico";
     @import "https://fonts.googleapis.com/css?family=Boogaloo";
@@ -218,7 +218,7 @@
 </style>
 
 
-<script src="{{url('/js/jquery.js')}}"></script>
+
 
 
 
