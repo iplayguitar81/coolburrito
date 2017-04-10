@@ -224,6 +224,8 @@
 <script src="{{url('/js/jquery-1.11.3.min.js')}}"></script>
 <script src="{{url('/js/star-rating.js')}}"></script>
 <script src="{{url('/js/owl.carousel.js')}}"></script>
+<script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
+
 <script src="{{url('/js/photoswipe.min.js')}}"></script>
 <script src="{{url('/js/photoswipe-ui-default.min.js')}}"></script>
 <script>
