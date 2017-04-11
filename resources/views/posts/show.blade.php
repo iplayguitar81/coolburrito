@@ -90,7 +90,7 @@
 
                         {{--*/ $thumb_path= substr($image->file_path, 7);/*--}}
                         <li class="owl-trick">
-                            <a href="{{url($image->file_path)}}" data-ajax="false" data-size="{{$dimensions}}" data-title="{{$image->caption}}">
+                            <a href="{{url($image->file_path)}}"  data-size="{{$dimensions}}" data-title="{{$image->caption}}">
                                 <img class="img-responsive" src="{{url('images/thmb-'.$thumb_path)}}" alt="1"></a></li>
                     @endforeach
 
@@ -110,18 +110,18 @@
     <div class="">
 
         <h2 class="text-center Bebas" >leave a facebook comment!</h2>
-        <div class="fb-comments center-block" data-href="https://www.trailblazersfans.com/posts/{{$post->id}}/{{str_slug($post->title)}}" data-numposts="10"></div>
+        <div class="fb-comments center-block" data-href="https://level3.checkenginefree.com/posts/{{$post->id}}/{{str_slug($post->title)}}" data-numposts="10"></div>
 
         <br/>
 
     <a href="{{url('/news')}}">
 
-        <button type="submit" class="btn btn-primary center-block btn-md">Back to All Posts</button>
+        <button type="submit" class="btn btn-primary center-block btn-md" >Back to All Posts</button>
     </a>
    &nbsp;
     <a href="{{url('/')}}">
 
-        <button type="submit" class="btn btn-danger center-block btn-md">Back Home</button>
+        <button type="submit" class="btn btn-danger center-block btn-md" data-ajax="false">Back Home</button>
     </a>
 
 
