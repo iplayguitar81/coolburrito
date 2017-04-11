@@ -14,7 +14,7 @@
         @endif
 
 
-        {!! Form::open(['url' => '/posts', 'class' => '', 'files' =>true]) !!}
+        {!! Form::open(['url' => '/posts', 'class' => '', 'files' =>true, 'data-ajax' => false ]) !!}
 
 
 
