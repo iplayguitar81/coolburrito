@@ -219,6 +219,7 @@
     ul.share-buttons{
         list-style: none;
         padding: 0;
+        text-align:center;
     }
 
     ul.share-buttons li{
