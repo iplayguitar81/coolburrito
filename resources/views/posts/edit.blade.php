@@ -256,7 +256,7 @@
         <br/>
         <br/>
 
-        <a href="{{url('posts')}}">
+        <a href="{{url('posts')}}" data-ajax="false">
 
             <button type="submit" class="uk-button uk-width-1-1 uk-margin-small-bottom">Back to All Posts</button>
         </a>
