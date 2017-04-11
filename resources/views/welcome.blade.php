@@ -102,7 +102,7 @@
                 @endphp
 
                 <div class="ui-grid-solo">
-                    <div class="ui-block-a">{{$game_date}}<img style="width: 265px; height: 190px;" class="ui-li-thumb" src="images/{!! 'thmb-'.$item->imgPath !!}">
+                    <div class="ui-block-a">{{$game_date}}<a href="{{ url('posts', $item->id) }}" data-ajax="false"><img style="width: 265px; height: 190px;" class="ui-li-thumb" src="images/{!! 'thmb-'.$item->imgPath !!}"></a>
                         <h2><a href="{{ url('posts', $item->id) }}" data-ajax="false">{!! $item->title !!}</a></h2>
                         <p>{!! str_limit($item->body, $limit = 35, $end = '...') !!}</p>
                         <a href="{{ url('posts', $item->id) }}" data-ajax="false" class="ui-btn ui-btn-inline"><span class="">Read More</span></a>
