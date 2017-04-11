@@ -327,8 +327,11 @@ class PostsController extends Controller
                 $photo2= Input::file('file');
                 $filename = uniqid(). $photo2->getClientOriginalName();
                 $photo2->move('images/', $filename);
-                $thumb_string="md-img-".$filename;
-                Image::make( 'https://level3.checkenginefree.com/images/'.$filename)->resize(600, 270)->save('images/'.$thumb_string);
+              #  $thumb_string="md-img-".$filename;
+            $thumb_string="thmb-".$filename;
+            Image::make( 'https://level3.checkenginefree.com/images/'.$filename)->resize(265, 190)->save('images/'.$thumb_string);
+
+                Image::make( 'https://level3.checkenginefree.com/images/'.$filename)->resize(600, 270)->save('images/'.$filename);
 
 
 
