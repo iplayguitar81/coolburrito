@@ -31,7 +31,7 @@
         {!! Form::model($post, [
             'method' => 'PATCH',
             'url' => ['/posts', $post->id],
-            'class' => '','files' => true
+            'class' => '','files' => true, 'data-ajax' => false
         ]) !!}
 
         <div class="form-group {{ $errors->has('title') ? 'has-error' : ''}}">
