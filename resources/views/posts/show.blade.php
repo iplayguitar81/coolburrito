@@ -66,7 +66,7 @@
             <li><a href="http://www.reddit.com/submit?url=https%3A%2F%2Flevel3.checkenginefree.com&title=" target="_blank" title="Submit to Reddit" onclick="window.open('http://www.reddit.com/submit?url=' + encodeURIComponent(document.URL) + '&title=' +  encodeURIComponent(document.title)); return false;"><img alt="Submit to Reddit" src="{{url('images/Reddit.png')}}"></a></li>
         </ul>
         <br/>
-        <p class="uk-article-lead"><img style="text-align:center;"class="img-responsive center-block" src='{{"../../images/". $post->imgPath}}'></p>
+        <p class="uk-article-lead"><img style="text-align:center;margin-left:auto;margin-right:auto;display:block;"class="img-responsive center-block" src='{{"../../images/". $post->imgPath}}'></p>
 
         <br/>
         <div class="center-block text-center">
