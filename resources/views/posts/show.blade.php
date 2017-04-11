@@ -32,15 +32,15 @@
             </div><!-- /navbar -->
         </div>
         <div id="wrappa2">
-            <h2 class="contact_header">{{$post->title}}</h2>
+
             <div id="about_us_words">
 
 
             <div class="row">
-    <div class="col-md-12">
+    <div class="">
 
     <article class="center-block">
-        <h1 class="article-title-show" style="">{{ $post->title }}</h1>
+        <h2 class="contact_header">{{$post->title}}</h2>
         <p class="subheader-main Bebas">{{ $post->subHead}}</p>
 
         <p class="uk-article-meta" style="text-align:center;">
