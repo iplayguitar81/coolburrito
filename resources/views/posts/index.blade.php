@@ -30,7 +30,7 @@
             <div class="panel panel-success pull-right"> <div class="panel-heading">
                     <h3 class="panel-title">Welcome {{Auth::user()->name}}</h3> </div>
                 <div class="panel-body">
-                    <a href="{{ url('/posts/create') }}" class="btn btn-primary btn-sm">Add New Post</a>
+                    <a href="{{ url('/posts/create') }}" data-ajax="false" class="btn btn-primary btn-sm">Add New Post</a>
                     &nbsp;
                     <a href="{{ url('/posts/file_upload') }}" class="btn btn-success btn-sm">Import CSV Posts</a>
                     &nbsp;
@@ -61,7 +61,7 @@
                         @if($item->user_id == $user)
 
                             <td>
-                                <a href="{{ url('/posts/' . $item->id . '/edit') }}" class="btn btn-success">{{Auth::user()->name}}- -Update Post</a><br/><br/>
+                                <a href="{{ url('/posts/' . $item->id . '/edit') }}" data-ajax="false" class="btn btn-success">{{Auth::user()->name}}- -Update Post</a><br/><br/>
                                 {!! Form::open([
                                     'method'=>'DELETE',
                                     'url' => ['/posts', $item->id],
