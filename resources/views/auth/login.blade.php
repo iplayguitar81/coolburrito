@@ -15,7 +15,7 @@
             <h2 class="contact_header">Login</h2>
             <div id="about_us_words">
 
-                <form class="form-horizontal" role="form" method="POST" action="{{ url('/login') }}">
+                <form class="form-horizontal" role="form" method="POST" data-ajax="false" action="{{ url('/login') }}">
                     {!! csrf_field() !!}
 
                     <div class="form-group{{ $errors->has('email') ? ' has-error' : '' }}">
