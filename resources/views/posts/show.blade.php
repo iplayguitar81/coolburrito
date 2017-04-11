@@ -114,14 +114,14 @@
 
         <br/>
 
-    <a href="{{url('/news')}}">
+    <a href="{{url('/news')}}" data-ajax="false">
 
         <button type="submit" class="btn btn-primary center-block btn-md" >Back to All Posts</button>
     </a>
    &nbsp;
-    <a href="{{url('/')}}">
+    <a href="{{url('/')}}" data-ajax="false">
 
-        <button type="submit" class="btn btn-danger center-block btn-md" data-ajax="false">Back Home</button>
+        <button type="submit" class="btn btn-danger center-block btn-md" >Back Home</button>
     </a>
 
 
