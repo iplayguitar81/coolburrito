@@ -16,7 +16,7 @@
     @can('isAdmin')
 
     <div class="">
-        <h1 class="" style="font-family:Pacifico,cursive;color:#E63C4D;font-size:4em;"><img src="/images/edit-post-checkenginefree.png" alt="Edit Post"></h1>
+        <h1 class="" style="font-family:Pacifico,cursive;color:#E63C4D;font-size:4em;"><img src="/images/edit-post-checkengine.png" alt="Edit Post"></h1>
 
         @if ($errors->any())
             <ul class="alert alert-danger">
