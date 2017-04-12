@@ -53,7 +53,7 @@
 
 
         <div data-role="panel"  id="myPanel" data-position="right" class="ui-body-a">
-            <a href="#pageone" data-rel="close" class="ui-btn ui-btn-inline ui-shadow ui-corner-all ui-btn-a ui-icon-navigation ui-btn-icon-right ui-body-a" data-ajax="false"><span class="orangose3">Back to Map</span></a>
+            <a href="javascript:void(null);" data-rel="close" class="ui-btn ui-btn-inline ui-shadow ui-corner-all ui-btn-a ui-icon-navigation ui-btn-icon-right ui-body-a" data-ajax="false"><span class="orangose3">Back to Map</span></a>
         <img style="display:block; margin: 0 auto;" src="/images/latest-blog-posts.png" alt="Latest Blog Posts">
            <br/>
             <hr>
