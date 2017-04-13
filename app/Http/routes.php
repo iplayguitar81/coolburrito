@@ -247,7 +247,7 @@ Route::get('/posts/create', ['as' => 'upload', 'uses' => 'PostsController@getUpl
 Route::post('upload', ['as' => 'upload-post', 'uses' =>'PostsController@postUpload']);
 
 //articles route to setup...
-Route::get('/posts/articles', ['as' => 'articles', 'uses' => 'PostsController@articles']);
+Route::get('/posts/articles', ['as' => 'posts.articles', 'uses' => 'PostsController@articles']);
 
 
 Route::post('do-upload', ['as' => 'do-upload', 'uses' =>'PostsController@doImageUpload']);
