@@ -12,7 +12,7 @@
             </div><!-- /navbar -->
         </div>
         <div id="wrappa2">
-            <h2 class="contact_header">Login</h2>
+            <h2 class="contact_header">Our Blog</h2>
             <div id="about_us_words">
 
 
