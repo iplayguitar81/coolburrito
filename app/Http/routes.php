@@ -63,6 +63,40 @@ Route::get('/', function () {
     return view('/welcome', compact('posts', 'users','ratings','scores', 'main'));
 });
 
+
+Route::get('/articles', function () {
+
+
+    //$posts = Post::orderBy('created_at', 'desc')->paginate(6);
+   // $users = User::all();
+    //$ratings =Rating::all();
+    //$scores =boxscore::take(5)->orderBy('datey', 'desc')->limit(5);
+//    $scores = boxscore::orderBy('datey', 'desc')->take(5)->get();
+
+  //  $published = Post::where('published','=', '1')->orderBy('created_at','desc')->take(1)->get();
+
+//   // $main = DB::table('posts')->where([
+//        ['main_article','1'],
+//        ['published','1'],
+//    ])->get();
+
+    //  $main = Post::where('main_article','=', '1')->orderBy('created_at','desc')->take(1)->get();
+
+
+
+
+    //  $posts = Post::where('main_article','!=', '1')->orderBy('created_at','asc')->take(5);
+
+    // $posts = DB::table('posts')->where('main_article', '=', 0)->orderBy('created_at','desc')->limit(4)->get();
+
+    $posts = DB::table('posts')->where([
+        ['main_article','0'],
+        ['published','1'],
+    ])->orderBy('created_at','desc')->limit(3)->get();
+
+    return view('/articles', compact('posts'));
+});
+
 //social login package establish authorize route......
 Route::get('github/authorize', function(){
     return OAuth::authorize('github');
