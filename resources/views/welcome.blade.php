@@ -4,7 +4,7 @@
 
 
     <div data-role="page" data-theme="b" id="mappins">
-        <div data-role="header" style="overflow:hidden;" data-theme="b"  data-tap-toggle="false" data-position-fixed="true">
+        <div data-role="header" style="overflow:hidden;" data-theme="b" data-position="fixed" data-tap-toggle="false" >
 
 
 
@@ -138,6 +138,7 @@
 
 
     </div>
+
 
 
 
