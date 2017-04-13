@@ -3,8 +3,8 @@
 @section('content')
 
 
-    <div data-role="page" data-position-fixed="true" data-theme="b" id="mappins">
-        <div data-role="header" style="overflow:hidden;" data-theme="b"  data-tap-toggle="false" data-position="fixed">
+    <div data-role="page" data-theme="b" id="mappins">
+        <div data-role="header" style="overflow:hidden;" data-theme="b"  data-tap-toggle="false" data-position-fixed="true">
 
 
 
@@ -52,7 +52,7 @@
         </div>
 
 
-        <div data-role="panel"  id="myPanel" data-position-fixed="fixed" data-position="right" class="ui-body-a">
+        <div data-role="panel"  id="myPanel" data-position-fixed="true" data-position="right" class="ui-body-a">
             <a href="javascript:void(null);" data-rel="close" class="ui-btn ui-btn-inline ui-shadow ui-corner-all ui-btn-a ui-icon-navigation ui-btn-icon-right ui-body-a" data-ajax="false"><span class="orangose3">Back to Map</span></a>
         <img style="display:block; margin: 0 auto;" src="/images/latest-blog-posts.png" alt="Latest Blog Posts">
            <br/>
