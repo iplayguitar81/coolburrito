@@ -119,7 +119,7 @@ class PostsController extends Controller
 
         #$posts=dd(\App\User::paginate(5));
 
-        return view('posts.articles', compact('posts', 'results'));
+        return view('posts.articles', compact('posts'));
 
         #$this->authorize('isAdmin');
     }
