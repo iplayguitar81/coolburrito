@@ -275,7 +275,6 @@
         top: 0px !important;
         bottom: 0px !important;
         overflow: scroll !important;
-        -webkit-overflow-scrolling: touch !important;
     }
 </style>
 
