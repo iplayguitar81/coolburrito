@@ -158,6 +158,20 @@
                 width: 24.925%;
             }
         }
+
+        .ui-panel.ui-panel-open {
+            position:fixed;
+        }
+        .ui-panel-inner {
+            position: absolute;
+            top: 1px;
+            left: 0;
+            right: 0;
+            bottom: 0px;
+            overflow: scroll;
+            -webkit-overflow-scrolling: touch;
+        }
+
     </style>
 </head>
 <body>
