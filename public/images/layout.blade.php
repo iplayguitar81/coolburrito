@@ -269,13 +269,13 @@
     }
 
     .ui-panel-inner {
-        position: absolute;
-        width: 240px;
-        max-width: 240px;
-        top: 0px;
-        bottom: 0px;
-        overflow: scroll;
-        -webkit-overflow-scrolling: touch;
+        position: absolute !important;
+        width: 240px !important;
+        max-width: 240px !important;
+        top: 0px !important;
+        bottom: 0px !important;
+        overflow: scroll !important;
+        -webkit-overflow-scrolling: touch !important;
     }
 </style>
 
