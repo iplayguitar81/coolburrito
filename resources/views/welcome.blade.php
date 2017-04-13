@@ -191,7 +191,7 @@
             <br/>
             <br/>
         </div>
-        <div data-role="footer" style="overflow:hidden;" data-fullscreen="true" data-theme="b" data-tap-toggle="false">
+        <div data-role="footer" data-position-fixed="true" style="overflow:hidden;" data-fullscreen="true" data-theme="b" data-tap-toggle="false">
             <span class="credit">checkenginefree.com &copy; 2017</span><br/>
             <p class="disclaimer">*We make no guarantees that the location information given on this site is accurate.  If you find that there is an inaccurate location listing then please take the time to report it to us using the ''Report this as inaccurate' link.  This will help to ensure that the integrity of our data is to the benefit of yourself and other users.  If you wish to add a new location that folks are able to get their check engine light diagnosed for free then please visit the contact page in order to submit that information to us.  Once it is confirmed we will add it to our databases.  We also make no guarantees that the location listed will offer a free check engine light diagnostic.  This site makes a point of listing the chains that are famous for making such offerings.  Thanks for visiting!  Please tell your friends!  :D</p>
         </div><!-- /footer -->
@@ -220,7 +220,7 @@
         </div>
 
 
-        <div data-role="footer" style="overflow:hidden;" data-theme="b" data-tap-toggle="false">
+        <div data-role="footer" data-position-fixed="true" style="overflow:hidden;" data-theme="b" data-tap-toggle="false">
             <span class="credit">checkenginefree.com &copy; 2017</span>
             <p class="disclaimer">*We make no guarantees that the location information given on this site is accurate.  If you find that there is an inaccurate location listing then please take the time to report it to us using the 'Report this as inaccurate' link.  This will help to ensure that the integrity of our data is to the benefit of yourself and other users.  If you wish to add a new location that folks are able to get their check engine light diagnosed for free then please visit the contact page in order to submit that information to us.  Once it is confirmed we will add it to our databases.  We also make no guarantees that the location listed will offer a free check engine light diagnostic.  This site makes a point of listing the chains that are famous for making such offerings.  Thanks for visiting!  Please tell your friends and family!  :D</p>
         </div><!-- /footer -->
@@ -270,7 +270,7 @@
         <br/>
         <br/>
 
-        <div data-role="footer" data-theme="b" style="overflow:hidden;" data-tap-toggle="false">
+        <div data-role="footer" data-position-fixed="true" data-theme="b" style="overflow:hidden;" data-tap-toggle="false">
             <span class="credit">checkenginefree.com &copy; 2017</span>
             <p class="disclaimer">*We make no guarantees that the location information given on this site is accurate.  If you find that there is an inaccurate location listing then please take the time to report it to us using the ''Report this as inaccurate' link.  This will help to ensure that the integrity of our data is to the benefit of yourself and other users.  If you wish to add a new location that folks are able to get their check engine light diagnosed for free then please visit the contact page in order to submit that information to us.  Once it is confirmed we will add it to our databases.  We also make no guarantees that the location listed will offer a free check engine light diagnostic.  This site makes a point of listing the chains that are famous for making such offerings.  Thanks for visiting!  Please tell your friends!  :D</p>
         </div><!-- /footer -->
@@ -353,7 +353,7 @@
     <br/>
     <br/>
 
-    <div data-role="footer" data-theme="b" style="overflow:hidden;" data-tap-toggle="false">
+    <div data-role="footer" data-position-fixed="true" data-theme="b" style="overflow:hidden;" data-tap-toggle="false">
         <span class="credit">checkenginefree.com &copy; 2017</span>
         <p class="disclaimer">*We make no guarantees that the location information given on this site is accurate.  If you find that there is an inaccurate location listing then please take the time to report it to us using the ''Report this as inaccurate' link.  This will help to ensure that the integrity of our data is to the benefit of yourself and other users.  If you wish to add a new location that folks are able to get their check engine light diagnosed for free then please visit the contact page in order to submit that information to us.  Once it is confirmed we will add it to our databases.  We also make no guarantees that the location listed will offer a free check engine light diagnostic.  This site makes a point of listing the chains that are famous for making such offerings.  Thanks for visiting!  Please tell your friends!  :D</p>
     </div><!-- /footer -->
