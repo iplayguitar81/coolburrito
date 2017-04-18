@@ -22,8 +22,51 @@
                 <ul class="nav-trickery">
                     <li> <a href="#myPanel" class="ui-btn ui-icon-info ui-btn-icon-left ui-shadow-icon ui-btn-a" rel="external"><span class="orangose3">Read Our Blog!</span></a>
                         <div class="ui-grid-a">
-                            <div class="ui-block-a"><strong>I'm Block A</strong> and text inside will wrap</div>
-                            <div class="ui-block-b"><strong>I'm Block B</strong> and text inside will wrap</div>
+                            <div class="ui-block-a"><strong>I'm Block A</strong>
+                                <ul data-role="listview">
+                                    <li>Astra
+                                        <ul>
+                                            <li><a href="astra_weirding.html">The Weirding</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>Frank Zappa
+                                        <ul>
+                                            <li><a href="zappa_hotrats.html">Hot Rats</a></li>
+                                            <li><a href="zappa_yellowshark.html">Yellow Shark</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>Jethro Tull
+                                        <ul>
+                                            <li><a href="tull_aqualung.html">Aqualung</a></li>
+                                            <li><a href="tull_thick.html">Thick as a Brick</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>Radiohead
+                                        <ul>
+                                            <li><a href="radiohead_ok.html">OK Computer</a></li>
+                                            <li><a href="radiohead_rainbows.html">In Rainbows</a></li>
+                                            <li><a href="radiohead_kol.html">The King of Limbs</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>The Who
+                                        <ul>
+                                            <li><a href="who_next.html">Who's Next</a></li>
+                                            <li><a href="who_q.html">Quadrophenia</a></li>
+                                            <li><a href="who_tommy.html">Tommy</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+
+
+                            </div>
+                            <div class="ui-block-b"><strong>
+
+                                    I'm Block B</strong>
+
+
+
+
+                            </div>
                         </div><!-- /grid-a -->
                     </li>
                 </ul>
