@@ -24,12 +24,12 @@
                         <div class="ui-grid-a">
                             <div class="ui-block-a"><strong>Latest News</strong>
 
-                                <ul data-role="listview" data-inset="true">
-                                        <li><a href="#">
+                                <ul id="main_news_spot" data-inset="true">
+                                       <a href="#">
                                                     <img src="/images/album-bb.jpg">
                                                 <h2>Broken Bells</h2>
                                                 <p>Broken Bells</p></a>
-                                            </li>
+                                           
                                 </ul>
 
 
