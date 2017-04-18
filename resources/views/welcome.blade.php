@@ -26,7 +26,7 @@
 
                                 <ul data-role="listview" data-inset="true">
                                         <li><a href="#">
-                                                    <img src="../_assets/img/album-bb.jpg">
+                                                    <img src="/images/album-bb.jpg">
                                                 <h2>Broken Bells</h2>
                                                 <p>Broken Bells</p></a>
                                             </li>
