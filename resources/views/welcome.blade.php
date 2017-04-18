@@ -23,15 +23,25 @@
                     <li> <a href="#myPanel" class="ui-btn ui-icon-info ui-btn-icon-left ui-shadow-icon ui-btn-a" rel="external"><span class="orangose3">Read Our Blog!</span></a>
                         <div class="ui-grid-a">
                             <div class="ui-block-a"><strong>I'm Block A</strong>
-                                <ul data-role="listview">
-                                    <li>Frank Zappa
-                                        <ul>
-                                            <li><a href="zappa_hotrats.html">Hot Rats</a></li>
-                                            <li><a href="zappa_yellowshark.html">Yellow Shark</a></li>
-                                        </ul>
-                                    </li>
 
+                                <ul data-role="listview" data-inset="true">
+                                        <li><a href="#">
+                                                    <img src="../_assets/img/album-bb.jpg">
+                                                <h2>Broken Bells</h2>
+                                                <p>Broken Bells</p></a>
+                                            </li>
+                                        <li><a href="#">
+                                                    <img src="../_assets/img/album-hc.jpg">
+                                                <h2>Warning</h2>
+                                                <p>Hot Chip</p></a>
+                                            </li>
+                                        <li><a href="#">
+                                                    <img src="../_assets/img/album-p.jpg">
+                                                <h2>Wolfgang Amadeus Phoenix</h2>
+                                                <p>Phoenix</p></a>
+                                            </li>
                                 </ul>
+
 
 
                             </div>
