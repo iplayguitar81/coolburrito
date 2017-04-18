@@ -24,17 +24,23 @@
                         <div class="ui-grid-a">
                             <div class="ui-block-a"><strong>Latest From Our Blog</strong>
 
-                                <ul id="main_news_spot" data-inset="true">
-                                       <a href="#">
-                                                    <img src="/images/album-bb.jpg" style="height:80px;width:80px;">
-                                                <h2>Broken Bells</h2>
-                                                <p>Broken Bells</p></a>
-                                           
-                                </ul>
+                                <div class="ui-grid-a">
+                                    <div class="ui-block-a"><strong>Latest From Our Blog</strong>
+
+Block A
 
 
+                                    </div>
 
-                            </div>
+                                    <div class="ui-block-b"><strong>Latest From Our Blog</strong>
+
+
+Block B
+
+                                    </div>
+                                    </div>
+
+
                             <div class="ui-block-b"><strong>
 
                                     I'm Block B</strong>
