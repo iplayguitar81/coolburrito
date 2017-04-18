@@ -22,7 +22,7 @@
                 <ul class="nav-trickery">
                     <li> <a href="#myPanel" class="ui-btn ui-icon-info ui-btn-icon-left ui-shadow-icon ui-btn-a" rel="external"><span class="orangose3">Read Our Blog!</span></a>
                         <div class="ui-grid-a">
-                            <div class="ui-block-a"><strong>I'm Block A</strong>
+                            <div class="ui-block-a"><strong>Latest News</strong>
 
                                 <ul data-role="listview" data-inset="true">
                                         <li><a href="#">
