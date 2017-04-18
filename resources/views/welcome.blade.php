@@ -30,16 +30,6 @@
                                                 <h2>Broken Bells</h2>
                                                 <p>Broken Bells</p></a>
                                             </li>
-                                        <li><a href="#">
-                                                    <img src="../_assets/img/album-hc.jpg">
-                                                <h2>Warning</h2>
-                                                <p>Hot Chip</p></a>
-                                            </li>
-                                        <li><a href="#">
-                                                    <img src="../_assets/img/album-p.jpg">
-                                                <h2>Wolfgang Amadeus Phoenix</h2>
-                                                <p>Phoenix</p></a>
-                                            </li>
                                 </ul>
 
 
