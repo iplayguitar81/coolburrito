@@ -26,7 +26,7 @@
 
                                 <ul id="main_news_spot" data-inset="true">
                                        <a href="#">
-                                                    <img src="/images/album-bb.jpg">
+                                                    <img src="/images/album-bb.jpg" style="height:80px;width:80px;">
                                                 <h2>Broken Bells</h2>
                                                 <p>Broken Bells</p></a>
                                            
