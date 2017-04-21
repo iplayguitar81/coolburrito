@@ -41,7 +41,7 @@
 
 
 
-                                 <li style="width:100%;"><a href="{{ url('posts', $item->id) }}" class="ui-icon-search ui-btn-icon-left" data-ajax="false">
+                                 <li style="width:100%;"><a href="{{ url('posts', $item->id) }}" class="ui-icon-search ui-btn-icon-right" data-ajax="false">
                                          <img style="width: 265px; height: 190px;" src="images/{!! 'thmb-'.$item->imgPath !!}">
                                          {{$game_date}}
                                          <h2>{!! $item->title !!}</h2>
