@@ -24,6 +24,7 @@
                  <li>
                      <div data-role="collapsible" data-collapsed-icon="carat-d">
                              <h4 data-collapsed-icon="carat-d"><span class="orangose">&nbsp;Read Our Blog</span></h4>
+                         <ul data-role="listview" data-inset="true">
                               @foreach($posts as $item)
 
                              @php
@@ -36,7 +37,7 @@
 
 
 
-                             <ul data-role="listview" data-inset="true">
+
                                  <li><a href="{{ url('posts', $item->id) }}" data-ajax="false">{!! $item->title !!}"
                                          <img style="width: 265px; height: 190px;" src="images/{!! 'thmb-'.$item->imgPath !!}">
                                          <h2>Rhinos {{$game_date}}</h2>
