@@ -26,6 +26,13 @@
                              <h4 data-collapsed-icon="carat-d"><span class="orangose">&nbsp;Read Our Blog</span></h4>
                              
                          <ul data-role="listview" data-inset="false">
+
+                             @php
+                             $i = 0;
+
+
+                             @endphp
+
                          @foreach($posts as $item)
 
 
@@ -34,6 +41,7 @@
                              $game_date = new DateTime($item->created_at, new DateTimeZone('America/Los_Angeles'));
                              $game_date = date_sub($game_date, date_interval_create_from_date_string('3 hour'));
                              $game_date = $game_date->format('M jS Y');
+
 
 
                              @endphp
@@ -47,11 +55,15 @@
                                          <h2>{!! $item->title !!}</h2>
                                          <p>{!! str_limit($item->body, $limit = 35, $end = '...') !!}</p></a>
 
+                                     @php
+                                     $i++;
+                                     @endphp
 
-                                     @if( $posts === end($item))
 
-                                         @else
+                                     @if( $i <= 2)
                                          <hr/>
+                                         @else
+
                                      @endif
 
                                  </li>
