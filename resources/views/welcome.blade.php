@@ -20,37 +20,13 @@
 
 
                 <ul class="nav-trickery">
-                    <li> <a href="#myPanel" class="ui-btn ui-icon-info ui-btn-icon-left ui-shadow-icon ui-btn-a" rel="external"><span class="orangose3">Read Our Blog!</span></a>
-                        <div class="ui-grid-a">
-                            <div class="ui-block-a"><strong>I'm Block A</strong>
 
-                                <div class="ui-grid-a">
-
-
-                                    <div class="ui-block-b"><strong>
-
-                                            I'm Block B</strong>
-
-
-
-
-                                    </div>
-
-                                    </div>
-
-
-
-                            </div>
-                            <div class="ui-block-b"><strong>
-
-                                    I'm Block B</strong>
-
-
-
-
-                            </div>
-                        </div><!-- /grid-a -->
-                    </li>
+                 <li>
+                     <div data-role="collapsible">
+                             <h4>Read Our Blog</h4>
+                             <p>I'm the collapsible content. By default I'm closed, but you can click the header to open me.</p>
+                     </div>
+                 </li>
                 </ul>
 
             </div><!-- /navbar -->
