@@ -34,7 +34,7 @@
 
                              @endphp
 
-                             <div class="ui-grid-solo">
+                             <div class="">
                                  <div class="">{{$game_date}}<a href="{{ url('posts', $item->id) }}" data-ajax="false"><img style="width: 265px; height: 190px;" src="images/{!! 'thmb-'.$item->imgPath !!}"></a>
                                      <h2><a href="{{ url('posts', $item->id) }}" data-ajax="false">{!! $item->title !!}</a></h2>
                                      {!! str_limit($item->body, $limit = 35, $end = '...') !!}
