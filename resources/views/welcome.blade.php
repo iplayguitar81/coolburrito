@@ -24,7 +24,39 @@
                  <li>
                      <div data-role="collapsible">
                              <h4 data-collapsed-icon="carat-d"><span class="orangose">&nbsp;Read Our Blog</span></h4>
-                             <p>I'm the collapsible content. By default I'm closed, but you can click the header to open me.</p>
+                              @foreach($posts as $item)
+
+                             @php
+                             $game_date = new DateTime($item->created_at, new DateTimeZone('America/Los_Angeles'));
+                             $game_date = date_sub($game_date, date_interval_create_from_date_string('3 hour'));
+                             $game_date = $game_date->format('M jS Y');
+
+
+                             @endphp
+
+                             <div class="ui-grid-solo">
+                                 <div class="ui-block-a">{{$game_date}}<a href="{{ url('posts', $item->id) }}" data-ajax="false"><img style="width: 265px; height: 190px;" class="ui-li-thumb" src="images/{!! 'thmb-'.$item->imgPath !!}"></a>
+                                     <h2><a href="{{ url('posts', $item->id) }}" data-ajax="false">{!! $item->title !!}</a></h2>
+                                     <p>{!! str_limit($item->body, $limit = 35, $end = '...') !!}</p>
+                                     <a href="{{ url('posts', $item->id) }}" data-ajax="false" class="ui-btn ui-btn-inline"><span class="">Read More</span></a>
+                                 </div>
+                             </div>
+                             <hr>
+                             {{--<div class="ui-grid-solo">--}}
+                             {{--<div class="ui-block-a">{{$game_date}}--}}
+                             {{--<h2>{!! $item->title !!}</h2>--}}
+                             {{--<p>{!! str_limit($item->body, $limit = 35, $end = '...') !!}</p></div>--}}
+                             {{--</div>--}}
+
+                             {{--<div class="ui-grid-a">--}}
+                             {{--<div class="ui-block-a"><div class="ui-bar ui-bar-a" style="height:160px"><img class="ui-li-thumb" src="images/{!! $item->imgPath !!}" ></div></div>--}}
+                             {{--<div class="ui-block-b"><div class="ui-bar ui-bar-a" style="height:160px">{{$game_date}}--}}
+                             {{--<h2>{!! $item->title !!}</h2>--}}
+                             {{--<p>{!! str_limit($item->body, $limit = 35, $end = '...') !!}</p></div></div>--}}
+                             {{--</div><!-- /grid-a -->--}}
+                             {{--<br/>--}}
+
+                         @endforeach
                      </div>
                  </li>
                 </ul>
