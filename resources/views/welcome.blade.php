@@ -48,7 +48,7 @@
                                          <p>{!! str_limit($item->body, $limit = 35, $end = '...') !!}</p></a>
 
 
-                                     @if {{$posts == end($item)}}
+                                     @if( $posts != end($item))
                                      <hr/>
                                          @else
 
