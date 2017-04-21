@@ -37,7 +37,7 @@
 
 
                              <ul data-role="listview" data-inset="false">
-                                 <li><a href="{{ url('posts', $item->id) }}" data-ajax="false">{!! $item->title !!}">
+                                 <li><a href="{{ url('posts', $item->id) }}" data-ajax="false">{!! $item->title !!}"
                                          <img style="width: 265px; height: 190px;" src="images/{!! 'thmb-'.$item->imgPath !!}">
                                          <h2>Rhinos {{$game_date}}</h2>
 
