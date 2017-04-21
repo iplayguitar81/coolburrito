@@ -60,7 +60,7 @@
                                      @endphp
 
 
-                                     @if( $i <= (count($posts)))
+                                     @if( $i <= (count($posts)-1))
                                          <hr/>
                                          @else
 
