@@ -41,10 +41,10 @@
 
 
 
-                                 <li><a href="#">
-                                         <img src="http://lorempixel.com/80/80/animals/1/" />
-                                         <h2>Rhinos</h2>
-                                         <p>Description of pic 1</p></a>
+                                 <li><a href="{{ url('posts', $item->id) }}">
+                                         <img style="width: 265px; height: 190px;" src="images/{!! 'thmb-'.$item->imgPath !!}">
+                                         <h2>{!! $item->title !!} | {{$game_date}}</h2>
+                                         <p>{!! str_limit($item->body, $limit = 35, $end = '...') !!}</p></a>
 
                                  </li>
 
