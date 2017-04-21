@@ -22,9 +22,13 @@
                 <ul class="nav-trickery">
 
                  <li>
-                     <div data-role="collapsible" data-collapsed-icon="carat-d">
+                     <div data-role="collapsible" data-collapsed="false" data-collapsed-icon="carat-d">
                              <h4 data-collapsed-icon="carat-d"><span class="orangose">&nbsp;Read Our Blog</span></h4>
-                              @foreach($posts as $item)
+                             
+                         <ul data-role="listview" data-inset="false">
+                         @foreach($posts as $item)
+
+
 
                              @php
                              $game_date = new DateTime($item->created_at, new DateTimeZone('America/Los_Angeles'));
@@ -37,7 +41,12 @@
 
 
 
+                                 <li><a href="#">
+                                         <img src="http://lorempixel.com/80/80/animals/1/" />
+                                         <h2>Rhinos</h2>
+                                         <p>Description of pic 1</p></a>
 
+                                 </li>
 
 
                                  <h2><a href="{{ url('posts', $item->id) }}" data-ajax="false">{!! $item->title !!}</a></h2>
@@ -63,7 +72,7 @@
                              {{--<br/>--}}
 
                          @endforeach
-
+                        </ul>
 
                          <div data-role="collapsible" data-collapsed="false">
                              <h4>Some Animals</h4>
