@@ -48,6 +48,7 @@
                                          <p>{!! str_limit($item->body, $limit = 35, $end = '...') !!}</p></a>
 
                                  </li>
+                             <br/>
 
 
 
