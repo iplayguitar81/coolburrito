@@ -74,29 +74,7 @@
                          @endforeach
                         </ul>
 
-                         <div data-role="collapsible" data-collapsed="false">
-                             <h4>Some Animals</h4>
-                             <ul data-role="listview" data-inset="false">
-                                 <li><a href="#">
-                                         <img src="http://lorempixel.com/80/80/animals/1/" />
-                                         <h2>Rhinos</h2>
-                                         <p>Description of pic 1</p></a>
 
-                                 </li>
-                                 <li><a href="#">
-                                         <img src="http://lorempixel.com/80/80/animals/2/" />
-                                         <h2>Ape</h2>
-                                         <p>Description of pic 2</p></a>
-
-                                 </li>
-                                 <li><a href="#">
-                                         <img src="http://lorempixel.com/80/80/animals/3/" />
-                                         <h2>Tiger</h2>
-                                         <p>Description of pic 4</p></a>
-
-                                 </li>
-                             </ul>
-                         </div>
 
                      </div>
                  </li>
