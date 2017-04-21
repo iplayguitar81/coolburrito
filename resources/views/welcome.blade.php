@@ -8,7 +8,7 @@
 
 
 
-            <img class='img-responsive' alt='checkenginefree.com' src='/images/checkenginelogoyay3.png'/>
+            <a href="https://level3.checkenginefree.com"  data-ajax="false"><img class='img-responsive' alt='checkenginefree.com' src='/images/checkenginelogoyay3.png'/></a>
 
 
             <div data-role="navbar">
