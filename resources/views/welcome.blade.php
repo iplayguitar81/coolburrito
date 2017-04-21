@@ -23,7 +23,7 @@
 
                  <li>
                      <div data-role="collapsible">
-                             <h4><span class="orangose">Read Our Blog</span></h4>
+                             <h4><span class="orangose">&nbsp;Read Our Blog</span></h4>
                              <p>I'm the collapsible content. By default I'm closed, but you can click the header to open me.</p>
                      </div>
                  </li>
