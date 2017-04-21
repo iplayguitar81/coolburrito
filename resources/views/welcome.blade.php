@@ -57,7 +57,7 @@
 
                                  </div>
 
-                             <hr>
+
                              {{--<div class="ui-grid-solo">--}}
                              {{--<div class="ui-block-a">{{$game_date}}--}}
                              {{--<h2>{!! $item->title !!}</h2>--}}
@@ -75,8 +75,7 @@
                          @endforeach
                 </ul>
                      </div>
-                 </li>
-                </ul>
+
 
             </div><!-- /navbar -->
             {{--<div id="google_ad3">--}}
