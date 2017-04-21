@@ -22,7 +22,7 @@
                 <ul class="nav-trickery">
 
                  <li>
-                     <div data-role="collapsible" data-collapsed="false" data-collapsed-icon="carat-d">
+                     <div data-role="collapsible" data-collapsed-icon="carat-d">
                              <h4 data-collapsed-icon="carat-d"><span class="orangose">&nbsp;Read Our Blog</span></h4>
                              
                          <ul data-role="listview" data-inset="false">
