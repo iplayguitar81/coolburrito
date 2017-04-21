@@ -76,7 +76,7 @@
                          @endforeach
 
                 </ul>
-                     </div>
+
                 </ul>
 
                      </div>
