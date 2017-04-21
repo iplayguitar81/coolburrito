@@ -24,7 +24,6 @@
                  <li>
                      <div data-role="collapsible" data-collapsed-icon="carat-d">
                              <h4 data-collapsed-icon="carat-d"><span class="orangose">&nbsp;Read Our Blog</span></h4>
-                         <ul data-role="listview" data-inset="true">
                               @foreach($posts as $item)
 
                              @php
@@ -38,27 +37,17 @@
 
 
 
-                                 <li><a href="{{ url('posts', $item->id) }}" data-ajax="false">{!! $item->title !!}"
-                                         <img style="width: 265px; height: 190px;" src="images/{!! 'thmb-'.$item->imgPath !!}">
-                                         <h2>Rhinos {{$game_date}}</h2>
-
-                                         <p> {!! str_limit($item->body, $limit = 35, $end = '...') !!}</p></a>
-
-                                 </li>
 
 
 
+                                 <h2><a href="{{ url('posts', $item->id) }}" data-ajax="false">{!! $item->title !!}</a></h2>
+                                 <div class="">{{$game_date}}<a href="{{ url('posts', $item->id) }}" data-ajax="false"><img style="width: 265px; height: 190px;" src="images/{!! 'thmb-'.$item->imgPath !!}"></a>
 
+                                     {!! str_limit($item->body, $limit = 35, $end = '...') !!}
+                                     <a href="{{ url('posts', $item->id) }}" data-ajax="false" class="ui-btn ui-btn-inline"><span class="">Read More</span></a>
+                                 </div>
 
-                                 {{--<h2><a href="{{ url('posts', $item->id) }}" data-ajax="false">{!! $item->title !!}</a></h2>--}}
-                                 {{--<div class="">{{$game_date}}<a href="{{ url('posts', $item->id) }}" data-ajax="false"><img style="width: 265px; height: 190px;" src="images/{!! 'thmb-'.$item->imgPath !!}"></a>--}}
-
-                                     {{--{!! str_limit($item->body, $limit = 35, $end = '...') !!}--}}
-                                     {{--<a href="{{ url('posts', $item->id) }}" data-ajax="false" class="ui-btn ui-btn-inline"><span class="">Read More</span></a>--}}
-
-
-
-
+                             <hr>
                              {{--<div class="ui-grid-solo">--}}
                              {{--<div class="ui-block-a">{{$game_date}}--}}
                              {{--<h2>{!! $item->title !!}</h2>--}}
@@ -74,13 +63,9 @@
                              {{--<br/>--}}
 
                          @endforeach
-
-                </ul>
-
-                </ul>
-
                      </div>
-
+                 </li>
+                </ul>
 
             </div><!-- /navbar -->
             {{--<div id="google_ad3">--}}
