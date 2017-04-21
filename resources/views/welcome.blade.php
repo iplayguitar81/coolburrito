@@ -56,7 +56,7 @@
                                      {{--{!! str_limit($item->body, $limit = 35, $end = '...') !!}--}}
                                      {{--<a href="{{ url('posts', $item->id) }}" data-ajax="false" class="ui-btn ui-btn-inline"><span class="">Read More</span></a>--}}
 
-                                 </div>
+
 
 
                              {{--<div class="ui-grid-solo">--}}
@@ -74,8 +74,11 @@
                              {{--<br/>--}}
 
                          @endforeach
+
                 </ul>
+                     </div>
                 </ul>
+
                      </div>
 
 
