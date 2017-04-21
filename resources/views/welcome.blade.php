@@ -22,7 +22,7 @@
                 <ul class="nav-trickery">
 
                  <li>
-                     <div data-role="collapsible">
+                     <div data-role="collapsible" data-collapsed-icon="carat-d">
                              <h4 data-collapsed-icon="carat-d"><span class="orangose">&nbsp;Read Our Blog</span></h4>
                               @foreach($posts as $item)
 
