@@ -7,7 +7,7 @@
             <img class='img-responsive' alt='checkenginefree.com' src='/images/checkenginelogoyay3.png'/>
             <div data-role="navbar">
                 <ul class="nav-trickery">
-                    <li><a href="https://level3.checkenginefree.com"  data-ajax="false" data-icon="navigation"><span class="orangose">Map</span></a></li>
+                    <li><a href="https://level3.checkenginefree.com"  data-ajax="false" data-icon="navigation"><span class="orangose">Back to Map</span></a></li>
                 </ul>
             </div><!-- /navbar -->
         </div>
