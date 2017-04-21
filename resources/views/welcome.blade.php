@@ -46,7 +46,13 @@
                                          {{$game_date}}
                                          <h2>{!! $item->title !!}</h2>
                                          <p>{!! str_limit($item->body, $limit = 35, $end = '...') !!}</p></a>
+
+
+                                     @if {{$item.last()}}
                                      <hr/>
+                                         @else
+
+                                     @endif
 
                                  </li>
 
