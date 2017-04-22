@@ -172,6 +172,10 @@
             -webkit-overflow-scrolling: touch;
         }
 
+        .ui-li-thumb, .ui-li-icon{
+            width: 160px;
+        }
+
     </style>
 </head>
 <body>
