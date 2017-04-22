@@ -177,6 +177,11 @@
         }
 
 
+        li.imgListLi a {
+            text-align: center !important;
+        }
+
+
     </style>
 </head>
 <body>
