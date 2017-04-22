@@ -72,7 +72,13 @@
 
 
 
-
+        .testImgClass {
+            left: 1px;
+            max-height: 60px;
+            max-width: 60px;
+            position: absolute;
+            top: 0;
+        }
         /* Basic styles */
         .rwd-example .ui-body {
             text-align: left;
@@ -172,13 +178,7 @@
             -webkit-overflow-scrolling: touch;
         }
 
-        .testImgClass {
-            left: 1px;
-            max-height: 60px;
-            max-width: 60px;
-            position: absolute;
-            top: 0;
-        }
+
 
 
     </style>
