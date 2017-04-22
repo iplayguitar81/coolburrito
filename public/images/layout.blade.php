@@ -172,13 +172,12 @@
             -webkit-overflow-scrolling: touch;
         }
 
-        .has-odd-thumb li a {
-           text-align: center !important;
-        }
-
-
-        li.imgListLi a {
-            text-align: center !important;
+        .ui-li-thumb, .ui-li-icon {
+            left: 1px;
+            max-height: 60px;
+            max-width: 60px;
+            position: absolute;
+            top: 0;
         }
 
 
