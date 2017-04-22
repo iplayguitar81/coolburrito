@@ -173,7 +173,7 @@
         }
 
         .has-odd-thumb li a {
-            padding-left: 80px !important;
+           text-align: center !important;
         }
 
 
