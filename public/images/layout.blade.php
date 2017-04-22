@@ -172,6 +172,9 @@
             -webkit-overflow-scrolling: touch;
         }
 
+        .has-odd-thumb li a {
+            padding-left: 80px !important;
+        }
 
 
     </style>
