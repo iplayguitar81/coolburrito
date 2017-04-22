@@ -172,7 +172,7 @@
             -webkit-overflow-scrolling: touch;
         }
 
-        .ui-li-thumb, .ui-li-icon {
+        .testImgClass {
             left: 1px;
             max-height: 60px;
             max-width: 60px;
