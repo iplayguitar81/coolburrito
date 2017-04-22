@@ -172,9 +172,7 @@
             -webkit-overflow-scrolling: touch;
         }
 
-        .ui-listview .ui-li-has-thumb .ui-li-thumb, .ui-listview .ui-li-has-thumb>.ui-btn>img:first-child, .ui-listview .ui-li-has-thumb>img:first-child {
-            width: 160px;
-        }
+
 
     </style>
 </head>
