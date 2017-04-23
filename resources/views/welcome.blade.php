@@ -90,6 +90,17 @@
                         </ul>
 
 
+                         <table class="listTable" >
+                             <tr>
+                                 <td class="list-elem-thumb">
+                                     <img src="http://splusk.de/wp-content/uploads/2010/03/metro-2033-20091102111356147_640w1.jpg" />
+                                 </td>
+                                 <td class="list-elem-text">
+                                     asdasdasdasd
+                                 </td>
+                             </tr>
+                             </table>
+
 
                      </div>
                  </li>
