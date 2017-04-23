@@ -197,6 +197,7 @@
     @import "https://fonts.googleapis.com/css?family=Boogaloo";
     @import "https://cdnjs.cloudflare.com/ajax/libs/dropzone/4.3.0/min/dropzone.min.css";
     @import "{{url('/css/default-skin.css')}}";
+    @import "{{url('/css/listview-grid.css')}}";
     @import "{{url('/css/lightslider.css')}}";
     {{--getting this part right........ among files to remove after figuring out right gallery sitch:--}}
      {{--@import "{{url('/css/slick.css')}}";--}}
@@ -430,7 +431,7 @@
 <script src="{{url('/js/jquery.js')}}"></script>
 <script type="text/javascript" src="//code.jquery.com/mobile/1.4.3/jquery.mobile-1.4.3.min.js" ></script>
 
-{{--<script src="{{url('/js/jquery-1.11.3.min.js')}}"></script>--}}
+<script src="{{url('/js/jquery-1.11.3.min.js')}}"></script>
 <script>
 
     $(function(){
