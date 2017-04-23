@@ -80,14 +80,7 @@
 
         }
         .thumbContainer img {
-            bottom: 0;
-            left: 0;
-            top: 0;
-            right: 0;
-            margin: auto;
-            position: absolute;
-            max-width: 80px;
-            max-height: 78px;
+
         }
         /* Basic styles */
         .rwd-example .ui-body {
