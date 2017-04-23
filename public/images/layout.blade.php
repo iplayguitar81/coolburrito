@@ -82,6 +82,11 @@
             width: 30%;
 
         }
+        .ListcontentContainer {
+            width:70%;
+            float:right;
+        }
+
         .thumbContainer img {
             width: 160px !important;
             height: 100px;
