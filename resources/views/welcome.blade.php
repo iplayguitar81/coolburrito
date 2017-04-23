@@ -25,7 +25,7 @@
                      <div data-role="collapsible" data-collapsed-icon="carat-d">
                              <h4 data-collapsed-icon="carat-d"><span class="orangose">&nbsp;Read Our Blog</span></h4>
                              
-                         <ul data-role="listview" class="has-odd-thumb" data-inset="true">
+                         <ul data-role="listview" class="has-odd-thumb" data-inset="false">
 
                              @php
                              $i = 0;
@@ -50,13 +50,10 @@
 
 
                                  <li class="imgListLi" style="width:100%;"><a href="{{ url('posts', $item->id) }}" class="ui-btn ui-icon-carat-r ui-btn-icon-right" data-ajax="false">
-                                         <div class="thumbContainer">  <img class=""  src="images/{!! 'thmb-'.$item->imgPath !!}"></div>
-                                         <div class="ListcontentContainer">
+                                         <img class="ui-li-thumb" style="" src="images/{!! 'thmb-'.$item->imgPath !!}">
                                          {{$game_date}}
                                          <h2>{!! $item->title !!}</h2>
-                                         <p>{!! str_limit($item->body, $limit = 35, $end = '...') !!}</p>
-                                         </div>
-                                     </a>
+                                         <p>{!! str_limit($item->body, $limit = 35, $end = '...') !!}</p></a>
 
                                      @php
                                      $i++;
