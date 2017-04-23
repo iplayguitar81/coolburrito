@@ -73,14 +73,11 @@
 
 
         .has-odd-thumb li a {
-            padding-left: 90px !important;
+
         }
         .thumbContainer {
-            position: absolute;
-            left: 0;
-            top: 0;
-            bottom: 0;
-            width: 90px;
+
+
         }
         .thumbContainer img {
             bottom: 0;
