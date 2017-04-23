@@ -73,11 +73,8 @@
 
 
         .testImgClass {
-            left: 1px;
-            max-height: 60px;
-            max-width: 60px;
-            position: absolute;
-            top: 0;
+            max-width: 300% !important;
+            max-height: 100% !important;
         }
         /* Basic styles */
         .rwd-example .ui-body {
@@ -299,6 +296,8 @@
         bottom: 0px !important;
         overflow: scroll !important;
     }
+
+
 </style>
 
 <script src="{{url('/js/jquery.js')}}"></script>
