@@ -298,8 +298,8 @@
     }
 
     li.ui-li-has-thumb a img.ui-li-thumb {
-        max-width: 180px;
-        max-height: 100px;
+        max-width: 180px !important;
+        max-height: 100px !important;
     }
 
 </style>
