@@ -302,6 +302,51 @@
         max-height: 100px !important;
     }
 
+
+
+    .div-list {
+        border-radius: 0.6em;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+        border: 1px solid #CCCCCC;
+        padding: 2px;
+
+    }
+    .listTable {
+        width: 100%;
+        border-radius: 0.6em;
+        border-collapse: collapse; border-spacing: 0;
+    }
+    .listTable tr:not(:first-child) > td {
+        border-top: 1px solid #CCCCCC;
+    }
+    .listTable tr {
+        background: linear-gradient(#FFFFFF, #F1F1F1) repeat scroll 0 0 #EEEEEE;
+        color: #222222;
+        font-weight: bold;
+        text-shadow: 0 1px 0 #FFFFFF;
+    }
+    .listTable td {
+        vertical-align: middle;
+        padding: 0;
+    }
+    .listTable .list-elem-thumb{
+        width: 30%;
+        padding: 2px;
+    }
+    .listTable .list-elem-thumb img {
+        max-width: 100%;
+        min-height: 50px;
+        min-width: 125px;
+    }
+    .listTable .list-elem-text {
+        padding-left: 10px;
+    }
+    .listTable .list-elem-ico {
+        width: 24px;
+    }
+
+
+
 </style>
 
 <script src="{{url('/js/jquery.js')}}"></script>
