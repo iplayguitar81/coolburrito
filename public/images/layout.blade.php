@@ -293,8 +293,8 @@
     }
 
     li.ui-li-has-thumb img {
-        width: 80px;
-        height: 80px;
+        max-width: 80px;
+        max-height: 80px;
     }
 
 </style>
