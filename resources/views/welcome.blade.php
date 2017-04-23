@@ -49,6 +49,21 @@
 
 
 
+
+                                 <li>
+                                     <a href="#">
+                                         <div class="thumbContainer">
+                                             <img src="http://lorempixel.com/600/300/food/4" />
+                                         </div>
+                                         <h2>Food</h2>
+                                         <p>600 x 300 sized icon</p>
+                                     </a>
+                                 </li>
+
+
+
+
+
                                  <li class="imgListLi" style="width:100%;"><a href="{{ url('posts', $item->id) }}" class="ui-btn ui-icon-carat-r ui-btn-icon-right" data-ajax="false">
                                          <img class="testImgClass" style="" src="images/{!! 'thmb-'.$item->imgPath !!}">
                                          {{$game_date}}
