@@ -297,6 +297,11 @@
         max-height: 80px;
     }
 
+    li.ui-li-has-thumb a img {
+        max-width: 80px;
+        max-height: 80px;
+    }
+
 </style>
 
 <script src="{{url('/js/jquery.js')}}"></script>
