@@ -89,6 +89,7 @@
                          @endforeach
                         </ul>
 
+                         <div class="ui-content">
                          <ul data-role="listview" data-inset="true">
                              <li><a href="#">
                                      <img src="/images/apple.png" class="ui-li-thumb">
@@ -138,7 +139,7 @@
                                      <p class="ui-li-aside">Symbian</p>
                                  </a></li>
                          </ul>
-
+                         </div>
 
                      </div>
                  </li>
