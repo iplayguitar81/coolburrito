@@ -72,9 +72,25 @@
 
 
 
-        .testImgClass {
-            max-width: 300% !important;
-            max-height: 100% !important;
+        .has-odd-thumb li a {
+            padding-left: 90px !important;
+        }
+        .thumbContainer {
+            position: absolute;
+            left: 0;
+            top: 0;
+            bottom: 0;
+            width: 90px;
+        }
+        .thumbContainer img {
+            bottom: 0;
+            left: 0;
+            top: 0;
+            right: 0;
+            margin: auto;
+            position: absolute;
+            max-width: 80px;
+            max-height: 78px;
         }
         /* Basic styles */
         .rwd-example .ui-body {
