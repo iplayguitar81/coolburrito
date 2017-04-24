@@ -25,7 +25,7 @@
                      <div data-role="collapsible" data-collapsed-icon="carat-d">
                              <h4 data-collapsed-icon="carat-d"><span class="orangose">&nbsp;Read Our Blog</span></h4>
                              
-                         <ul data-role="listview" class="has-odd-thumb" data-inset="false">
+                         {{--<ul data-role="listview" class="has-odd-thumb" data-inset="false">--}}
 
                              @php
                              $i = 0;
@@ -47,28 +47,28 @@
                              @endphp
 
 
+<p>Test this out...</p>
+
+                                 {{--<li  style="width:100%;">--}}
+                                     {{--<a href="{{ url('posts', $item->id) }}" class="ui-btn ui-icon-carat-r ui-btn-icon-right" data-ajax="false">--}}
+                                         {{--<img class="" src="images/{!! 'thmb-'.$item->imgPath !!}">--}}
+
+                                         {{--<h2>{!! $item->title !!}</h2>--}}
+                                         {{--<p>{{$game_date}}</p>--}}
+                                         {{--<p>{!! str_limit($item->body, $limit = 35, $end = '...') !!}</p></a>--}}
+
+                                     {{--@php--}}
+                                     {{--$i++;--}}
+                                     {{--@endphp--}}
 
 
-                                 <li  style="width:100%;">
-                                     <a href="{{ url('posts', $item->id) }}" class="ui-btn ui-icon-carat-r ui-btn-icon-right" data-ajax="false">
-                                         <img class="" src="images/{!! 'thmb-'.$item->imgPath !!}">
+                                     {{--@if( $i <= (count($posts)-1))--}}
+                                         {{--<hr/>--}}
+                                         {{--@else--}}
 
-                                         <h2>{!! $item->title !!}</h2>
-                                         <p>{{$game_date}}</p>
-                                         <p>{!! str_limit($item->body, $limit = 35, $end = '...') !!}</p></a>
+                                     {{--@endif--}}
 
-                                     @php
-                                     $i++;
-                                     @endphp
-
-
-                                     @if( $i <= (count($posts)-1))
-                                         <hr/>
-                                         @else
-
-                                     @endif
-
-                                 </li>
+                                 {{--</li>--}}
 
 
 
@@ -89,7 +89,7 @@
                              {{--<br/>--}}
 
                          @endforeach
-                        </ul>
+                        {{--</ul>--}}
 
 
 
