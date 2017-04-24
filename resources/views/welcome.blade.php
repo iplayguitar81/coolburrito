@@ -402,7 +402,7 @@
     <!-- bxSlider Javascript file -->
 
 
-    <script src="js/jquery.glide.js"></script>
+    {{--<script src="js/jquery.glide.js"></script>--}}
 
 
 @endsection
