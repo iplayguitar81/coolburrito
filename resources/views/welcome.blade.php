@@ -195,29 +195,26 @@
             <br/>
             <br/>
 
-            <ul id="sb-slider" class="sb-slider">
 
-                <li>
-                    <a href="#" target="_blank">
-                        <img src="images/apple.png" alt="image1"/>
-                    </a>
-                    <div class="sb-description">
-                        <h3>Creative Lifesaver</h3>
-                    </div>
-                </li>
+            <div id="Glide" class="glide">
 
-                <li>
-                    <img src="images/apple.png" alt="image2"/>
-                    <div class="sb-description">
-                        <h3>...</h3>
-                    </div>
-                </li>
+                <div class="glide__arrows">
+                    <button class="glide__arrow prev" data-glide-dir="<">prev</button>
+                    <button class="glide__arrow next" data-glide-dir=">">next</button>
+                </div>
 
-                <li><!-- ... --></li>
+                <div class="glide__wrapper">
+                    <ul class="glide__track">
+                        <li class="glide__slide"></li>
+                        <li class="glide__slide"></li>
+                        <li class="glide__slide"></li>
+                    </ul>
+                </div>
 
-                <!-- ... -->
+                <div class="glide__bullets"></div>
 
-            </ul>
+            </div>
+
 
         </div>
         <div data-role="footer" style="overflow:hidden;" data-theme="b" data-tap-toggle="false">
