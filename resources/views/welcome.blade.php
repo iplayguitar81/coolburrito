@@ -47,7 +47,12 @@
                              @endphp
 
 
-<p>Test this out...</p>
+                             <ul class="bxslider">
+                                 <li><img src="/images/apple.png" /></li>
+                                 <li><img src="/images/apple.png" /></li>
+                                 <li><img src="/images/apple.png" /></li>
+                                 <li><img src="/images/apple.png" /></li>
+                             </ul>
 
                                  {{--<li  style="width:100%;">--}}
                                      {{--<a href="{{ url('posts', $item->id) }}" class="ui-btn ui-icon-carat-r ui-btn-icon-right" data-ajax="false">--}}
