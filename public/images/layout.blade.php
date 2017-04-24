@@ -67,11 +67,12 @@
     </script>
 
     <style>
-        .ul-li-thumb { height: 80px; width: 80px; }
-
-        .ui-listview .ui-li-thumb {
-            height:500px;
-            width:200px;
+        .ui-li-thumb, .ui-li-icon {
+            left: 1px;
+            max-height: 60px;
+            max-width: 160px;
+            position: absolute;
+            top: 0;
         }
 
         #mappins > div.ui-header.ui-bar-b > div > ul.nav-trickery.ui-grid-solo > li > div > div > ul > li.ui-block-a.ui-li-has-thumb.ui-first-child > a > img {
