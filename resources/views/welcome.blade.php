@@ -23,7 +23,7 @@
 
                  <li>
                      <div data-role="collapsible" data-collapsed-icon="carat-d">
-                             <h4 data-iconpos="bottom" data-collapsed-icon="carat-d"><span class="orangose">&nbsp;Read Our Blog</span></h4>
+                             <h4 data-collapsed-icon="carat-d"><span class="orangose">&nbsp;Read Our Blog</span></h4>
                              
                          {{--<ul data-role="listview" class="has-odd-thumb" data-inset="false">--}}
 
@@ -56,7 +56,7 @@
 
 
 
-<div style="width:100%;">
+<div style="width:100%;height:200px;">
 
 
                       <img style="width:45%; float:left;" class="" src="images/{!! 'thmb-'.$item->imgPath !!}">
