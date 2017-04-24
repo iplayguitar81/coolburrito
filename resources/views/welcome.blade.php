@@ -52,7 +52,7 @@
                                      <div class="ui-block-a"><div class="ui-bar ui-bar-a" style="height:60px"><img class="" src="images/{!! 'thmb-'.$item->imgPath !!}"></div></div>
                                      <div class="ui-block-b"><div class="ui-bar ui-bar-a" style="height:60px"><h2>{!! $item->title !!} <p>{{$game_date}}</p>
                                              <p>{!! str_limit($item->body, $limit = 35, $end = '...') !!}</p></h2></div></div>
-                                     <div class="ui-block-c"><div class="ui-bar ui-bar-a" style="height:60px">                             <a href="{{ url('posts', $item->id) }}" class="ui-btn ui-icon-carat-r ui-btn-icon-right" data-ajax="false">Block C</a></div></div>
+                                     <div class="ui-block-c"><div class="ui-bar ui-bar-a" style="height:60px">                             <a href="{{ url('posts', $item->id) }}" class="ui-btn ui-icon-carat-r ui-btn-icon-right" data-ajax="false"><div class="ui-block-c"><input type="submit" value="Yes"></div></a></div></div>
                              </div><!-- /grid-b -->
 
 
