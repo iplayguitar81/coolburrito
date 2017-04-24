@@ -600,6 +600,12 @@
     });
 
 
+    //notes
+
+    $(document).ready(function() {
+        $("#lightSlider").lightSlider();
+    });
+
 
 </script>
 <script src="{{url('/js/owl.carousel.js')}}"></script>
