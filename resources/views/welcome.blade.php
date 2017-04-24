@@ -386,5 +386,11 @@
     <script src="/js/jquery.bxslider.min.js"></script>
     <!-- bxSlider CSS file -->
 
+    <script>
+    $(document).ready(function(){
+        $('.bxslider').bxSlider();
+    });
+
+</script>
 
 @endsection
