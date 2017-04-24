@@ -608,5 +608,8 @@
 <script src="{{url('/js/photoswipe.min.js')}}"></script>
 <script src="{{url('/js/photoswipe-ui-default.min.js')}}"></script>
 
+<script src="{{url('/js/lightslider.js')}}"></script>
+
+
 </body>
 </html>
