@@ -47,12 +47,7 @@
                              @endphp
 
 
-                             <ul class="bxslider">
-                                 <li><img src="/images/apple.png" /></li>
-                                 <li><img src="/images/apple.png" /></li>
-                                 <li><img src="/images/apple.png" /></li>
-                                 <li><img src="/images/apple.png" /></li>
-                             </ul>
+
 
                                  {{--<li  style="width:100%;">--}}
                                      {{--<a href="{{ url('posts', $item->id) }}" class="ui-btn ui-icon-carat-r ui-btn-icon-right" data-ajax="false">--}}
@@ -199,6 +194,14 @@
             <div class="fb-like-box" data-href="https://www.facebook.com/checkenginefree" data-colorscheme="dark" data-show-faces="false" data-header="true" data-stream="false" data-show-border="true"></div>
             <br/>
             <br/>
+
+            <ul class="bxslider">
+                <li><img src="/images/apple.png" /></li>
+                <li><img src="/images/apple.png" /></li>
+                <li><img src="/images/apple.png" /></li>
+                <li><img src="/images/apple.png" /></li>
+            </ul>
+
         </div>
         <div data-role="footer" style="overflow:hidden;" data-theme="b" data-tap-toggle="false">
             <span class="credit">checkenginefree.com &copy; 2017</span><br/>
