@@ -19,9 +19,9 @@
                 </ul>
 
 
-                <div class="nav-trickery">
+                <ul class="nav-trickery">
 
-                 {{--<li>--}}
+                 <li>
                      <div data-role="collapsible" data-collapsed-icon="carat-d">
                              <h4 data-collapsed-icon="carat-d"><span class="orangose">&nbsp;Read Our Blog</span></h4>
                              
@@ -98,8 +98,8 @@
 
 
                      </div>
-                 {{--</li>--}}
-                </div>
+                 </li>
+                </ul>
 
 
 
