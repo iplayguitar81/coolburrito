@@ -423,15 +423,10 @@
     /* For this demo we used images with a size of 310x310 pixels. Just before the second breakpoint the images reach their max width: 1019px - 2 x 9px padding = 1001px x 30.9333% = ~310px */
 
 
-
-
-
-
-
 </style>
 
 <script src="{{url('/js/jquery.js')}}"></script>
-<script type="text/javascript" src="//code.jquery.com/mobile/1.4.4/jquery.mobile-1.4.4.min.js" ></script>
+<script type="text/javascript" src="//code.jquery.com/mobile/1.4.3/jquery.mobile-1.4.3.min.js" ></script>
 
 <script src="{{url('/js/jquery-1.11.3.min.js')}}"></script>
 <script>
