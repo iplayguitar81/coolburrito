@@ -428,7 +428,9 @@
 <script src="{{url('/js/jquery.js')}}"></script>
 <script type="text/javascript" src="//code.jquery.com/mobile/1.4.3/jquery.mobile-1.4.3.min.js" ></script>
 
-<script src="{{url('/js/jquery-1.11.3.min.js')}}"></script>
+{{--<script src="{{url('/js/jquery-1.11.3.min.js')}}"></script>--}}
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+
 <script>
 
     $(function(){
