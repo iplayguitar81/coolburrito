@@ -404,76 +404,84 @@
     {{--<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>--}}
     <!-- bxSlider Javascript file -->
 
-    <script src="/js/jquery.slicebox.js"></script>
-    <!-- bxSlider CSS file -->
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jquery.slicebox.js"></script>
+    <script type="text/javascript">
+        $(function() {
 
-    <script>
-        $.Slicebox.defaults = {
-            // (v)ertical, (h)orizontal or (r)andom
-            orientation : 'v',
+            var Page = (function() {
 
-            // perspective value
-            perspective : 1200,
+                var $navArrows = $( '#nav-arrows' ).hide(),
+                        $navDots = $( '#nav-dots' ).hide(),
+                        $nav = $navDots.children( 'span' ),
+                        $shadow = $( '#shadow' ).hide(),
+                        slicebox = $( '#sb-slider' ).slicebox( {
+                            onReady : function() {
 
-            // number of slices / cuboids
-            // needs to be an odd number 15 => number > 0 (if you want the limit higher,
-            // change the _validate function).
-            cuboidsCount : 5,
+                                $navArrows.show();
+                                $navDots.show();
+                                $shadow.show();
 
-            // if true then the number of slices / cuboids is going to be random (cuboidsCount is overwitten)
-            cuboidsRandom : false,
+                            },
+                            onBeforeChange : function( pos ) {
 
-            // the range of possible number of cuboids if cuboidsRandom is true
-            // it is strongly recommended that you do not set a very large number :)
-            maxCuboidsCount : 5,
+                                $nav.removeClass( 'nav-dot-current' );
+                                $nav.eq( pos ).addClass( 'nav-dot-current' );
 
-            // each cuboid will move x pixels left / top (depending on orientation).
-            // The middle cuboid doesn't move. the middle cuboid's neighbors will
-            // move disperseFactor pixels
-            disperseFactor : 0,
+                            }
+                        } ),
 
-            // color of the hidden sides
-            colorHiddenSides : '#222',
+                        init = function() {
 
-            // the animation will start from left to right. The left most
-            // cuboid will be the first one to rotate
-            // this is the interval between each rotation in ms
-            sequentialFactor : 150,
+                            initEvents();
 
-            // animation speed
-            // this is the speed that takes "1" cuboid to rotate
-            speed : 600,
+                        },
+                        initEvents = function() {
 
-            // transition easing
-            easing : 'ease',
+                            // add navigation events
+                            $navArrows.children( ':first' ).on( 'click', function() {
 
-            // if true the slicebox will start the animation automatically
-            autoplay : false,
+                                slicebox.next();
+                                return false;
 
-            // time (ms) between each rotation, if autoplay is true
-            interval: 3000,
+                            } );
 
-            // the fallback will just fade out / fade in the items
-            // this is the time fr the fade effect
-            fallbackFadeSpeed : 300,
+                            $navArrows.children( ':last' ).on( 'click', function() {
 
-            // callbacks
-            onBeforeChange : function( position ) { return false; },
-            onAfterChange : function( position ) { return false; }
-        };
-    </script>
+                                slicebox.previous();
+                                return false;
 
-    <script>
+                            } );
 
-        jQuery(document).ready(function($) {
-            // $() will work as an alias for jQuery() inside of this function
-            $('#sb-slider').slicebox();
+                            $nav.each( function( i ) {
+
+                                $( this ).on( 'click', function( event ) {
+
+                                    var $dot = $( this );
+
+                                    if( !slicebox.isActive() ) {
+
+                                        $nav.removeClass( 'nav-dot-current' );
+                                        $dot.addClass( 'nav-dot-current' );
+
+                                    }
+
+                                    slicebox.jump( i + 1 );
+                                    return false;
+
+                                } );
+
+                            } );
+
+                        };
+
+                return { init : init };
+
+            })();
+
+            Page.init();
+
         });
-
-//    $(document).ready(function(){
-//
-//    });
-
-</script>
+    </script>
 
 @endsection
