@@ -199,7 +199,7 @@
 
                 <li>
                     <a href="#" target="_blank">
-                        <img src="images/1.jpg" alt="image1"/>
+                        <img src="images/apple.png" alt="image1"/>
                     </a>
                     <div class="sb-description">
                         <h3>Creative Lifesaver</h3>
@@ -207,7 +207,7 @@
                 </li>
 
                 <li>
-                    <img src="images/2.jpg" alt="image2"/>
+                    <img src="images/apple.png" alt="image2"/>
                     <div class="sb-description">
                         <h3>...</h3>
                     </div>
