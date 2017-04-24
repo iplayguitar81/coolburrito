@@ -56,13 +56,14 @@
 
 
 
-
+<div style="width:100%;">
 
 
                       <img style="height:95px;width:132.5px; float:left;" class="" src="images/{!! 'thmb-'.$item->imgPath !!}">
                                    <div style="width:50%; float:right;">  <h2>{!! $item->title !!} <p>{{$game_date}}</p>
                                              <p>{!! str_limit($item->body, $limit = 35, $end = '...') !!}</p></h2>
                                      
+</div>
 </div>
 <hr>
 
