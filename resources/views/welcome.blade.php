@@ -59,7 +59,7 @@
 
 
 
-                      <img class="" src="images/{!! 'thmb-'.$item->imgPath !!}">
+                      <img style="height:100px;width:100px;" class="" src="images/{!! 'thmb-'.$item->imgPath !!}">
                                      <h2>{!! $item->title !!} <p>{{$game_date}}</p>
                                              <p>{!! str_limit($item->body, $limit = 35, $end = '...') !!}</p></h2>
                                      
