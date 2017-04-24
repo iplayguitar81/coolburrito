@@ -60,14 +60,14 @@
 
 
 
-<div data-role="collapsible" style="width:100%;height:200px;">
+<div data-role="collapsible" >
 
 
                       <img style="height:200px;width:45%; float:left;" class="" src="images/{!! 'thmb-'.$item->imgPath !!}">
-                                   <div style="height:200px;width:50%; float:right;">  <h2>{!! $item->title !!} <p>{{$game_date}}</p>
+                                   <h2>{!! $item->title !!} <p>{{$game_date}}</p>
                                              <p>{!! str_limit($item->body, $limit = 35, $end = '...') !!}</p></h2>
                                      
-</div>
+
 </div>
 
 
