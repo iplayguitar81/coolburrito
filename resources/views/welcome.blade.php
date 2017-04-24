@@ -57,26 +57,26 @@
 
 
 
-                                 <div  style="width:100%;">
-                                     <a href="{{ url('posts', $item->id) }}" class="ui-btn ui-icon-carat-r ui-btn-icon-right" data-ajax="false">
-                                         <img class="" src="images/{!! 'thmb-'.$item->imgPath !!}">
+                                 {{--<div  style="width:100%;">--}}
+                                     {{--<a href="{{ url('posts', $item->id) }}" class="ui-btn ui-icon-carat-r ui-btn-icon-right" data-ajax="false">--}}
+                                         {{--<img class="" src="images/{!! 'thmb-'.$item->imgPath !!}">--}}
 
-                                         <h2>{!! $item->title !!}</h2>
-                                         <p>{{$game_date}}</p>
-                                         <p>{!! str_limit($item->body, $limit = 35, $end = '...') !!}</p></a>
+                                         {{--<h2>{!! $item->title !!}</h2>--}}
+                                         {{--<p>{{$game_date}}</p>--}}
+                                         {{--<p>{!! str_limit($item->body, $limit = 35, $end = '...') !!}</p></a>--}}
 
-                                     @php
-                                     $i++;
-                                     @endphp
+                                     {{--@php--}}
+                                     {{--$i++;--}}
+                                     {{--@endphp--}}
 
 
-                                     @if( $i <= (count($posts)-1))
-                                         <hr/>
-                                         @else
+                                     {{--@if( $i <= (count($posts)-1))--}}
+                                         {{--<hr/>--}}
+                                         {{--@else--}}
 
-                                     @endif
+                                     {{--@endif--}}
 
-                                 </div>
+                                 {{--</div>--}}
 
 
 
