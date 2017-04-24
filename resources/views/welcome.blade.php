@@ -59,12 +59,10 @@
 
 
 
-                             <div class="">
-                                     <div class="img-responsive"><img class="" src="images/{!! 'thmb-'.$item->imgPath !!}"></div>
-                                     <div class=""><h2>{!! $item->title !!} <p>{{$game_date}}</p>
-                                             <p>{!! str_limit($item->body, $limit = 35, $end = '...') !!}</p></h2></div>
+                      <img class="" src="images/{!! 'thmb-'.$item->imgPath !!}">
+                                     <h2>{!! $item->title !!} <p>{{$game_date}}</p>
+                                             <p>{!! str_limit($item->body, $limit = 35, $end = '...') !!}</p></h2>
                                      
-                             </div><!-- /grid-b -->
 
 
 
