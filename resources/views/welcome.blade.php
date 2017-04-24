@@ -56,7 +56,10 @@
 
 
 
-
+                                 <div data-role="collapsible">
+                                     <h3>Test 2.1</h3>
+                                     <p>Testing</p>
+                                 </div>
 
 
 
