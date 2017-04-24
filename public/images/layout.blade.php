@@ -602,9 +602,7 @@
 
     //notes
 
-    $(document).ready(function() {
-        $("#lightSlider").lightSlider();
-    });
+
 
 
 </script>
