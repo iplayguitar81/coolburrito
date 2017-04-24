@@ -56,14 +56,11 @@
 
 
 
-                                 <div data-role="collapsible">
-                                     <h3>Test 2.1</h3>
-                                     <p>Testing</p>
-                                 </div>
 
 
 
-<div style="width:100%;height:200px;">
+
+<div data-role="collapsible" style="width:100%;height:200px;">
 
 
                       <img style="height:200px;width:45%; float:left;" class="" src="images/{!! 'thmb-'.$item->imgPath !!}">
