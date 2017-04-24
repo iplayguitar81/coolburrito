@@ -463,9 +463,15 @@
     </script>
 
     <script>
-    $(document).ready(function(){
-        $('#sb-slider').slicebox();
-    });
+
+        jQuery(document).ready(function($) {
+            // $() will work as an alias for jQuery() inside of this function
+            $('#sb-slider').slicebox();
+        });
+
+//    $(document).ready(function(){
+//
+//    });
 
 </script>
 
