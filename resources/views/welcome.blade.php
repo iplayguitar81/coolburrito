@@ -49,7 +49,8 @@
 
 
 
-                                 <li class="ui-li-has-thumb" style="width:100%;"><a href="{{ url('posts', $item->id) }}" class="ui-btn ui-icon-carat-r ui-btn-icon-right" data-ajax="false">
+                                 <li  style="width:100%;">
+                                     <a href="{{ url('posts', $item->id) }}" class="ui-btn ui-icon-carat-r ui-btn-icon-right" data-ajax="false">
                                          <img class="ui-li-thumb" style="max-height:7em;" src="images/{!! 'thmb-'.$item->imgPath !!}">
                                          {{$game_date}}
                                          <h2>{!! $item->title !!}</h2>
