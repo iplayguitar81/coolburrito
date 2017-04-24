@@ -33,6 +33,10 @@
 
                              @endphp
 
+
+                         <div data-role="collapsible-set">
+
+
                          @foreach($posts as $item)
 
 
@@ -117,7 +121,7 @@
 
 
 
-
+</div>
 
                      </div>
                  </li>
