@@ -92,7 +92,7 @@
 
 
 
-                         <ul id="lightSlider">
+                         <ul id="rtl">
                     <li>
                         <h3>First Slide</h3>
                         <p>Lorem ipsum Cupidatat quis pariatur anim.</p>
@@ -382,7 +382,9 @@
 
     <script>
         $(document).ready(function() {
-            $("#lightSlider").lightSlider();
+            $('#rtl').lightSlider({
+                rtl:true
+            });
         });
     </script>
 
