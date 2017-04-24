@@ -615,5 +615,13 @@
 
 <script src="{{url('/js/lightslider.js')}}"></script>
 
+
+<script>
+    $(document).ready(function() {
+        $('#rtl').lightSlider({
+            rtl:true
+        });
+    });
+</script>
 </body>
 </html>
