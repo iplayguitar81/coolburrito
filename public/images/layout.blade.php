@@ -179,7 +179,7 @@
     </style>
 
 
-    <link type="text/css" rel="stylesheet" href="{{url('/css/lightslider.css')}}"/>
+    <link type="text/css" rel="stylesheet" href="{{url('/css/slicebox.css')}}"/>
 </head>
 <body>
 <div id="fb-root"></div>
