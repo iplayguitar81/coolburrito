@@ -67,12 +67,18 @@
     </script>
 
     <style>
-        .ui-li-thumb, .ui-li-icon {
+        .ui-listview .ui-li-has-thumb > img:first-child,
+        .ui-listview .ui-li-has-thumb > .ui-btn > img:first-child,
+        .ui-listview .ui-li-has-thumb .ui-li-thumb {
             left: 1px;
-            max-height: 60px;
-            max-width: 160px;
-            position: absolute;
-            top: 0;
+            top: 1px;
+            max-height: 40px;
+            max-width: 40px;
+        }
+        .ui-listview > .ui-li-has-thumb > .ui-btn,
+        .ui-listview > .ui-li-static.ui-li-has-thumb {
+            min-height: 0;
+            padding: .7em 1em .7em 55px;
         }
 
         #mappins > div.ui-header.ui-bar-b > div > ul.nav-trickery.ui-grid-solo > li > div > div > ul > li.ui-block-a.ui-li-has-thumb.ui-first-child > a > img {
