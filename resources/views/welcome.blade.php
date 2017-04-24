@@ -64,7 +64,7 @@
                                              <p>{!! str_limit($item->body, $limit = 35, $end = '...') !!}</p></h2>
                                      
 
-
+<hr>
 
                                  {{--<div  style="width:100%;">--}}
                                      {{--<a href="{{ url('posts', $item->id) }}" class="ui-btn ui-icon-carat-r ui-btn-icon-right" data-ajax="false">--}}
