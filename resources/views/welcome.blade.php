@@ -59,9 +59,9 @@
 
 
 
-                             <div class="ui-grid-a">
-                                     <div class="ui-block-a"><img class="" src="images/{!! 'thmb-'.$item->imgPath !!}"></div>
-                                     <div class="ui-block-b"><h2>{!! $item->title !!} <p>{{$game_date}}</p>
+                             <div class="">
+                                     <div class="img-responsive"><img class="" src="images/{!! 'thmb-'.$item->imgPath !!}"></div>
+                                     <div class=""><h2>{!! $item->title !!} <p>{{$game_date}}</p>
                                              <p>{!! str_limit($item->body, $limit = 35, $end = '...') !!}</p></h2></div>
                                      
                              </div><!-- /grid-b -->
