@@ -339,7 +339,7 @@
         }
         .my-page .ui-listview li.ui-li-has-thumb .ui-li-thumb {
             height: auto; /* To keep aspect ratio. */
-            max-width: 100%;
+            /*max-width: 100%;*/
             max-height: none;
         }
         /* Make all list items and anchors inherit the border-radius from the UL. */
