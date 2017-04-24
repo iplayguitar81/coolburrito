@@ -49,44 +49,44 @@
 
 
 
-                                 {{--<li  style="width:100%;">--}}
-                                     {{--<a href="{{ url('posts', $item->id) }}" class="ui-btn ui-icon-carat-r ui-btn-icon-right" data-ajax="false">--}}
-                                         {{--<img class="" src="images/{!! 'thmb-'.$item->imgPath !!}">--}}
+                                 <div  style="width:100%;">
+                                     <a href="{{ url('posts', $item->id) }}" class="ui-btn ui-icon-carat-r ui-btn-icon-right" data-ajax="false">
+                                         <img class="" src="images/{!! 'thmb-'.$item->imgPath !!}">
 
-                                         {{--<h2>{!! $item->title !!}</h2>--}}
-                                         {{--<p>{{$game_date}}</p>--}}
-                                         {{--<p>{!! str_limit($item->body, $limit = 35, $end = '...') !!}</p></a>--}}
+                                         <h2>{!! $item->title !!}</h2>
+                                         <p>{{$game_date}}</p>
+                                         <p>{!! str_limit($item->body, $limit = 35, $end = '...') !!}</p></a>
 
-                                     {{--@php--}}
-                                     {{--$i++;--}}
-                                     {{--@endphp--}}
-
-
-                                     {{--@if( $i <= (count($posts)-1))--}}
-                                         {{--<hr/>--}}
-                                         {{--@else--}}
-
-                                     {{--@endif--}}
-
-                                 {{--</li>--}}
+                                     @php
+                                     $i++;
+                                     @endphp
 
 
+                                     @if( $i <= (count($posts)-1))
+                                         <hr/>
+                                         @else
+
+                                     @endif
+
+                                 </div>
 
 
 
-                             {{--<div class="ui-grid-solo">--}}
-                             {{--<div class="ui-block-a">{{$game_date}}--}}
-                             {{--<h2>{!! $item->title !!}</h2>--}}
-                             {{--<p>{!! str_limit($item->body, $limit = 35, $end = '...') !!}</p></div>--}}
-                             {{--</div>--}}
 
-                             {{--<div class="ui-grid-a">--}}
-                             {{--<div class="ui-block-a"><div class="ui-bar ui-bar-a" style="height:160px"><img class="ui-li-thumb" src="images/{!! $item->imgPath !!}" ></div></div>--}}
-                             {{--<div class="ui-block-b"><div class="ui-bar ui-bar-a" style="height:160px">{{$game_date}}--}}
-                             {{--<h2>{!! $item->title !!}</h2>--}}
-                             {{--<p>{!! str_limit($item->body, $limit = 35, $end = '...') !!}</p></div></div>--}}
-                             {{--</div><!-- /grid-a -->--}}
-                             {{--<br/>--}}
+
+                             <div class="ui-grid-solo">
+                             <div class="ui-block-a">{{$game_date}}
+                             <h2>{!! $item->title !!}</h2>
+                             <p>{!! str_limit($item->body, $limit = 35, $end = '...') !!}</p></div>
+                             </div>
+
+                             <div class="ui-grid-a">
+                             <div class="ui-block-a"><div class="ui-bar ui-bar-a" style="height:160px"><img class="ui-li-thumb" src="images/{!! $item->imgPath !!}" ></div></div>
+                             <div class="ui-block-b"><div class="ui-bar ui-bar-a" style="height:160px">{{$game_date}}
+                             <h2>{!! $item->title !!}</h2>
+                             <p>{!! str_limit($item->body, $limit = 35, $end = '...') !!}</p></div></div>
+                             </div><!-- /grid-a -->
+                             <br/>
 
                          @endforeach
                         {{--</ul>--}}
