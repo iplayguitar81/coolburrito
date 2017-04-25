@@ -206,7 +206,7 @@
     @import "{{url('/css/default-skin.css')}}";
     {{--@import "{{url('/css/jquery.mobile-1.4.3.min.css')}}";--}}
 
-    @import "{{url('/css/listview-grid.css')}}";
+    {{--@import "{{url('/css/listview-grid.css')}}";--}}
     @import "{{url('/css/lightslider.css')}}";
     {{--getting this part right........ among files to remove after figuring out right gallery sitch:--}}
      {{--@import "{{url('/css/slick.css')}}";--}}
