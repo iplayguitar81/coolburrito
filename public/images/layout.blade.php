@@ -502,7 +502,7 @@
 
 </script>
 
-
+<script src="/js/swiper.min.js"></script>
 
 <script>
     var swiper = new Swiper('.swiper-container', {
@@ -514,7 +514,7 @@
 </script>
 
 <!-- Swiper JS -->
-<script src="/js/swiper.min.js"></script>
+
 
 <script src="{{url('/js/owl.carousel.js')}}"></script>
 <script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
