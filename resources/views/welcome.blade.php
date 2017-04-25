@@ -34,7 +34,7 @@
                              @endphp
 
 
-
+                         <ul data-role="listview">
 
 
                          @foreach($posts as $item)
@@ -52,24 +52,28 @@
 
 
 
+                                 <li><<a href="{{ url('posts', $item->id) }}" class="ui-btn ui-icon-carat-r ui-btn-icon-right" data-ajax="false">
+                                         <img src="{!! 'thmb-'.$item->imgPath !!}" title="sample"/>
+                                         <h3>{!! $item->title !!} {{$game_date}}</h3>
+                                         <p>{!! str_limit($item->body, $limit = 35, $end = '...') !!}</p>
+                                     </a></li>
+
+
+
+                             {{--<div class="ui-grid-a">--}}
+                                 {{--<div class="ui-block-a">{{$game_date}}<br/> <img style="height:200px;width:45%; float:left;" class="" src="images/{!! 'thmb-'.$item->imgPath !!}"></div>--}}
+                                 {{--<div class="un-block-b">{!! $item->title !!} <br/> {!! str_limit($item->body, $limit = 35, $end = '...') !!}</div>--}}
+                             {{--</div>--}}
 
 
 
 
-                             <div class="ui-grid-a">
-                                 <div class="ui-block-a">{{$game_date}}<br/> <img style="height:200px;width:45%; float:left;" class="" src="images/{!! 'thmb-'.$item->imgPath !!}"></div>
-                                 <div class="un-block-b">{!! $item->title !!} <br/> {!! str_limit($item->body, $limit = 35, $end = '...') !!}</div>
-                             </div>
 
 
-
-
-
-
-                      <img style="height:200px;width:45%; float:left;" class="" src="images/{!! 'thmb-'.$item->imgPath !!}">
-                                   <h2>{!! $item->title !!} <p>{{$game_date}}</p>
-                                             <p>{!! str_limit($item->body, $limit = 35, $end = '...') !!}</p></h2>
-                                     
+                      {{--<img style="height:200px;width:45%; float:left;" class="" src="images/{!! 'thmb-'.$item->imgPath !!}">--}}
+                                 {{--  <h2>{!! $item->title !!} <p>{{$game_date}}</p>--}}
+                                             {{--<p>{!! str_limit($item->body, $limit = 35, $end = '...') !!}</p></h2>--}}
+                                 {{--    --}}
 
 
 
@@ -114,7 +118,7 @@
                              {{--<br/>--}}
 
                          @endforeach
-                        {{--</ul>--}}
+                        </ul>
 
 
 
