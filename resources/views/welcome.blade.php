@@ -53,7 +53,7 @@
 
 
                                  <li><a href="{{ url('posts', $item->id) }}" class="ui-btn ui-icon-carat-r ui-btn-icon-right" data-ajax="false">
-                                         <img src="{!! 'thmb-'.$item->imgPath !!}" title="sample"/>
+                                         <img src="images/{!! 'thmb-'.$item->imgPath !!}" title="sample"/>
                                          <h3>{!! $item->title !!} {{$game_date}}</h3>
                                          <p>{!! str_limit($item->body, $limit = 35, $end = '...') !!}</p>
                                      </a></li>
