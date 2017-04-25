@@ -56,23 +56,9 @@
 
 
 
-                             <div data-role="collapsible" data-theme="b" data-inset="true">
-                                 <h3>
-                                     <div class="ui-grid-a">
-                                         <div class="ui-block-a">Customer:</div>
-                                         <div class="un-block-b">Plumbing</div>
-                                     </div>
-                                 </h3>
-                                 <ul data-role="listview">
-                                     <li><div class="ui-grid-a">
-                                             <div class="ui-block-a">Phone:</div>
-                                             <div class="ui-block-b">1-800-MUS-ROOM</div>
-                                         </div></li>
-                                     <li><div class="ui-grid-a">
-                                             <div class="ui-block-a">More data:</div>
-                                             <div class="ui-block-b">blah blah blah</div>
-                                         </div></li>
-                                 </ul>
+                             <div class="ui-grid-a">
+                                 <div class="ui-block-a">Customer:</div>
+                                 <div class="un-block-b">Plumbing</div>
                              </div>
 
 
