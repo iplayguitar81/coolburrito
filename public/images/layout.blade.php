@@ -502,16 +502,7 @@
 
 </script>
 
-<script src="/js/swiper.min.js"></script>
 
-<script>
-    var swiper = new Swiper('.swiper-container', {
-        pagination: '.swiper-pagination',
-        slidesPerView: 3,
-        paginationClickable: true,
-        spaceBetween: 30
-    });
-</script>
 
 <!-- Swiper JS -->
 
