@@ -34,7 +34,7 @@
                              @endphp
 
 
-                         <ul data-role="listview">
+                         <ul data-role="listview" data-inset="true">
 
 
                          @foreach($posts as $item)
