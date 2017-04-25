@@ -293,20 +293,9 @@
     }
 
 
-    <!-- Demo styles -->
-    <style>
-     html, body {
-         position: relative;
-         height: 100%;
-     }
-    body {
-        background: #eee;
-        font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-        font-size: 14px;
-        color:#000;
-        margin: 0;
-        padding: 0;
-    }
+    /* Swiper CSS*/
+
+
     .swiper-container {
         width: 100%;
         height: 100%;
@@ -330,8 +319,6 @@
         -webkit-align-items: center;
         align-items: center;
     }
-</style>
-
 
 </style>
 
