@@ -59,10 +59,6 @@
 
 
 
-                            <li> <div class="ui-grid-a">
-                                 <div class="ui-block-a">{{$game_date}}<br/> <img style="width: 150px; float:left;" class="" src="images/{!! 'thmb-'.$item->imgPath !!}"></div>
-                                 <div class="un-block-b">{!! $item->title !!} <br/> {!! str_limit($item->body, $limit = 35, $end = '...') !!}</div>
-                             </div></li>
 
 
 
