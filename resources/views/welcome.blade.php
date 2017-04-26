@@ -51,7 +51,7 @@
                              @endphp
 
 
-                                 <li style=""><a href="{{ url('posts', $item->id) }}" class="ui-btn ui-icon-carat-r ui-btn-icon-right" data-ajax="false">
+                                 <li style="width:100%;"><a href="{{ url('posts', $item->id) }}" class="ui-btn ui-icon-carat-r ui-btn-icon-right" data-ajax="false">
                                         <div class="thumb-size" > <img style="max-width:100%  !important; height:auto; display:block;" src="images/{!! 'thmb-'.$item->imgPath !!}" title="sample"/></div>
                                          <h3>{{$game_date}}<br/>{!! $item->title !!} </h3>
                                          <p>{!! str_limit($item->body, $limit = 35, $end = '...') !!}</p>
