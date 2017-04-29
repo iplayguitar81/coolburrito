@@ -51,6 +51,10 @@
                              @endphp
 
 
+                                 <div class="ui-grid-solo">
+                                     <div class="ui-block-a"><button type="v" data-theme="b">More</button></div>
+                                 </div>
+
                                  <li style=""><a href="{{ url('posts', $item->id) }}" class="ui-btn ui-icon-carat-r ui-btn-icon-right" data-ajax="false">
                                         <div class="thumb-size" > <img style="max-width:100%  !important; height:auto; display:block;" src="images/{!! 'thmb-'.$item->imgPath !!}" title="sample"/></div>
                                          <h3>{{$game_date}}<br/>{!! $item->title !!} </h3>
