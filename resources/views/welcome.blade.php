@@ -426,8 +426,9 @@
     @media (max-width: 500px) {
         .orangose_blog-mini { font-size: .65em; }
 
-        .p_blog-mini {
+        p.p_blog-mini {
             font-size: .7em;
+            text-shadow: none;
         }
     }
 </style>
