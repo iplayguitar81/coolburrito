@@ -424,10 +424,10 @@
 <style>
 
 
-    span.p_blog-mini {
+    span.p_blog-mini p {
 
-        text-align:justify;
-        width:85%;
+        text-align:center;
+
 
 
     }
