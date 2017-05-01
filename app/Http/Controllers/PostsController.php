@@ -353,6 +353,13 @@ class PostsController extends Controller
         $this->validate($request, [
             'title' => 'required',
             'body' => 'required',
+
+            'gallery_id' => 'required',
+            'file_name' => 'required',
+            'file_size' => 'required',
+            'file_mime' => 'required',
+            'file_path' => 'required'
+
         ]);
         $filename ="";
         if(Input::hasFile('file')){
