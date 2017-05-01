@@ -173,6 +173,11 @@
         }
 
 
+        .orangose.blog-mini { color: white !important;
+
+        }
+
+
 
 
     </style>
