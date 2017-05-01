@@ -427,7 +427,7 @@
         .orangose_blog-mini { font-size: .65em; }
 
         p.p_blog-mini {
-            font-size: .7em;
+            font-size: .3em;
             text-shadow: none;
         }
     }
