@@ -173,7 +173,7 @@
         }
 
 
-        .orangose_blog-mini { color: white !important;
+        .orangose_blog-mini { color: black !important;
 
         }
 
