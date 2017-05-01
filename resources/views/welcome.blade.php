@@ -426,7 +426,8 @@
 
     span.p_blog-mini {
 
-        text-align:center;
+        text-align:justify;
+
 
     }
 
