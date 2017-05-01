@@ -55,7 +55,7 @@
                                      <div class="ui-block-a">
 
 
-                                         <li style=""><a href="{{ url('posts', $item->id) }}" class="ui-btn ui-icon-carat-r ui-btn-icon-right" data-ajax="false">
+                                         <li style=""><a href="{{ url('posts', $item->id) }}" class="" data-ajax="false">
                                                  <span class="game_date">{{$game_date}}</span><br/>
                                                  <br/>
                                                  <div class="thumb-size" > <img style="max-width:100%  !important; height:auto; display:inline;" src="images/{!! 'thmb-'.$item->imgPath !!}" title="sample"/></div>
