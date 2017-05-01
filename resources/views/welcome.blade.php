@@ -442,7 +442,6 @@
 
     .orangose_blog-mini {
         text-align: center;
-        white-space: normal !important;
 
     }
 
@@ -451,7 +450,7 @@
 
        span.p_blog-mini {
             font-size: .8em;
-            text-shadow: none;
+
         }
     }
 </style>
