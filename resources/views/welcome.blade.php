@@ -59,7 +59,7 @@
                                                  {{$game_date}}<br/>
                                                  <br/>
                                                  <div class="thumb-size" > <img style="max-width:100%  !important; height:auto; display:inline;" src="images/{!! 'thmb-'.$item->imgPath !!}" title="sample"/></div>
-                                                 <h3><span style="color: orange;@media screen and (max-width:500px){orangose_blog-mini {font-size:.7em;}}" class="orangose_blog-mini">{!! $item->title !!}</span> </h3>
+                                                 <h3><span style="color: orange; @media screen and (max-width:500px){orangose_blog-mini {font-size:.7em;}}" class="orangose_blog-mini">{!! $item->title !!}</span> </h3>
                                                  <p>{!! str_limit($item->body, $limit = 35, $end = '...') !!}</p>
                                              </a></li>
 
