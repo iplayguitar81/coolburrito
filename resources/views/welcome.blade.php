@@ -424,6 +424,14 @@
 <style>
 
 
+
+
+
+    .ui-navbar li:last-child .ui-btn {
+         margin-right: 0px;
+    }
+
+
     span.p_blog-mini p {
 
         text-align:center;
