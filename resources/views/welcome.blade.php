@@ -432,6 +432,8 @@
 
     }
 
+    .orangose_blog-mini { text-align: center; }
+
     @media (max-width: 500px) {
         .orangose_blog-mini { font-size: .7em; }
 
