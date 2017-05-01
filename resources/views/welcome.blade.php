@@ -60,7 +60,7 @@
                                                  <br/>
                                                  <div class="thumb-size" > <img style="max-width:100%  !important; height:auto; display:inline;" src="images/{!! 'thmb-'.$item->imgPath !!}" title="sample"/></div>
                                                  <h3><span style="color: orange;" class="orangose_blog-mini">{!! $item->title !!}</span> </h3>
-                                                 <p>{!! str_limit($item->body, $limit = 35, $end = '...') !!}</p>
+                                                 <p class="p_blog-mini">{!! str_limit($item->body, $limit = 35, $end = '...') !!}</p>
                                              </a></li>
 
 
@@ -424,7 +424,11 @@
 <style>
 
     @media (max-width: 500px) {
-        .orangose_blog-mini { font-size: .7em; }
+        .orangose_blog-mini { font-size: .65em; }
+
+        .p_blog-mini {
+            font-size: .7em;
+        }
     }
 </style>
     <!-- jQuery library (served from Google) -->
