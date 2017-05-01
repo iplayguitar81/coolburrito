@@ -428,7 +428,8 @@
 
 
     .ui-navbar li:last-child .ui-btn {
-         margin-right: 0px;
+         margin-right:0;
+        height:auto;
     }
 
 
