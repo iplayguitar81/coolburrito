@@ -431,7 +431,11 @@
 
     }
 
-    .orangose_blog-mini { text-align: center; }
+    .orangose_blog-mini {
+        text-align: center;
+        white-space: normal !important;
+
+    }
 
     @media (max-width: 500px) {
         .orangose_blog-mini { font-size: .7em; }
