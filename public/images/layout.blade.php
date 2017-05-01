@@ -173,9 +173,7 @@
         }
 
 
-        .orangose_blog-mini { color: black !important;
 
-        }
 
 
 
