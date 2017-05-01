@@ -424,10 +424,10 @@
 <style>
 
     @media (max-width: 500px) {
-        .orangose_blog-mini { font-size: .65em; }
+        .orangose_blog-mini { font-size: .7em; }
 
        span.p_blog-mini {
-            font-size: .7em;
+            font-size: .8em;
             text-shadow: none;
         }
     }
