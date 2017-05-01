@@ -60,7 +60,7 @@
                                                  <br/>
                                                  <div class="thumb-size" > <img style="max-width:100%  !important; height:auto; display:inline;" src="images/{!! 'thmb-'.$item->imgPath !!}" title="sample"/></div>
                                                  <h3><span style="color: orange;" class="orangose_blog-mini">{!! $item->title !!}</span> </h3>
-                                                 <span class="p_blog-mini"><p>{!!   str_limit($strip, $limit = 150, $end = '...') !!}</p></span>
+                                                 <span class="p_blog-mini"><p>{!!   str_limit($strip, 10, $end = '...') !!}</p></span>
                                              </a></li>
 
 
