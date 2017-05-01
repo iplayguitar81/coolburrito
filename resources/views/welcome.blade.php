@@ -442,7 +442,7 @@
 
     .orangose_blog-mini {
         text-align: center;
-        white-space: normal !important;
+
 
     }
 
