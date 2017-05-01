@@ -427,6 +427,7 @@
     span.p_blog-mini {
 
         text-align:justify;
+        width:85%;
 
 
     }
