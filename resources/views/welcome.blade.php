@@ -463,6 +463,10 @@
 
     @media (max-width: 565px) {
 
+        span.game_date {
+            font-size: .9em;
+        }
+
         ul.blog-mini-li {  display:block;
 
         }
