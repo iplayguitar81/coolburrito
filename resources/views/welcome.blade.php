@@ -463,7 +463,7 @@
 
     @media (max-width: 565px) {
 
-        ul.blog-mini-li { height:213px; line-height: 65%;
+        ul.blog-mini-li { display:flex; line-height: 65%;
 
         }
 
