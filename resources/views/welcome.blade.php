@@ -467,6 +467,10 @@
 
         }
 
+        ul.blog-mini-li li { height:213px;
+
+        }
+
         .orangose_blog-mini { font-size: .7em; }
 
        span.p_blog-mini {
