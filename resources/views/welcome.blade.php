@@ -64,7 +64,7 @@
 
                                                              {{  $item->title }}
 
-                                                         @endforeach
+                                                         @endif
 
 
                                                      </span> </h3>
