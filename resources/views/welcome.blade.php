@@ -55,7 +55,7 @@
                                      <div class="ui-block-a">
 
 
-                                         <li class="blog-mini-li" style=""><a href="{{ url('posts', $item->id) }}" class="" data-ajax="false">
+                                         <li class="blog-mini-li" style=""><a href="{{ url('posts', $item->id) }}" class="blog-mini-li" data-ajax="false">
                                                  <span class="game_date">{{$game_date}}</span><br/>
                                                  <br/>
                                                  <div class="thumb-size" > <img style="max-width:100%  !important; height:auto; display:inline;" src="images/{!! 'thmb-'.$item->imgPath !!}" title="sample"/></div>
@@ -63,6 +63,7 @@
                                                          @if(strlen($item->title < 2 ))
 
                                                              {{  $item->title }}
+
 
                                                          @endif
 
@@ -457,7 +458,7 @@
 
     @media (max-width: 500px) {
 
-        li.blog-mini-li {
+        a.blog-mini-li {
             height: 212.75px;
         }
 
