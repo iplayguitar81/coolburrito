@@ -463,7 +463,7 @@
 
     @media (max-width: 500px) {
 
-        a.blog-mini-li {
+        ul.blog-mini-li { height:213px;
 
         }
 
