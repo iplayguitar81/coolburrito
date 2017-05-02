@@ -60,18 +60,17 @@
                                                  <br/>
                                                  <div class="thumb-size" > <img style="max-width:100%  !important; height:auto; display:inline;" src="images/{!! 'thmb-'.$item->imgPath !!}" title="sample"/></div>
                                                  <h3><span style="color: orange;" class="orangose_blog-mini">{{  $item->title }}
-                                                         {{--@if(strlen($item->title) <= 25)--}}
+                                                         @if(strlen($item->title) <= 25)
 
-                                                             {{--{{  $item->title }}--}}
-
-
-                                                             {{--@else--}}
-                                                             {{--{{  $item->title }}--}}
-                                                             {{--<br/>--}}
-                                                             {{--<br/>--}}
+                                                             {{  $item->title }}
 
 
-                                                         {{--@endif--}}
+                                                             @else
+                                                             {{  $item->title }}&nbsp;&nbsp;
+
+
+
+                                                         @endif
 
 
                                                      </span> </h3>
