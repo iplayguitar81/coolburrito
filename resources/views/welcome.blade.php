@@ -60,7 +60,7 @@
                                                  <br/>
                                                  <div class="thumb-size" > <img style="max-width:100%  !important; height:auto; display:inline;" src="images/{!! 'thmb-'.$item->imgPath !!}" title="sample"/></div>
                                                  <h3><span style="color: orange;" class="orangose_blog-mini">
-                                                         @if(strlen($item->title) <= 5))
+                                                         @if(strlen($item->title) <= 12))
 
                                                              {{  $item->title }}
 
