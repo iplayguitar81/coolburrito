@@ -65,6 +65,10 @@
                                                              {{  $item->title }}
 
 
+                                                             @else
+                                                             {{  $item->title }}
+                                                             <br/>
+
                                                          @endif
 
 
