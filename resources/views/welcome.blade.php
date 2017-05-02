@@ -463,6 +463,12 @@
 
     @media (max-width: 565px) {
 
+
+        .ui-li-desc {
+            overflow: visible !important;
+            white-space: normal !important;
+        }
+
         span.game_date {
             font-size: .9em;
         }
