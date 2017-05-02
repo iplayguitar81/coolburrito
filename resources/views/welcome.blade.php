@@ -67,7 +67,7 @@
 
                                                              @else
 
-                                                             {{  $item->title +'nbsp;nbsp;' }}
+                                                             {{  $item->title +'nbsp;nbsp;nbsp;nbsp;' }}
 
 
                                                          @endif
