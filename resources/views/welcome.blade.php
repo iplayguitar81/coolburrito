@@ -465,8 +465,7 @@
 
 
         .ui-li-desc {
-            overflow: visible !important;
-            white-space: normal !important;
+
         }
 
         span.game_date {
@@ -477,9 +476,9 @@
 
         }
 
-        ul.blog-mini-li li { height: 213px;
-            min-height: 213px;
-            overflow:auto;
+        ul.blog-mini-li li {
+            overflow: visible !important;
+            white-space: normal !important;
 
         }
 
