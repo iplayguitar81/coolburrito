@@ -463,7 +463,7 @@
 
     @media (max-width: 565px) {
 
-        ul.blog-mini-li {  display:flex;
+        ul.blog-mini-li {  display:inline-grid;
 
         }
 
