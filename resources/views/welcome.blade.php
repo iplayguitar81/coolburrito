@@ -459,7 +459,7 @@
     @media (max-width: 500px) {
 
         a.blog-mini-li {
-            height: 212.75px;
+           border: none;
         }
 
         .orangose_blog-mini { font-size: .7em; }
