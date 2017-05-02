@@ -461,7 +461,7 @@
 
     }
 
-    @media (max-width: 500px) {
+    @media (max-width: 565px) {
 
         ul.blog-mini-li { height:213px;
 
@@ -471,7 +471,7 @@
 
         }
 
-        .orangose_blog-mini { font-size: .7em; }
+        .orangose_blog-mini { font-size: .7em; line-height: 65%; }
 
        span.p_blog-mini {
             font-size: .8em;
