@@ -34,7 +34,7 @@
                              @endphp
 
 
-                         <ul data-role="listview" style="" data-inset="true">
+                         <ul class="blog-mini-li" data-role="" style="" data-inset="true">
 
 
                          @foreach($posts as $item)
