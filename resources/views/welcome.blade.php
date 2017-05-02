@@ -34,7 +34,7 @@
                              @endphp
 
 
-                         {{--<ul class="blog-mini-li" data-role="" style="" data-inset="true">--}}
+                         <ul class="blog-mini-li" data-role="" style="" data-inset="true">
 
 
                          @foreach($posts as $item)
@@ -55,8 +55,7 @@
                                      <div class="ui-block-a">
 
 
-                                         <li class="blog-mini-li" style="">
-                        <a href="{{ url('posts', $item->id) }}" class="blog-mini-li" data-ajax="false">
+                                         <li class="blog-mini-li" style=""><a href="{{ url('posts', $item->id) }}" class="blog-mini-li" data-ajax="false">
                                                  <span class="game_date">{{$game_date}}</span><br/>
                                                  <br/>
                                                  <div class="thumb-size" > <img style="max-width:100%  !important; height:auto; display:inline;" src="images/{!! 'thmb-'.$item->imgPath !!}" title="sample"/></div>
@@ -141,7 +140,7 @@
                              {{--<br/>--}}
 
                          @endforeach
-                        {{--</ul>--}}
+                        </ul>
 
 
 
