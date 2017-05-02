@@ -55,7 +55,7 @@
                                      <div class="ui-block-a">
 
 
-                                         <li style=""><a href="{{ url('posts', $item->id) }}" class="" data-ajax="false">
+                                         <li class="blog-mini-li" style=""><a href="{{ url('posts', $item->id) }}" class="" data-ajax="false">
                                                  <span class="game_date">{{$game_date}}</span><br/>
                                                  <br/>
                                                  <div class="thumb-size" > <img style="max-width:100%  !important; height:auto; display:inline;" src="images/{!! 'thmb-'.$item->imgPath !!}" title="sample"/></div>
@@ -456,6 +456,11 @@
     }
 
     @media (max-width: 500px) {
+
+        li.blog-mini-li {
+            height: 212.75px;
+        }
+
         .orangose_blog-mini { font-size: .7em; }
 
        span.p_blog-mini {
