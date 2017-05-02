@@ -52,7 +52,7 @@
 
 
                                  <div class="ui-grid-solo">
-                                     <div class="ui-block-a">
+                                     <div class="ui-block-c">
 
 
                                          {{--<li class="blog-mini-li" style="">--}}
