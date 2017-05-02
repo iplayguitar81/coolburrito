@@ -66,7 +66,7 @@
 
 
                                                              @else
-                                                             {{  $item->title."&nbsp;&nbsp;" }}
+
 
 
 
