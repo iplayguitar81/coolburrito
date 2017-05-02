@@ -60,7 +60,7 @@
                                                  <br/>
                                                  <div class="thumb-size" > <img style="max-width:100%  !important; height:auto; display:inline;" src="images/{!! 'thmb-'.$item->imgPath !!}" title="sample"/></div>
                                                  <h3><span style="color: orange;" class="orangose_blog-mini">
-                                                         @if(strlen($item->title < 2 ))
+                                                         @if(strlen($item->title) <= 5))
 
                                                              {{  $item->title }}
 
@@ -459,7 +459,7 @@
     @media (max-width: 500px) {
 
         a.blog-mini-li {
-           border: none;
+
         }
 
         .orangose_blog-mini { font-size: .7em; }
