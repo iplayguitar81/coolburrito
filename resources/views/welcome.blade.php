@@ -467,8 +467,8 @@
 
         }
 
-        ul.blog-mini-li li { height: 150px;
-            min-height: 150px;
+        ul.blog-mini-li li { height: 213px;
+            min-height: 213px;
             overflow:auto;
 
         }
