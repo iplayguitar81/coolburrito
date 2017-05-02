@@ -472,7 +472,7 @@
         }
 
         .orangose_blog-mini {
-            /*font-size: .7em;*/
+            font-size: .8em;
         }
 
        span.p_blog-mini {
