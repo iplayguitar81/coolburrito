@@ -474,7 +474,8 @@
 
         ul.blog-mini-li {
 
-            /*display:block;*/
+            display: table-cell;
+            vertical-align: top;
 
         }
 
