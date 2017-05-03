@@ -502,6 +502,8 @@
 
     <script>
 
+        $(document).ready(function(){
+
         var tallest = 0;
         $('.ui-grid-b > div').each(function() {
             var thisHeight = $(this).height();
@@ -510,6 +512,9 @@
             }
         });
         $('.ui-grid-b .ui-bar').height(tallest);
+
+        });
+
 
     </script>
 
