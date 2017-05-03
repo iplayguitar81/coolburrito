@@ -442,7 +442,12 @@
 
 
 
-
+    .ui-navbar li .ui-btn {
+        font-size: .7em !important;
+        display: block;
+        margin: 0;
+        border-right-width: 0;
+    }
 
     span.p_blog-mini p {
 
