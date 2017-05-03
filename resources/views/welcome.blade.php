@@ -500,4 +500,17 @@
     {{--<script src="js/jquery.glide.js"></script>--}}
 
 
+    <script>
+
+        var tallest = 0;
+        $('.ui-grid-b > div').each(function() {
+            var thisHeight = $(this).height();
+            if(thisHeight > tallest) {
+                tallest = thisHeight;
+            }
+        });
+        $('.ui-grid-b .ui-bar').height(tallest);
+
+    </script>
+
 @endsection
