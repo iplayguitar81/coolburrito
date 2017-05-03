@@ -440,6 +440,9 @@
 
 
 
+img.mini-blog-img {
+    border: 1px orange solid;
+}
 
 
 
