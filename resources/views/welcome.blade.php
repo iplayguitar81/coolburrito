@@ -505,7 +505,7 @@
         $(document).ready(function(){
 
         var tallest = 0;
-        $('.ui-grid-b > div').each(function() {
+        $('.blog-mini-li > li').each(function() {
             var thisHeight = $(this).height();
             if(thisHeight > tallest) {
                 tallest = thisHeight;
