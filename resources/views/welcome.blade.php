@@ -441,10 +441,7 @@
 
 
 
-    .ui-navbar li:last-child .ui-btn {
-         margin-right:0;
-        height:auto;
-    }
+
 
 
     span.p_blog-mini p {
@@ -474,8 +471,7 @@
 
         ul.blog-mini-li {
 
-            display: table-cell;
-            vertical-align: top;
+
 
         }
 
