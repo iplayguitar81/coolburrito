@@ -477,8 +477,8 @@
         }
 
         ul.blog-mini-li li {
-            overflow: visible !important;
-            white-space: normal !important;
+            /*overflow: visible !important;*/
+            /*white-space: normal !important;*/
 
         }
 
