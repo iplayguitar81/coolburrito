@@ -471,7 +471,7 @@
         }
 
         span.game_date {
-            font-size: .9em;
+            font-size: .7em;
         }
 
         ul.blog-mini-li {
