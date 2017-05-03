@@ -472,7 +472,9 @@
             font-size: .9em;
         }
 
-        ul.blog-mini-li {  display:block;
+        ul.blog-mini-li {
+
+            /*display:block;*/
 
         }
 
