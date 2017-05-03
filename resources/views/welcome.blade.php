@@ -502,18 +502,18 @@
 
     <script>
 
-        $(document).ready(function(){
-
-        var tallest = 0;
-        $('.blog-mini-li').each(function() {
-            var thisHeight = $(this).height();
-            if(thisHeight > tallest) {
-                tallest = thisHeight;
-            }
-        });
-        $('.blog-mini-li').height(tallest);
-
-        });
+//        $(document).ready(function(){
+//
+//        var tallest = 0;
+//        $('.blog-mini-li').each(function() {
+//            var thisHeight = $(this).height();
+//            if(thisHeight > tallest) {
+//                tallest = thisHeight;
+//            }
+//        });
+//        $('.blog-mini-li').height(tallest);
+//
+//        });
 
 
     </script>
