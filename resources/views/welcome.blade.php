@@ -461,7 +461,7 @@
 
     }
 
-    @media (max-width: 565px) {
+    @media (max-width: 579px) {
 
 
         .ui-li-desc {
@@ -485,7 +485,7 @@
         }
 
         .orangose_blog-mini {
-            font-size: .8em;
+            font-size: .7em;
         }
 
        span.p_blog-mini {
