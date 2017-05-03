@@ -57,7 +57,7 @@
 
                                          <li class="blog-mini-li" style=""><a href="{{ url('posts', $item->id) }}" class="blog-mini-li" data-ajax="false">
 
-                                                 <div class="thumb-size" > <img style="max-width:100%  !important; height:auto; display:inline;" src="images/{!! 'thmb-'.$item->imgPath !!}" title="sample"/></div>
+                                                 <div class="thumb-size" > <img class="mini-blog-img" style="max-width:100%  !important; height:auto; display:inline;" src="images/{!! 'thmb-'.$item->imgPath !!}" title="sample"/></div>
                                                  <br/>
                                                  <span class="game_date">{{$game_date}}</span>
                                                  <h3><span style="color: orange;" class="orangose_blog-mini">
