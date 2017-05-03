@@ -511,7 +511,7 @@
                 tallest = thisHeight;
             }
         });
-        $('.ui-grid-b .ui-bar').height(tallest);
+        $('.blog-mini-li').height(tallest);
 
         });
 
