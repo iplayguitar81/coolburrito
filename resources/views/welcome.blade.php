@@ -445,7 +445,9 @@ img.mini-blog-img {
     max-width:100%  !important; height:auto; display:inline;
 }
 
-
+.ui-mobile a img, .ui-mobile fieldset {
+    border-width: 1px;
+}
 
     .ui-navbar li .ui-btn {
         font-size: .7em !important;
