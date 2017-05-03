@@ -450,7 +450,7 @@
     span.p_blog-mini p {
 
         text-align:center;
-        white-space: normal !important;
+        /*white-space: normal !important;*/
 
     }
 
