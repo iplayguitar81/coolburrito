@@ -241,10 +241,9 @@
 
 
     }
-    img.article-gallery-header-img {
+   .article-gallery-header-img {
 
-        margin-left: auto;
-        margin-right: auto;
+        text-align:center;
     }
 
 
