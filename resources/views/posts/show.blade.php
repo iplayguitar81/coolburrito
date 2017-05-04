@@ -237,9 +237,13 @@
         overflow: hidden;
     }
 
+    #about_us_words{
+        background-color:#323333;
+    }
+
 
     .show-article {
-        background-color:#323333;
+
     }
     .show-main-img {
         border: 1px solid orange;
