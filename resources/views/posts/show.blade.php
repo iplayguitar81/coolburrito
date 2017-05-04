@@ -242,7 +242,9 @@
     #about_us_words{
         background-color:#323333;
     }
-
+#wrappa2{
+    background-color:#323333;
+}
 
     .article-texterson2 {
         width: 80%;
