@@ -238,6 +238,10 @@
     }
 
 
+    .center-block {
+        background-color:silver;
+    }
+
     .contact_header,.contact_header2{font-variant:small-caps;
         font-size: 2em !important;
         text-align:center;
