@@ -184,6 +184,7 @@
     .owl-carousel li img {
         border-radius:.5em;
         transition:transform .15s ease-out;
+        border: 1px orange solid;
     }
     .owl-carousel li img:hover {
         transform:scale(.98, .98);
