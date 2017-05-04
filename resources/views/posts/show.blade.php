@@ -73,7 +73,7 @@
        <div class="article-texterson2"> {!! ($post->body) !!} </div>
             @if(($post->images->count() > 0 ))
             <div class="container">
-                <h2 class='Bebas'><img class='article-gallery-header-img' src="/images/article-gallery.png" alt="article gallery" /></h2>
+                <img class='article-gallery-header-img' src="/images/article-gallery.png" alt="article gallery" />
                     <br/>
                 {{--<div class="customNavigation">--}}
                 {{--<a class="btn prev btn-danger">Previous</a>--}}
