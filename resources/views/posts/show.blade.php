@@ -236,6 +236,11 @@
         width: 1px;
         overflow: hidden;
     }
+
+
+    .contact_header {
+        font-size:2em;
+    }
 </style>
 
 
