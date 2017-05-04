@@ -134,6 +134,8 @@
             </div>
         </div>
 
+        <br/>
+        <br/>
 
         <div data-role="footer" style="overflow:hidden;" data-theme="b" data-tap-toggle="false">
             <span class="credit">checkenginefree.com &copy; 2017</span>
@@ -233,7 +235,7 @@
     }
 
     .show-main-img {
-        border: 1px solid orange;
+        border: 1px solid #ff9000;
     }
 
     .contact_header,.contact_header2{font-variant:small-caps;
