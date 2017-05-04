@@ -126,6 +126,9 @@
     </a>
 
 
+        <br/>
+        <br/>
+
 </div>
 
     </div>
@@ -134,8 +137,7 @@
             </div>
         </div>
 
-        <br/>
-        <br/>
+
 
         <div data-role="footer" style="overflow:hidden;" data-theme="b" data-tap-toggle="false">
             <span class="credit">checkenginefree.com &copy; 2017</span>
