@@ -266,8 +266,8 @@
     }
     .article-gallery-header-img {
 
-        margin-left:auto;
-        margin-right:auto;
+        margin-left: 40%;
+        margin-right: 40%;
     }
 
 </style>
