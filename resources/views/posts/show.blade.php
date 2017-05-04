@@ -39,7 +39,7 @@
             <div class="row">
     <div class="">
 
-    <article class="center-block">
+    <article class="show-article center-block">
         <h2 class="contact_header">{{$post->title}}</h2>
         <p class="subheader-main Bebas">{{ $post->subHead}}</p>
 
@@ -238,7 +238,7 @@
     }
 
 
-    .center-block {
+    .show-article {
         background-color:#FFFFFF;
     }
 
