@@ -238,10 +238,15 @@
     }
 
 
-    .contact_header,.contact_header2{font-size: 2em !important;text-align:center;color:#ff9000;text-shadow:2px 2px #bb2103}
+    .contact_header,.contact_header2{font-variant:small-caps;
+        font-size: 2em !important;
+        text-align:center;
+        color:#ff9000;
+        text-shadow:2px 2px #bb2103;}
 
     .subheader-main {
         text-align:center;
+
 
     }
 </style>
