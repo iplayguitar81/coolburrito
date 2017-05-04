@@ -111,7 +111,7 @@
 
     <div class="">
 
-        <h2 class="text-center Bebas" >leave a facebook comment!</h2>
+        <h2 class="facebook-comment-header text-center Bebas" >leave a facebook comment!</h2>
         <div class="fb-comments center-block" data-href="https://level3.checkenginefree.com/posts/{{$post->id}}/{{str_slug($post->title)}}" data-numposts="10"></div>
 
         <br/>
@@ -271,6 +271,11 @@
 
         margin-left: auto;
         margin-right: auto;
+    }
+
+
+    .facebook-comment-header {
+    color: orange;
     }
 
 </style>
