@@ -154,14 +154,10 @@
     @import "https://cdnjs.cloudflare.com/ajax/libs/dropzone/4.3.0/min/dropzone.min.css";
     @import "{{url('/css/default-skin.css')}}";
     @import "{{url('/css/lightslider.css')}}";
-    {{--getting this part right........ among files to remove after figuring out right gallery sitch:--}}
-     {{--@import "{{url('/css/slick.css')}}";--}}
-    {{--@import "{{url('/css/slick-theme.css')}}";--}}
-    {{--@import "{{url('/css/slick-theme.css')}}";--}}
+
     @import "{{url('/css/owl.carousel.css')}}";
     @import "{{url('/css/owl.theme.css')}}";
     @import "{{url('/css/photoswipe.css')}}";
-    @import "//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css";
     @import "//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css";
     @import "//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css";
     @import "https://cdnjs.cloudflare.com/ajax/libs/bootswatch/3.3.6/fonts/glyphicons-halflings-regular.woff";
@@ -181,28 +177,7 @@
         float: left;
         padding-right: 10px;
     }
-    /*#owl-demo .item{*/
-    /*margin: 3px;*/
-    /*width: 80%;*/
-    /*margin-left:10%;*/
-    /*margin-right:10%;*/
-    /*}*/
-    /*#owl-demo .item img{*/
-    /*display: block;*/
-    /*width: 100%;*/
-    /*!*height: auto;*!*/
-    /*}*/
-    /*.customNavigation{*/
-    /*text-align: center;*/
-    /*}*/
-    /*.customNavigation a{*/
-    /*-webkit-user-select: none;*/
-    /*-khtml-user-select: none;*/
-    /*-moz-user-select: none;*/
-    /*-ms-user-select: none;*/
-    /*user-select: none;*/
-    /*-webkit-tap-highlight-color: rgba(0, 0, 0, 0);*/
-    /*}*/
+
     .owl-carousel li {
         list-style:none;
         margin-right: .3em;
