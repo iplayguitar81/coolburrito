@@ -122,7 +122,7 @@
    &nbsp;
     <a href="{{url('/')}}" data-ajax="false">
 
-        <button type="submit" class="btn btn-danger center-block btn-md" >Back to Map</button>
+        <button type="submit" data-theme="a" class="btn btn-danger center-block btn-md" >Back to Map</button>
     </a>
 
 
