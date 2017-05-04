@@ -1,3 +1,6 @@
+{{--@extends('layout')--}}
+
+
 <div id="fb-root"></div>
 <div id="fb-root"></div>
 <script>(function(d, s, id) {
