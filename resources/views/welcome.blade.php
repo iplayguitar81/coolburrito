@@ -75,7 +75,7 @@
 
 
                                                      </span> </h3>
-                                                 <span class="p_blog-mini"><p>{!!   str_limit($strip, 10, $end = '...') !!}</p></span>
+                                                 <span class="p_blog-mini"><p>{!!   str_limit($strip, 20, $end = '...') !!}</p></span>
                                              </a></li>
 
 
@@ -459,7 +459,7 @@ img.mini-blog-img {
     span.p_blog-mini p {
 
         text-align:center;
-        /*white-space: normal !important;*/
+        white-space: normal !important;
 
     }
 
