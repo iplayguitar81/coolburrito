@@ -242,9 +242,12 @@
     }
 
 
-    .show-article {
-
+    .article-texterson2 {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
     }
+
     .show-main-img {
         border: 1px solid orange;
     }
