@@ -267,7 +267,7 @@
 
 
     }
-    .article-gallery-header-img {
+    img.article-gallery-header-img {
 
         margin-left: auto;
         margin-right: auto;
