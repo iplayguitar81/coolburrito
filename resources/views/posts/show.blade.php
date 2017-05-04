@@ -242,7 +242,7 @@
         font-size: 2em !important;
         text-align:center;
         color:#ff9000;
-        text-shadow:2px 2px #bb2103;}
+        text-shadow: 2px 2px navajowhite !important;}
 
     .subheader-main {
         text-align:center;
