@@ -117,7 +117,7 @@
 
     <a href="{{url('/news')}}" data-ajax="false">
 
-        <button type="submit" class="btn btn-primary center-block btn-md" >Back to All Posts</button>
+        <button type="submit" data-theme="a" class="btn btn-primary center-block btn-md" >Back to All Posts</button>
     </a>
    &nbsp;
     <a href="{{url('/')}}" data-ajax="false">
