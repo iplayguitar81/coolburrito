@@ -117,12 +117,12 @@
 
     <a href="{{url('/news')}}" data-ajax="false">
 
-        <button type="submit" data-theme="a" class="btn btn-primary center-block btn-md" >Back to All Posts</button>
+        <button type="submit" data-theme="a" class="btn btn-primary center-block btn-md"> <span class="orangose3">Back to All Posts</span> </button>
     </a>
    &nbsp;
     <a href="{{url('/')}}" data-ajax="false">
 
-        <button type="submit" data-theme="a" class="btn btn-danger center-block btn-md" >Back to Map</button>
+        <button type="submit" data-theme="a" class="btn btn-danger center-block btn-md"> <span class="orangose3">Back to Map</span> </button>
     </a>
 
 
