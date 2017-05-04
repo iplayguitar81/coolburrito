@@ -162,7 +162,7 @@
     @import "https://cdnjs.cloudflare.com/ajax/libs/bootswatch/3.3.6/fonts/glyphicons-halflings-regular.woff";
 
     .ui-mobile a img, .ui-mobile fieldset {
-         border-width: 1px;
+         border-width: 1px !important;
     }
 
     #gallery-images img {
