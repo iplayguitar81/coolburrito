@@ -239,7 +239,7 @@
 
 
     .show-article {
-        background-color:#FFFFFF;
+        background-color:#ff9000;
     }
 
     .contact_header,.contact_header2{font-variant:small-caps;
