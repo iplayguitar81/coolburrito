@@ -60,7 +60,7 @@
                                                  <div class="thumb-size" > <img class="mini-blog-img" style="" src="images/{!! 'thmb-'.$item->imgPath !!}" title="sample"/></div>
                                                  <br/>
                                                  <span class="game_date">{{$game_date}}</span>
-                                                 <h3><span style="color: orange;" class="orangose_blog-mini">
+                                                 <h3><span style="color: #ff9000;" class="orangose_blog-mini">
                                                          @if(strlen($item->title) <= 25)
 
                                                              {{  $item->title }}
@@ -441,7 +441,7 @@
 
 
 img.mini-blog-img {
-    border: 1px orange solid;
+    border: 1px #ff9000 solid;
     max-width:100%  !important; height:auto; display:inline;
 }
 
