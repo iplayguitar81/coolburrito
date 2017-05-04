@@ -238,9 +238,7 @@
     }
 
 
-    .contact_header {
-        font-size:2em;
-    }
+    .contact_header,.contact_header2{font-size: 2em !important;text-align:center;color:#ff9000;text-shadow:2px 2px #bb2103}
 </style>
 
 
