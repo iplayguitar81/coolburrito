@@ -73,7 +73,7 @@
             @if(($post->images->count() > 0 ))
             <div class="container">
 
-                <p class="article-gallery-header-img"><img class="" src="/images/article-gallery.png" alt="article gallery" /></p>
+                <div class="article-gallery-header-img"><img class="" src="/images/article-gallery.png" alt="article gallery" /></div>
                     <br/>
                 {{--<div class="customNavigation">--}}
                 {{--<a class="btn prev btn-danger">Previous</a>--}}
