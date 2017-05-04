@@ -239,7 +239,7 @@
 
 
     .center-block {
-        background-color:#737373;
+        background-color:#FFFFFF;
     }
 
     .contact_header,.contact_header2{font-variant:small-caps;
