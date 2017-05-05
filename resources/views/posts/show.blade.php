@@ -108,7 +108,7 @@
     </div>
                 <hr>
 
-    <div class="">
+    <div class="facebook-section-comments">
 
         <h2 class="facebook-comment-header text-center Bebas" >leave a facebook comment!</h2>
         <div class="fb-comments center-block" data-href="https://level3.checkenginefree.com/posts/{{$post->id}}/{{str_slug($post->title)}}" data-numposts="10"></div>
@@ -263,6 +263,11 @@
 
     .facebook-comment-header {
     color: orange;
+    }
+
+    .facebook-section-comments {
+        background-color: #606060;
+
     }
 
 </style>
