@@ -262,7 +262,7 @@
 
 
     .facebook-comment-header {
-    color: orange;
+    color: #3c55a2;
     }
 
     .facebook-section-comments {
