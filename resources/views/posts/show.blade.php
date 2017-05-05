@@ -113,9 +113,11 @@
         <h2 class="facebook-comment-header text-center Bebas" >leave a facebook comment!</h2>
         <div class="fb-comments center-block" data-href="https://level3.checkenginefree.com/posts/{{$post->id}}/{{str_slug($post->title)}}" data-numposts="10"></div>
 
-        <br/>
+
 
     </div>
+                <br/>
+                <br/>
 
     <a href="{{url('/news')}}" data-ajax="false">
 
