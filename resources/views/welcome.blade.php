@@ -55,7 +55,7 @@
                                      <div class="ui-block-a">
 
 
-                                         <li class="blog-mini-li" style=""><a href="{{ url('posts', $item->id) }}" class="blog-mini-li" data-ajax="false">
+                                         <li class="blog-mini-li" style=""><a href="{{ route('posts.show', [$item->id, str_slug($item->title)]) }}">{{ $item->title }}" class="blog-mini-li" data-ajax="false">
 
                                                  <div class="thumb-size" > <img class="mini-blog-img" style="" src="images/{!! 'thmb-'.$item->imgPath !!}" title="sample"/></div>
                                                  <br/>
