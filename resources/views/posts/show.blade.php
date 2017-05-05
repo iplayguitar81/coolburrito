@@ -266,7 +266,7 @@
     }
 
     .facebook-section-comments {
-        background-color: #606060;
+        background-color: #bdc3c4;
 
     }
 
