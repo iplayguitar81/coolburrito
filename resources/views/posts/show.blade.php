@@ -263,6 +263,7 @@
 
     .facebook-comment-header {
     color: #3c55a2;
+        text-align:center;
     }
 
     .facebook-section-comments {
