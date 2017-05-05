@@ -46,24 +46,11 @@
                     </div>
                     <hr>
 
-                    <div class="facebook-section-comments">
 
-                        <h2 class="facebook-comment-header text-center Bebas" >leave a facebook comment!</h2>
-                        <div class="fb-comments center-block" data-href="https://level3.checkenginefree.com/posts/{{$post->id}}/{{str_slug($post->title)}}" data-numposts="10"></div>
-
-
-
-                    </div>
-                    <hr>
 
                     <br/>
                     <br/>
 
-                    <a href="{{url('/news')}}" data-ajax="false">
-
-                        <button type="submit" data-theme="a" class="btn btn-primary center-block btn-md"> <span class="orangose3">Back to All Posts</span> </button>
-                    </a>
-                    &nbsp;
                     <a href="{{url('/')}}" data-ajax="false">
 
                         <button type="submit" data-theme="a" class="btn btn-danger center-block btn-md"> <span class="orangose3">Back to Map</span> </button>
