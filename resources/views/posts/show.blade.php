@@ -238,7 +238,9 @@
 
     .show-main-img {
         border: 1px solid #ff9000;
+        max-width:100%  !important; height:auto; display:inline;
     }
+
 
     .contact_header,.contact_header2{font-variant:small-caps;
         font-size: 2em !important;
