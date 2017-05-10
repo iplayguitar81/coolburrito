@@ -65,7 +65,7 @@
             <li><a href="http://www.reddit.com/submit?url=https%3A%2F%2Flevel3.checkenginefree.com&title=" target="_blank" title="Submit to Reddit" onclick="window.open('http://www.reddit.com/submit?url=' + encodeURIComponent(document.URL) + '&title=' +  encodeURIComponent(document.title)); return false;"><img alt="Submit to Reddit" src="{{url('images/Reddit.png')}}"></a></li>
         </ul>
         <br/>
-        <p class="uk-article-lead"><img style="text-align:center;margin-left:auto;margin-right:auto;display:block;"class="show-main-img img-responsive center-block" src='{{"../../images/". $post->imgPath}}'></p>
+        <p class="uk-article-lead"><img style="text-align:center;margin-left:auto;margin-right:auto;display:block;"class="show-main-img center-block" src='{{"../../images/". $post->imgPath}}'></p>
 
         <br/>
         <div class="center-block text-center">
@@ -90,7 +90,7 @@
 
                         {{--*/ $thumb_path= substr($image->file_path, 7);/*--}}
                         <li class="owl-trick">
-                            <a href="{{url($image->file_path)}}"  data-size="{{$dimensions}}" data-title="{{$image->caption}}">
+                            <a href="{{url($image->file_path)}}" data-ajax="false"  data-size="{{$dimensions}}" data-title="{{$image->caption}}">
                                 <img class="img-responsive" src="{{url('images/thmb-'.$thumb_path)}}" alt="1"></a></li>
                     @endforeach
 
@@ -108,28 +108,34 @@
     </div>
                 <hr>
 
-    <div class="">
+    <div class="facebook-section-comments">
 
         <h2 class="facebook-comment-header text-center Bebas" >leave a facebook comment!</h2>
         <div class="fb-comments center-block" data-href="https://level3.checkenginefree.com/posts/{{$post->id}}/{{str_slug($post->title)}}" data-numposts="10"></div>
 
-        <br/>
+
+
+    </div>
+                <hr>
+
+                <br/>
+                <br/>
 
     <a href="{{url('/news')}}" data-ajax="false">
 
-        <button type="submit" class="btn btn-primary center-block btn-md" >Back to All Posts</button>
+        <button type="submit" data-theme="a" class="btn btn-primary center-block btn-md"> <span class="orangose3">Back to All Posts</span> </button>
     </a>
    &nbsp;
     <a href="{{url('/')}}" data-ajax="false">
 
-        <button type="submit" class="btn btn-danger center-block btn-md" >Back to Map</button>
+        <button type="submit" data-theme="a" class="btn btn-danger center-block btn-md"> <span class="orangose3">Back to Map</span> </button>
     </a>
 
 
         <br/>
         <br/>
 
-</div>
+
 
     </div>
 
@@ -169,38 +175,38 @@
          border-width: 1px !important;
     }
 
-    #gallery-images img {
-        width: 240px;
-        height: 160px;
-        border: 2px solid black;
-        margin-bottom: 10px;
-    }
-    #gallery-images ul {
-        margin: 0;
-    }
-    #gallery-images li {
-        margin: 0;
-        padding: 0;
-        list-style: none;
-        float: left;
-        padding-right: 10px;
-    }
+    /*#gallery-images img {*/
+        /*width: 240px;*/
+        /*height: 160px;*/
+        /*border: 2px solid black;*/
+        /*margin-bottom: 10px;*/
+    /*}*/
+    /*#gallery-images ul {*/
+        /*margin: 0;*/
+    /*}*/
+    /*#gallery-images li {*/
+        /*margin: 0;*/
+        /*padding: 0;*/
+        /*list-style: none;*/
+        /*float: left;*/
+        /*padding-right: 10px;*/
+    /*}*/
 
-    .owl-carousel li {
-        list-style:none;
-        margin-right: .3em;
-    }
-    .owl-carousel li img {
-        border-radius:.5em;
-        transition:transform .15s ease-out;
-        border: 1px orange solid;
-    }
-    .owl-carousel li img:hover {
-        transform:scale(.98, .98);
-    }
-    .owl-carousel li img:active {
-        transform:scale(.96, .96);
-    }
+    /*.owl-carousel li {*/
+        /*list-style:none;*/
+        /*margin-right: .3em;*/
+    /*}*/
+    /*.owl-carousel li img {*/
+        /*border-radius:.5em;*/
+        /*transition:transform .15s ease-out;*/
+        /*border: 1px orange solid;*/
+    /*}*/
+    /*.owl-carousel li img:hover {*/
+        /*transform:scale(.98, .98);*/
+    /*}*/
+    /*.owl-carousel li img:active {*/
+        /*transform:scale(.96, .96);*/
+    /*}*/
 
     ul.share-buttons{
         list-style: none;
@@ -238,7 +244,11 @@
 
     .show-main-img {
         border: 1px solid #ff9000;
+        max-width:100%  !important;
+        height:auto;
+        display:inline;
     }
+
 
     .contact_header,.contact_header2{font-variant:small-caps;
         font-size: 2em !important;
@@ -258,7 +268,36 @@
 
 
     .facebook-comment-header {
-    color: orange;
+    color: #3c55a2;
+        text-align:center;
+    }
+
+    .facebook-section-comments {
+        background-color: #d3d8da;
+
+    }
+
+
+    /*.owl-theme .owl-controls .owl-buttons div {*/
+        /*color: #FFF;*/
+        /*display: inline-block;*/
+        /*zoom: 1;*/
+        /*margin: 5px;*/
+        /*padding: 3px 10px;*/
+        /*font-size: 12px;*/
+        /*-webkit-border-radius: 30px;*/
+        /*-moz-border-radius: 30px;*/
+        /*border-radius: 30px;*/
+        /*background: #ff9000;*/
+        /*!*filter: Alpha(Opacity=50);*!*/
+         /*opacity: 1.0;*/
+    /*}*/
+
+    .owl-stuff{
+        /*width:100%;*/
+        /*height:auto !important;*/
+
+
     }
 
 </style>
