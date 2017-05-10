@@ -157,7 +157,7 @@
     {{--@import "{{url('/css/slick-theme.css')}}";--}}
     {{--@import "{{url('/css/slick-theme.css')}}";--}}
     @import "{{url('/css/owl.carousel.css')}}";
-    @import "{{url('/css/owl.theme.css')}}";
+    {{--@import "{{url('/css/owl.theme.css')}}";--}}
     @import "{{url('/css/photoswipe.css')}}";
     @import "//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css";
     @import "//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css";
