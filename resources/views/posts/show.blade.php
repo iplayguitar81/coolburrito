@@ -296,8 +296,7 @@
     .owl-stuff{
         width:100%;
         height:auto !important;
-        margin-left:auto;
-        margin-right:auto;
+
 
     }
 
