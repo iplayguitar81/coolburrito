@@ -65,7 +65,7 @@
             <li><a href="http://www.reddit.com/submit?url=https%3A%2F%2Flevel3.checkenginefree.com&title=" target="_blank" title="Submit to Reddit" onclick="window.open('http://www.reddit.com/submit?url=' + encodeURIComponent(document.URL) + '&title=' +  encodeURIComponent(document.title)); return false;"><img alt="Submit to Reddit" src="{{url('images/Reddit.png')}}"></a></li>
         </ul>
         <br/>
-        <p class="uk-article-lead"><img style="text-align:center;margin-left:auto;margin-right:auto;display:block;"class="show-main-img center-block" src='{{"../../images/". $post->imgPath}}'></p>
+        <p class="uk-article-lead"><img style="text-align:center;margin-left:auto;margin-right:auto;display:block;"class="show-main-img img-responsive center-block" src='{{"../../images/". $post->imgPath}}'></p>
 
         <br/>
         <div class="center-block text-center">
@@ -91,7 +91,7 @@
                         {{--*/ $thumb_path= substr($image->file_path, 7);/*--}}
                         <li class="owl-trick">
                             <a href="{{url($image->file_path)}}"  data-size="{{$dimensions}}" data-title="{{$image->caption}}">
-                                <img class="" src="{{url('images/thmb-'.$thumb_path)}}" alt="1"></a></li>
+                                <img class="img-responsive" src="{{url('images/thmb-'.$thumb_path)}}" alt="1"></a></li>
                     @endforeach
 
                 </ul>
@@ -108,34 +108,28 @@
     </div>
                 <hr>
 
-    <div class="facebook-section-comments">
+    <div class="">
 
         <h2 class="facebook-comment-header text-center Bebas" >leave a facebook comment!</h2>
         <div class="fb-comments center-block" data-href="https://level3.checkenginefree.com/posts/{{$post->id}}/{{str_slug($post->title)}}" data-numposts="10"></div>
 
-
-
-    </div>
-                <hr>
-
-                <br/>
-                <br/>
+        <br/>
 
     <a href="{{url('/news')}}" data-ajax="false">
 
-        <button type="submit" data-theme="a" class="btn btn-primary center-block btn-md"> <span class="orangose3">Back to All Posts</span> </button>
+        <button type="submit" class="btn btn-primary center-block btn-md" >Back to All Posts</button>
     </a>
    &nbsp;
     <a href="{{url('/')}}" data-ajax="false">
 
-        <button type="submit" data-theme="a" class="btn btn-danger center-block btn-md"> <span class="orangose3">Back to Map</span> </button>
+        <button type="submit" class="btn btn-danger center-block btn-md" >Back to Map</button>
     </a>
 
 
         <br/>
         <br/>
 
-
+</div>
 
     </div>
 
@@ -244,11 +238,7 @@
 
     .show-main-img {
         border: 1px solid #ff9000;
-        max-width:100%  !important;
-        height:auto;
-        display:inline;
     }
-
 
     .contact_header,.contact_header2{font-variant:small-caps;
         font-size: 2em !important;
@@ -268,29 +258,7 @@
 
 
     .facebook-comment-header {
-    color: #3c55a2;
-        text-align:center;
-    }
-
-    .facebook-section-comments {
-        background-color: #d3d8da;
-
-    }
-
-
-    .owl-theme .owl-controls .owl-buttons div {
-        color: #FFF;
-        display: inline-block;
-        zoom: 1;
-        margin: 5px;
-        padding: 3px 10px;
-        font-size: 12px;
-        -webkit-border-radius: 30px;
-        -moz-border-radius: 30px;
-        border-radius: 30px;
-        background: #ff9000;
-        /*filter: Alpha(Opacity=50);*/
-         opacity: 1.0;
+    color: orange;
     }
 
 </style>
