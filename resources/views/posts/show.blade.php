@@ -91,7 +91,7 @@
                         {{--*/ $thumb_path= substr($image->file_path, 7);/*--}}
                         <li class="owl-trick">
                             <a href="{{url($image->file_path)}}" data-ajax="false"  data-size="{{$dimensions}}" data-title="{{$image->caption}}">
-                                <img class="owl-stuff img-responsive" src="{{url('images/thmb-'.$thumb_path)}}" alt="1"></a></li>
+                                <img class="img-responsive" src="{{url('images/thmb-'.$thumb_path)}}" alt="1"></a></li>
                     @endforeach
 
                 </ul>
@@ -173,16 +173,6 @@
 
     .ui-mobile a img, .ui-mobile fieldset {
          border-width: 1px !important;
-    }
-
-    .owl-carousel  .owl-wrapper,
-    .owl-carousel  .owl-item{
-        -webkit-backface-visibility: hidden;
-        -moz-backface-visibility:    hidden;
-        -ms-backface-visibility:     hidden;
-        -webkit-transform: translate3d(0,0,0);
-        -moz-transform: translate3d(0,0,0);
-        -ms-transform: translate3d(0,0,0);
     }
 
     /*#gallery-images img {*/
