@@ -293,6 +293,14 @@
          opacity: 1.0;
     }
 
+    .owl-stuff{
+        width:100%;
+        height:auto;
+        margin-left:auto;
+        margin-right:auto;
+
+    }
+
 </style>
 
 
