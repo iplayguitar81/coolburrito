@@ -188,7 +188,7 @@
     #owl-demo .item img{
     display: block;
     width: 100%;
-    /*height: auto;*/
+    height: auto;
     }
     .customNavigation{
     text-align: center;
