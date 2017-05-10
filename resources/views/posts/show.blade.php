@@ -278,20 +278,20 @@
     }
 
 
-    .owl-theme .owl-controls .owl-buttons div {
-        color: #FFF;
-        display: inline-block;
-        zoom: 1;
-        margin: 5px;
-        padding: 3px 10px;
-        font-size: 12px;
-        -webkit-border-radius: 30px;
-        -moz-border-radius: 30px;
-        border-radius: 30px;
-        background: #ff9000;
-        /*filter: Alpha(Opacity=50);*/
-         opacity: 1.0;
-    }
+    /*.owl-theme .owl-controls .owl-buttons div {*/
+        /*color: #FFF;*/
+        /*display: inline-block;*/
+        /*zoom: 1;*/
+        /*margin: 5px;*/
+        /*padding: 3px 10px;*/
+        /*font-size: 12px;*/
+        /*-webkit-border-radius: 30px;*/
+        /*-moz-border-radius: 30px;*/
+        /*border-radius: 30px;*/
+        /*background: #ff9000;*/
+        /*!*filter: Alpha(Opacity=50);*!*/
+         /*opacity: 1.0;*/
+    /*}*/
 
     .owl-stuff{
         /*width:100%;*/
