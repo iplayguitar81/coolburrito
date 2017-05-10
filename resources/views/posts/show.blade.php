@@ -90,8 +90,8 @@
 
                         {{--*/ $thumb_path= substr($image->file_path, 7);/*--}}
                         <li class="owl-trick">
-                            <a href="{{url($image->file_path)}}" data-ajax="false"  data-size="{{$dimensions}}" data-title="{{$image->caption}}">
-                                <img class="owl-stuff img-responsive" src="{{url('images/thmb-'.$thumb_path)}}" alt="1"></a></li>
+                            <a href="{{url($image->file_path)}}"  data-size="{{$dimensions}}" data-title="{{$image->caption}}">
+                                <img class="" src="{{url('images/thmb-'.$thumb_path)}}" alt="1"></a></li>
                     @endforeach
 
                 </ul>
@@ -278,26 +278,19 @@
     }
 
 
-    /*.owl-theme .owl-controls .owl-buttons div {*/
-        /*color: #FFF;*/
-        /*display: inline-block;*/
-        /*zoom: 1;*/
-        /*margin: 5px;*/
-        /*padding: 3px 10px;*/
-        /*font-size: 12px;*/
-        /*-webkit-border-radius: 30px;*/
-        /*-moz-border-radius: 30px;*/
-        /*border-radius: 30px;*/
-        /*background: #ff9000;*/
-        /*!*filter: Alpha(Opacity=50);*!*/
-         /*opacity: 1.0;*/
-    /*}*/
-
-    .owl-stuff{
-        /*width:100%;*/
-        /*height:auto !important;*/
-
-
+    .owl-theme .owl-controls .owl-buttons div {
+        color: #FFF;
+        display: inline-block;
+        zoom: 1;
+        margin: 5px;
+        padding: 3px 10px;
+        font-size: 12px;
+        -webkit-border-radius: 30px;
+        -moz-border-radius: 30px;
+        border-radius: 30px;
+        background: #ff9000;
+        /*filter: Alpha(Opacity=50);*/
+         opacity: 1.0;
     }
 
 </style>
