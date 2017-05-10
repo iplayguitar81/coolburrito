@@ -1,6 +1,7 @@
 {{--@extends('layout')--}}
 
 
+
 <div id="fb-root"></div>
 <div id="fb-root"></div>
 <script>(function(d, s, id) {
@@ -26,7 +27,7 @@
             <img class='img-responsive' alt='checkenginefree.com' src='/images/checkenginelogoyay3.png'/>
             <div data-role="navbar">
                 <ul class="nav-trickery">
-                    <li><a href="https://level3.checkenginefree.com"  data-icon="navigation" data-ajax="false"><span class="orangose">Back to Map</span></a></li>
+                    <li><a href="https://level3.checkenginefree.com"  data-icon="navigation" data-ajax="false"><span class="orangose">Map</span></a></li>
                 </ul>
             </div><!-- /navbar -->
         </div>
@@ -38,7 +39,7 @@
             <div class="row">
     <div class="">
 
-    <article class="show-article center-block">
+    <article class="center-block">
         <h2 class="contact_header">{{$post->title}}</h2>
         <p class="subheader-main Bebas">{{ $post->subHead}}</p>
 
@@ -65,15 +66,14 @@
             <li><a href="http://www.reddit.com/submit?url=https%3A%2F%2Flevel3.checkenginefree.com&title=" target="_blank" title="Submit to Reddit" onclick="window.open('http://www.reddit.com/submit?url=' + encodeURIComponent(document.URL) + '&title=' +  encodeURIComponent(document.title)); return false;"><img alt="Submit to Reddit" src="{{url('images/Reddit.png')}}"></a></li>
         </ul>
         <br/>
-        <p class="uk-article-lead"><img style="text-align:center;margin-left:auto;margin-right:auto;display:block;"class="show-main-img img-responsive center-block" src='{{"../../images/". $post->imgPath}}'></p>
+        <p class="uk-article-lead"><img style="text-align:center;margin-left:auto;margin-right:auto;display:block;"class="img-responsive center-block" src='{{"../../images/". $post->imgPath}}'></p>
 
         <br/>
         <div class="center-block text-center">
        <div class="article-texterson2"> {!! ($post->body) !!} </div>
             @if(($post->images->count() > 0 ))
             <div class="container">
-
-                <div class="article-gallery-header-img"><img class="" src="/images/article-gallery.png" alt="article gallery" /></div>
+                <h2 class='Bebas'>article gallery</h2>
                     <br/>
                 {{--<div class="customNavigation">--}}
                 {{--<a class="btn prev btn-danger">Previous</a>--}}
@@ -106,11 +106,10 @@
 
         <br/>
     </div>
-                <hr>
 
     <div class="">
 
-        <h2 class="facebook-comment-header text-center Bebas" >leave a facebook comment!</h2>
+        <h2 class="text-center Bebas" >leave a facebook comment!</h2>
         <div class="fb-comments center-block" data-href="https://level3.checkenginefree.com/posts/{{$post->id}}/{{str_slug($post->title)}}" data-numposts="10"></div>
 
         <br/>
@@ -122,12 +121,9 @@
    &nbsp;
     <a href="{{url('/')}}" data-ajax="false">
 
-        <button type="submit" class="btn btn-danger center-block btn-md" >Back to Map</button>
+        <button type="submit" class="btn btn-danger center-block btn-md" >Back Home</button>
     </a>
 
-
-        <br/>
-        <br/>
 
 </div>
 
@@ -136,7 +132,6 @@
 
             </div>
         </div>
-
 
 
         <div data-role="footer" style="overflow:hidden;" data-theme="b" data-tap-toggle="false">
@@ -157,18 +152,17 @@
     @import "https://cdnjs.cloudflare.com/ajax/libs/dropzone/4.3.0/min/dropzone.min.css";
     @import "{{url('/css/default-skin.css')}}";
     @import "{{url('/css/lightslider.css')}}";
-
+    {{--getting this part right........ among files to remove after figuring out right gallery sitch:--}}
+     {{--@import "{{url('/css/slick.css')}}";--}}
+    {{--@import "{{url('/css/slick-theme.css')}}";--}}
+    {{--@import "{{url('/css/slick-theme.css')}}";--}}
     @import "{{url('/css/owl.carousel.css')}}";
     @import "{{url('/css/owl.theme.css')}}";
     @import "{{url('/css/photoswipe.css')}}";
     @import "//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css";
+    @import "//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css";
     @import "//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css";
     @import "https://cdnjs.cloudflare.com/ajax/libs/bootswatch/3.3.6/fonts/glyphicons-halflings-regular.woff";
-
-    .ui-mobile a img, .ui-mobile fieldset {
-         border-width: 1px !important;
-    }
-
     #gallery-images img {
         width: 240px;
         height: 160px;
@@ -185,7 +179,28 @@
         float: left;
         padding-right: 10px;
     }
-
+    /*#owl-demo .item{*/
+    /*margin: 3px;*/
+    /*width: 80%;*/
+    /*margin-left:10%;*/
+    /*margin-right:10%;*/
+    /*}*/
+    /*#owl-demo .item img{*/
+    /*display: block;*/
+    /*width: 100%;*/
+    /*!*height: auto;*!*/
+    /*}*/
+    /*.customNavigation{*/
+    /*text-align: center;*/
+    /*}*/
+    /*.customNavigation a{*/
+    /*-webkit-user-select: none;*/
+    /*-khtml-user-select: none;*/
+    /*-moz-user-select: none;*/
+    /*-ms-user-select: none;*/
+    /*user-select: none;*/
+    /*-webkit-tap-highlight-color: rgba(0, 0, 0, 0);*/
+    /*}*/
     .owl-carousel li {
         list-style:none;
         margin-right: .3em;
@@ -193,7 +208,6 @@
     .owl-carousel li img {
         border-radius:.5em;
         transition:transform .15s ease-out;
-        border: 1px orange solid;
     }
     .owl-carousel li img:hover {
         transform:scale(.98, .98);
@@ -222,45 +236,6 @@
         width: 1px;
         overflow: hidden;
     }
-
-    #about_us_words{
-        background-color:#323333;
-    }
-#wrappa2{
-    background-color:#323333;
-}
-
-    .article-texterson2 {
-        width: 80%;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    .show-main-img {
-        border: 1px solid #ff9000;
-    }
-
-    .contact_header,.contact_header2{font-variant:small-caps;
-        font-size: 2em !important;
-        text-align:center;
-        color:#ff9000;
-        text-shadow: none !important;}
-
-    .subheader-main {
-        text-align:center;
-
-
-    }
-   .article-gallery-header-img {
-
-        text-align:center;
-    }
-
-
-    .facebook-comment-header {
-    color: orange;
-    }
-
 </style>
 
 
