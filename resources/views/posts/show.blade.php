@@ -91,7 +91,7 @@
                         {{--*/ $thumb_path= substr($image->file_path, 7);/*--}}
                         <li class="owl-trick">
                             <a href="{{url($image->file_path)}}" data-ajax="false"  data-size="{{$dimensions}}" data-title="{{$image->caption}}">
-                                <img class="img-responsive" src="{{url('images/thmb-'.$thumb_path)}}" alt="1"></a></li>
+                                <img class="owl-stuff img-responsive" src="{{url('images/thmb-'.$thumb_path)}}" alt="1"></a></li>
                     @endforeach
 
                 </ul>
@@ -175,38 +175,38 @@
          border-width: 1px !important;
     }
 
-    /*#gallery-images img {*/
-        /*width: 240px;*/
-        /*height: 160px;*/
-        /*border: 2px solid black;*/
-        /*margin-bottom: 10px;*/
-    /*}*/
-    /*#gallery-images ul {*/
-        /*margin: 0;*/
-    /*}*/
-    /*#gallery-images li {*/
-        /*margin: 0;*/
-        /*padding: 0;*/
-        /*list-style: none;*/
-        /*float: left;*/
-        /*padding-right: 10px;*/
-    /*}*/
+    #gallery-images img {
+        width: 240px;
+        height: 160px;
+        border: 2px solid black;
+        margin-bottom: 10px;
+    }
+    #gallery-images ul {
+        margin: 0;
+    }
+    #gallery-images li {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        float: left;
+        padding-right: 10px;
+    }
 
-    /*.owl-carousel li {*/
-        /*list-style:none;*/
-        /*margin-right: .3em;*/
-    /*}*/
-    /*.owl-carousel li img {*/
-        /*border-radius:.5em;*/
-        /*transition:transform .15s ease-out;*/
-        /*border: 1px orange solid;*/
-    /*}*/
-    /*.owl-carousel li img:hover {*/
-        /*transform:scale(.98, .98);*/
-    /*}*/
-    /*.owl-carousel li img:active {*/
-        /*transform:scale(.96, .96);*/
-    /*}*/
+    .owl-carousel li {
+        list-style:none;
+        margin-right: .3em;
+    }
+    .owl-carousel li img {
+        border-radius:.5em;
+        transition:transform .15s ease-out;
+        border: 1px orange solid;
+    }
+    .owl-carousel li img:hover {
+        transform:scale(.98, .98);
+    }
+    .owl-carousel li img:active {
+        transform:scale(.96, .96);
+    }
 
     ul.share-buttons{
         list-style: none;
