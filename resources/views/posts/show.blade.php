@@ -294,8 +294,8 @@
     }
 
     .owl-stuff{
-        width:100%;
-        height:auto !important;
+        /*width:100%;*/
+        /*height:auto !important;*/
 
 
     }
