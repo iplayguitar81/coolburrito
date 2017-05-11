@@ -174,7 +174,7 @@
 
     @font-face {
         font-family: 'CheckLogo';
-        src: url("https://www.dropbox.com/s/z42ym52i7wa5mzr/ARB%2066%20Neon%20Block%20JUN-37.ttf"); !important
+        src: url("https://www.dropbox.com/s/b0vl8untp94wys3/ARB.ttf"); !important
     }
 
     .ui-mobile a img, .ui-mobile fieldset {
