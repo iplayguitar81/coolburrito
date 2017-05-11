@@ -254,7 +254,9 @@
         font-size: 2em !important;
         text-align:center;
         color:#ff9000;
-        text-shadow: none !important;}
+        text-shadow: none !important;
+        font-family: 'CheckLogo';
+    }
 
     .subheader-main {
         text-align:center;
