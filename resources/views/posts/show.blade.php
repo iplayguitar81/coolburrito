@@ -23,7 +23,7 @@
 
     <div data-role="page" data-theme="b" id="loggin2">
         <div data-role="header" data-tap-toggle="false" data-theme="b">
-            <img class='img-responsive' alt='checkenginefree.com' src='/images/checkenginelogoyay3.png'/>
+            <img class='logo-show img-responsive' alt='checkenginefree.com' src='/images/checkenginelogoyay3.png'/>
             <div data-role="navbar">
                 <ul class="nav-trickery">
                     <li><a href="https://level3.checkenginefree.com"  data-icon="navigation" data-ajax="false"><span class="orangose">Back to Map</span></a></li>
@@ -298,6 +298,11 @@
         /*height:auto !important;*/
 
 
+    }
+
+    .logo-show {
+
+        background-color: #1d1d1d;
     }
 
 </style>
