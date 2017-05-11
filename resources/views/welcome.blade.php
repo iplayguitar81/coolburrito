@@ -502,6 +502,12 @@ img.mini-blog-img {
 
         }
     }
+
+img.logo-show {
+
+    background-color: #1d1d1d !important;
+}
+
 </style>
     <!-- jQuery library (served from Google) -->
     {{--<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>--}}
