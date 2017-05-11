@@ -8,7 +8,7 @@
 
 
 
-           <img class='img-responsive' alt='checkenginefree.com' src='/images/checkenginelogoyay3.png'/>
+           <img class='logo-show img-responsive' alt='checkenginefree.com' src='/images/checkenginelogoyay3.png'/>
 
 
             <div data-role="navbar">
@@ -263,7 +263,7 @@
     </div>
     <div data-role="page" data-theme="b" id="about">
         <div data-role="header" data-tap-toggle="false" data-theme="b">
-            <img class='img-responsive' alt='checkenginefree.com' src='/images/checkenginelogoyay3.png'/>
+            <img class='logo-show img-responsive' alt='checkenginefree.com' src='/images/checkenginelogoyay3.png'/>
             <div data-role="navbar">
                 <ul class="nav-trickery">
                     <li><a href="#mappins"  data-icon="navigation"><span class="orangose">Map</span></a></li>
@@ -293,7 +293,7 @@
 
     <div data-role="page" data-theme="b" id="contact">
         <div data-role="header"  style="overflow:hidden;" data-tap-toggle="false" data-theme="b">
-            <img class='img-responsive' alt='checkenginefree.com' src='/images/checkenginelogoyay3.png'/>
+            <img class='logo-show img-responsive' alt='checkenginefree.com' src='/images/checkenginelogoyay3.png'/>
             <div data-role="navbar">
                 <ul class="nav-trickery">
                     <li><a href="#mappins"  data-icon="navigation"><span class="orangose">Map</span></a></li>
@@ -343,7 +343,7 @@
 
     <div data-role="page" data-theme="b" id="loggins">
         <div data-role="header" style="overflow:hidden;" data-tap-toggle="false" data-theme="b">
-            <img class='img-responsive' alt='checkenginefree.com' src='/images/checkenginelogoyay3.png'/>
+            <img class='logo-show img-responsive' alt='checkenginefree.com' src='/images/checkenginelogoyay3.png'/>
             <div data-role="navbar">
                 <ul class="nav-trickery">
                     <li><a href="#mappins"  data-icon="navigation"><span class="orangose">Map</span></a></li>
