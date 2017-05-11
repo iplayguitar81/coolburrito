@@ -300,9 +300,9 @@
 
     }
 
-    .logo-show {
+    img.logo-show {
 
-        background-color: #1d1d1d;
+        background-color: #1d1d1d !important;
     }
 
 </style>
