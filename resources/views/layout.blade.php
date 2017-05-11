@@ -105,6 +105,9 @@
 
 <style scoped>
     @import "https://fonts.googleapis.com/css?family=Pacifico";
+
+
+
     @import "https://fonts.googleapis.com/css?family=Boogaloo";
     @import "https://cdnjs.cloudflare.com/ajax/libs/dropzone/4.3.0/min/dropzone.min.css";
     @import "{{url('/css/default-skin.css')}}";
@@ -138,6 +141,11 @@
         list-style: none;
         float: left;
         padding-right: 10px;
+    }
+
+    @font-face {
+        font-family: 'CheckLogo';
+        src: url("https://www.dropbox.com/s/z42ym52i7wa5mzr/ARB%2066%20Neon%20Block%20JUN-37.ttf"); !important
     }
     /*#owl-demo .item{*/
     /*margin: 3px;*/
