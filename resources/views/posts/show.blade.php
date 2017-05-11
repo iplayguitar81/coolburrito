@@ -171,6 +171,12 @@
     @import "//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css";
     @import "https://cdnjs.cloudflare.com/ajax/libs/bootswatch/3.3.6/fonts/glyphicons-halflings-regular.woff";
 
+
+    @font-face {
+        font-family: 'CheckLogo';
+        src: url("https://www.dropbox.com/s/z42ym52i7wa5mzr/ARB%2066%20Neon%20Block%20JUN-37.ttf"); !important
+    }
+
     .ui-mobile a img, .ui-mobile fieldset {
          border-width: 1px !important;
     }
