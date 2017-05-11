@@ -510,7 +510,7 @@ img.logo-show {
 
 img.location-little-three {
 
-    background-color: #1d1d1d !important;
+    background-color: #252525 !important;
 }
 
 </style>
