@@ -39,7 +39,7 @@
     <div class="">
 
     <article class="show-article center-block">
-        <h2><span class="contact_header">{{$post->title}}</span><br/>
+        <h2 style="text-align:center;"><span class="contact_header">{{$post->title}}</span><br/>
             <span class="subheader-main Bebas">{{ $post->subHead}}</span>
         </h2>
 
