@@ -174,7 +174,7 @@
 
     @font-face {
         font-family: 'CheckLogo';
-        src: url("https://www.dropbox.com/s/b0vl8untp94wys3/ARB.ttf"); !important
+        src: url("https://dl.dropboxusercontent.com/s/b0vl8untp94wys3/ARB.ttf"); !important
     }
 
     .ui-mobile a img, .ui-mobile fieldset {
