@@ -263,7 +263,7 @@
         text-align:center;
         color:#ff9000;
         font-family: CheckLogo, Tahoma, Arial, "Trebuchet MS";
-        text-shadow: 3px 3px #ab2100;
+        text-shadow: 6px 1px 10px #bb2103;
     }
 
     .subheader-main {
