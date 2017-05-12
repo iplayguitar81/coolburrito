@@ -259,7 +259,7 @@
 
 
     .contact_header,.contact_header2{font-variant:small-caps;
-        font-size: 5em !important;
+        font-size: 3em !important;
         text-align:center;
         color:#ff9000;
         font-family: CheckLogo, Tahoma, Arial, "Trebuchet MS";
