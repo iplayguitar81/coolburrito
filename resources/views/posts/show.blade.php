@@ -39,8 +39,10 @@
     <div class="">
 
     <article class="show-article center-block">
-        <h2 class="contact_header">{{$post->title}}</h2>
-        <p class="subheader-main Bebas">{{ $post->subHead}}</p>
+        <h2 class="contact_header">{{$post->title}}<br/>
+            <span class="subheader-main Bebas">{{ $post->subHead}}</span>
+        </h2>
+
 
         <p class="uk-article-meta" style="text-align:center;">
             Written by <?
