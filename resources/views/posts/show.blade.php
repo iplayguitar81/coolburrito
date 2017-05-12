@@ -260,7 +260,6 @@
         font-size: 5em !important;
         text-align:center;
         color:#ff9000;
-        text-shadow: none !important;
         font-family: CheckLogo, Tahoma, Arial, "Trebuchet MS";
         text-shadow: 2px 2px #ab2100;
     }
