@@ -81,6 +81,7 @@
                 {{--<a class="btn prev btn-danger">Previous</a>--}}
                 {{--<a class="btn next btn-danger">Next</a>--}}
                 {{--</div>--}}
+                <div class="woodsy-pollute">
                 <ul class="owl-carousel">
                     @foreach($post->images as $image)
 
@@ -97,7 +98,7 @@
                     @endforeach
 
                 </ul>
-
+                </div>
             </div>
                 @endif
                     </div>
@@ -314,6 +315,11 @@
     img.logo-show {
 
         background-color: #1d1d1d !important;
+    }
+
+    .woodsy-pollute{
+        margin-left:auto;
+        margin-right:auto;
     }
 
 </style>
