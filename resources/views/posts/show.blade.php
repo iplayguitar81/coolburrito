@@ -201,9 +201,7 @@
         padding-right: 10px;
     }
 
-    ul.owl-carousel {
-    display: inline !important;
-    }
+
 
 
     .owl-wrapper {
