@@ -149,14 +149,14 @@
     }
     #owl-demo .item{
     margin: 3px;
-    width: 80%;
-    margin-left:10%;
-    margin-right:10%;
+    /*width: 80%;*/
+    /*margin-left:10%;*/
+    /*margin-right:10%;*/
     }
     #owl-demo .item img{
     display: block;
     width: 100%;
-    /*height: auto;*/
+    height: auto;
     }
     .customNavigation{
     text-align: center;
