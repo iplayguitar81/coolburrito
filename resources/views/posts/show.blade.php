@@ -322,10 +322,10 @@
         height:auto !important;
     }
 
-    .woodsy-pollute{
-        margin-left:auto;
-        margin-right:auto;
-    }
+    /*.woodsy-pollute{*/
+        /*margin-left:auto;*/
+        /*margin-right:auto;*/
+    /*}*/
 
 </style>
 
