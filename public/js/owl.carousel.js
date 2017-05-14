@@ -113,7 +113,7 @@ if (typeof Object.create !== "function") {
             }
             base.play();
 
-            base.$elem.find(".owl-wrapper").css("display", "block");
+            base.$elem.find(".owl-wrapper").css("display", "inline");
 
             if (!base.$elem.is(":visible")) {
                 base.watchVisibility();
