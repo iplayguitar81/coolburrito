@@ -315,6 +315,7 @@
     img.logo-show {
 
         background-color: #1d1d1d !important;
+        height:auto !important;
     }
 
     .woodsy-pollute{
