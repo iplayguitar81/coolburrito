@@ -361,7 +361,7 @@
         var owlOptions = {
                     //what to mess with if you want to change the amount of slides on the page no matter what as default 3 will show up...
 //                    itemsCustom: [[0, 3]],
-                    center: true,
+
                     items: 3,
                     responsiveRefreshRate: 0,
                     navigation: true,
@@ -374,7 +374,8 @@
                 pswpOptions = {
                     bgOpacity: 0.9,
                     history: false,
-                    shareEl: true
+                    shareEl: true,
+                    center: true
                 };
 
         initializeGallery($(".owl-carousel"), owlOptions, pswpOptions);
