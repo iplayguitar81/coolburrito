@@ -201,6 +201,10 @@
         padding-right: 10px;
     }
 
+    .owl-wrapper {
+        margin: 0 auto;
+    }
+
     .owl-carousel li {
         list-style:none;
         margin-right: .3em;
