@@ -201,6 +201,11 @@
         padding-right: 10px;
     }
 
+    ul.owl-carousel .owl-theme {
+    display: inline !important;
+    }
+
+
     .owl-wrapper {
         margin: 0 auto;
     }
