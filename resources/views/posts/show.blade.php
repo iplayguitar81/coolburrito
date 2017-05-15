@@ -82,7 +82,7 @@
                 {{--<a class="btn next btn-danger">Next</a>--}}
                 {{--</div>--}}
                 <div class="woodsy-pollute">
-                <ul class="owl-carousel">
+                <ul class="owl-carousel test-owl">
                     @foreach($post->images as $image)
 
                         {{--*/ @ $pathy =$image->file_path  /*--}}
