@@ -31,15 +31,14 @@
 	filter: Alpha(Opacity=100);/*IE7 fix*/
 	opacity: 1;
 	text-decoration: none;
-	display:inline !important;
 }
 
 /* Styling Pagination*/
 
 .owl-theme .owl-controls .owl-page{
-	display: inline;
+	display: inline-block;
 	zoom: 1;
-	display: inline; /*IE7 life-saver */
+	*display: inline;/*IE7 life-saver */
 }
 .owl-theme .owl-controls .owl-page span{
 	display: block;
