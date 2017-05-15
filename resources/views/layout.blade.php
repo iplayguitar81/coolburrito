@@ -147,19 +147,16 @@
         font-family: 'CheckLogo';
         src: url("https://www.dropbox.com/s/z42ym52i7wa5mzr/ARB%2066%20Neon%20Block%20JUN-37.ttf"); !important
     }
-
-
-
     #owl-demo .item{
     margin: 3px;
-    /*width: 80%;*/
-    /*margin-left:10%;*/
-    /*margin-right:10%;*/
+    width: 80%;
+    margin-left:10%;
+    margin-right:10%;
     }
     #owl-demo .item img{
     display: block;
     width: 100%;
-    height: auto;
+    /*height: auto;*/
     }
     .customNavigation{
     text-align: center;
@@ -209,6 +206,32 @@
     }
 
 
+    /* Swiper CSS*/
+
+
+    .swiper-container {
+        width: 100%;
+        height: 100%;
+    }
+    .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+    }
 
 </style>
 
@@ -364,7 +387,7 @@
         var owlOptions = {
                     //what to mess with if you want to change the amount of slides on the page no matter what as default 3 will show up...
 //                    itemsCustom: [[0, 3]],
-
+                    center: true,
                     items: 3,
                     responsiveRefreshRate: 0,
                     navigation: true,
@@ -377,8 +400,7 @@
                 pswpOptions = {
                     bgOpacity: 0.9,
                     history: false,
-                    shareEl: true,
-                    center: true
+                    shareEl: true
                 };
 
         initializeGallery($(".owl-carousel"), owlOptions, pswpOptions);
