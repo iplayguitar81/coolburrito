@@ -204,7 +204,7 @@
 
 
     .owl-carousel {
-        display: none;
+        display: none !important;
         width: 100%;
         text-align:center;
     }
