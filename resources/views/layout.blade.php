@@ -148,9 +148,7 @@
         src: url("https://www.dropbox.com/s/z42ym52i7wa5mzr/ARB%2066%20Neon%20Block%20JUN-37.ttf"); !important
     }
 
-    /*ul.owl-carousel .owl-theme {*/
-        /*display: inline !important;*/
-    /*}*/
+
 
     #owl-demo .item{
     margin: 3px;
@@ -374,8 +372,7 @@
 //                    paginationNumbers: true,
                     scrollPerPage: false,
                     dots: true,
-                    dotsEach: true,
-                    center: true
+                    dotsEach: true
                 },
                 pswpOptions = {
                     bgOpacity: 0.9,
