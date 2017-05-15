@@ -147,28 +147,28 @@
         font-family: 'CheckLogo';
         src: url("https://www.dropbox.com/s/z42ym52i7wa5mzr/ARB%2066%20Neon%20Block%20JUN-37.ttf"); !important
     }
-    #owl-demo .item{
-    margin: 3px;
-    width: 80%;
-    margin-left:10%;
-    margin-right:10%;
-    }
-    #owl-demo .item img{
-    display: block;
-    width: 100%;
-    /*height: auto;*/
-    }
-    .customNavigation{
-    text-align: center;
-    }
-    .customNavigation a{
-    -webkit-user-select: none;
-    -khtml-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-    }
+    /*#owl-demo .item{*/
+    /*margin: 3px;*/
+    /*width: 80%;*/
+    /*margin-left:10%;*/
+    /*margin-right:10%;*/
+    /*}*/
+    /*#owl-demo .item img{*/
+    /*display: block;*/
+    /*width: 100%;*/
+    /*!*height: auto;*!*/
+    /*}*/
+    /*.customNavigation{*/
+    /*text-align: center;*/
+    /*}*/
+    /*.customNavigation a{*/
+    /*-webkit-user-select: none;*/
+    /*-khtml-user-select: none;*/
+    /*-moz-user-select: none;*/
+    /*-ms-user-select: none;*/
+    /*user-select: none;*/
+    /*-webkit-tap-highlight-color: rgba(0, 0, 0, 0);*/
+    /*}*/
     .owl-carousel li {
         list-style:none;
         margin-right: .3em;
@@ -387,7 +387,6 @@
         var owlOptions = {
                     //what to mess with if you want to change the amount of slides on the page no matter what as default 3 will show up...
 //                    itemsCustom: [[0, 3]],
-                    center: true,
                     items: 3,
                     responsiveRefreshRate: 0,
                     navigation: true,
