@@ -203,11 +203,11 @@
 
 
 
-
-    .owl-wrapper {
-        margin: 0 auto;
+    .owl-carousel {
+        display: none;
+        width: 100%;
+        text-align:center;
     }
-
     .owl-carousel li {
         list-style:none;
         margin-right: .3em;
