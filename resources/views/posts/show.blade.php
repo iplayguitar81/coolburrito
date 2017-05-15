@@ -39,7 +39,7 @@
     <div class="">
 
     <article class="show-article center-block">
-        <h2 style="text-align:center;"><span class="contact_header">{{$post->title}}</span><br/>
+        <h2><span class="contact_header">{{$post->title}}</span><br/>
             <span class="subheader-main Bebas">{{ $post->subHead}}</span>
         </h2>
 
@@ -81,7 +81,6 @@
                 {{--<a class="btn prev btn-danger">Previous</a>--}}
                 {{--<a class="btn next btn-danger">Next</a>--}}
                 {{--</div>--}}
-                <div class="woodsy-pollute">
                 <ul class="owl-carousel">
                     @foreach($post->images as $image)
 
@@ -98,7 +97,7 @@
                     @endforeach
 
                 </ul>
-                </div>
+
             </div>
                 @endif
                     </div>
@@ -260,12 +259,11 @@
 
 
     .contact_header,.contact_header2{font-variant:small-caps;
-        font-size: 3em !important;
+        font-size: 5em !important;
         text-align:center;
-        color:#fcb704;
+        color:#ff9000;
         font-family: CheckLogo, Tahoma, Arial, "Trebuchet MS";
-        text-shadow: 6px 1px 10px #bb2103 !important;
-        line-height: .9em;
+        text-shadow: 2px 2px #ab2100;
     }
 
     .subheader-main {
@@ -315,11 +313,6 @@
     img.logo-show {
 
         background-color: #1d1d1d !important;
-    }
-
-    .woodsy-pollute{
-        margin-left:auto;
-        margin-right:auto;
     }
 
 </style>
