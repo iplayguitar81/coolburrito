@@ -316,7 +316,7 @@
     }
 
     .test-owl {
-        display: inline !important;
+
     }
 
     img.logo-show {
