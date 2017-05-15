@@ -203,7 +203,7 @@
 
 
 
-    .owl-carousel {
+    ul.owl-carousel {
         display: inline !important;
         width: 100%;
         text-align:center;
