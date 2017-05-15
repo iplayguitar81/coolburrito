@@ -203,11 +203,7 @@
 
 
 
-    ul.owl-carousel {
-        display: inline !important;
-        width: 100%;
-        text-align:center;
-    }
+
     .owl-carousel li {
         list-style:none;
         margin-right: .3em;
