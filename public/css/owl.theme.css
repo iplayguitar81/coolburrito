@@ -31,7 +31,7 @@
 	filter: Alpha(Opacity=100);/*IE7 fix*/
 	opacity: 1;
 	text-decoration: none;
-	display:inline;
+	display:inline !important;
 }
 
 /* Styling Pagination*/
