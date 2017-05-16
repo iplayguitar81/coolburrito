@@ -318,7 +318,7 @@
 </style>
 
 
-{{--<script src="{{url('/js/jquery.js')}}"></script>--}}
+<script src="{{url('/js/jquery.js')}}"></script>
 
 
 
