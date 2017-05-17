@@ -290,7 +290,7 @@
 
     .owl-theme .owl-controls .owl-buttons div {
         color: #FFF;
-        display: inline-block;
+        display: block;
         zoom: 1;
         margin: 5px;
         padding: 3px 10px;
