@@ -23,7 +23,7 @@
 
     <div data-role="page" data-theme="b" id="loggin2">
         <div data-role="header" data-tap-toggle="false" data-theme="b">
-            <img class='img-responsive' alt='checkenginefree.com' src='/images/checkenginelogoyay3.png'/>
+            <img class='logo-show img-responsive' alt='checkenginefree.com' src='/images/checkenginelogoyay3.png'/>
             <div data-role="navbar">
                 <ul class="nav-trickery">
                     <li><a href="https://level3.checkenginefree.com"  data-icon="navigation" data-ajax="false"><span class="orangose">Back to Map</span></a></li>
@@ -39,8 +39,10 @@
     <div class="">
 
     <article class="show-article center-block">
-        <h2 class="contact_header">{{$post->title}}</h2>
-        <p class="subheader-main Bebas">{{ $post->subHead}}</p>
+        <h2 style="text-align:center;"><span class="contact_header">{{$post->title}}</span><br/>
+            <span class="subheader-main Bebas">{{ $post->subHead}}</span>
+        </h2>
+
 
         <p class="uk-article-meta" style="text-align:center;">
             Written by <?
@@ -79,6 +81,7 @@
                 {{--<a class="btn prev btn-danger">Previous</a>--}}
                 {{--<a class="btn next btn-danger">Next</a>--}}
                 {{--</div>--}}
+                <div class="woodsy-pollute">
                 <ul class="owl-carousel">
                     @foreach($post->images as $image)
 
@@ -90,12 +93,12 @@
 
                         {{--*/ $thumb_path= substr($image->file_path, 7);/*--}}
                         <li class="owl-trick">
-                            <a href="{{url($image->file_path)}}"  data-size="{{$dimensions}}" data-title="{{$image->caption}}">
+                            <a href="{{url($image->file_path)}}" data-ajax="false"  data-size="{{$dimensions}}" data-title="{{$image->caption}}">
                                 <img class="img-responsive" src="{{url('images/thmb-'.$thumb_path)}}" alt="1"></a></li>
                     @endforeach
 
                 </ul>
-
+                </div>
             </div>
                 @endif
                     </div>
@@ -170,6 +173,12 @@
     @import "//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css";
     @import "//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css";
     @import "https://cdnjs.cloudflare.com/ajax/libs/bootswatch/3.3.6/fonts/glyphicons-halflings-regular.woff";
+
+
+    @font-face {
+        font-family: 'CheckLogo';
+        src: url("https://dl.dropboxusercontent.com/s/b0vl8untp94wys3/ARB.ttf"); !important
+    }
 
     .ui-mobile a img, .ui-mobile fieldset {
          border-width: 1px !important;
@@ -251,10 +260,13 @@
 
 
     .contact_header,.contact_header2{font-variant:small-caps;
-        font-size: 2em !important;
+        font-size: 3em !important;
         text-align:center;
-        color:#ff9000;
-        text-shadow: none !important;}
+        color:#fcb704;
+        font-family: CheckLogo, Tahoma, Arial, "Trebuchet MS";
+        text-shadow: 6px 1px 10px #bb2103 !important;
+        line-height: .9em;
+    }
 
     .subheader-main {
         text-align:center;
@@ -293,10 +305,27 @@
          opacity: 1.0;
     }
 
+    .owl-stuff{
+        width:100%;
+        height:auto !important;
+
+
+    }
+
+    img.logo-show {
+
+        background-color: #1d1d1d !important;
+    }
+
+    .woodsy-pollute{
+        margin-left:auto;
+        margin-right:auto;
+    }
+
 </style>
 
 
-<script src="{{url('/js/jquery.js')}}"></script>
+{{--<script src="{{url('/js/jquery.js')}}"></script>--}}
 
 
 
