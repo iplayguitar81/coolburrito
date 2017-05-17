@@ -81,6 +81,7 @@
                 {{--<a class="btn prev btn-danger">Previous</a>--}}
                 {{--<a class="btn next btn-danger">Next</a>--}}
                 {{--</div>--}}
+                <div class="woodsy-pollute">
                 <ul class="owl-carousel">
                     @foreach($post->images as $image)
 
@@ -97,7 +98,7 @@
                     @endforeach
 
                 </ul>
-
+                </div>
             </div>
                 @endif
                     </div>
@@ -261,9 +262,10 @@
     .contact_header,.contact_header2{font-variant:small-caps;
         font-size: 3em !important;
         text-align:center;
-        color:#ff9000;
+        color:#fcb704;
         font-family: CheckLogo, Tahoma, Arial, "Trebuchet MS";
-        text-shadow: 6px 1px 10px #bb2103;
+        text-shadow: 6px 1px 10px #bb2103 !important;
+        line-height: .9em;
     }
 
     .subheader-main {
@@ -290,7 +292,7 @@
 
     .owl-theme .owl-controls .owl-buttons div {
         color: #FFF;
-        display: block;
+        display: inline-block;
         zoom: 1;
         margin: 5px;
         padding: 3px 10px;
@@ -313,6 +315,11 @@
     img.logo-show {
 
         background-color: #1d1d1d !important;
+    }
+
+    .woodsy-pollute{
+        margin-left:auto;
+        margin-right:auto;
     }
 
 </style>
