@@ -327,7 +327,7 @@
 </style>
 
 {{--<script src="{{url('/js/jquery.js')}}"></script>--}}
-{{--<script type="text/javascript" src="//code.jquery.com/mobile/1.4.3/jquery.mobile-1.4.3.min.js" ></script>--}}
+<script type="text/javascript" src="//code.jquery.com/mobile/1.4.3/jquery.mobile-1.4.3.min.js" ></script>
 
 {{--<script src="{{url('/js/jquery-1.11.3.min.js')}}"></script>--}}
 {{--<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>--}}
