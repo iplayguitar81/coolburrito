@@ -1,4 +1,4 @@
-@extends('layout')
+@extends('public.images.layout')
 
 @section('title', 'Map Laravel Test')
 
