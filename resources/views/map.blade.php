@@ -31,7 +31,7 @@
 
 
     <script type="text/javascript" src="https://www.google.com/jsapi"></script>
-        <script src="{{url('/js/jquery.js')}}"></script>
+        {{--<script src="{{url('/js/jquery.js')}}"></script>--}}
     <script type="text/javascript" src="https://maps-api-ssl.google.com/maps/api/js?sensor=false&amp;v=3&amp;libraries=geometry"></script>
     <script type="text/javascript">
         function checkAnswer() {
