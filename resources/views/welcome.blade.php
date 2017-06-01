@@ -55,12 +55,11 @@
                                      <div class="ui-block-a">
 
 
-                                         <li class="blog-mini-li" style=""><a href="{{ route('posts.show', [$item->id, str_slug($item->title)]) }}">{{ $item->title }}" class="blog-mini-li" data-ajax="false">
-
-                                                 <div class="thumb-size" > <img class="mini-blog-img" style="" src="images/{!! 'thmb-'.$item->imgPath !!}" title="sample"/></div>
+                                         <li class="blog-mini-li" style=""><a href="{{ url('posts', $item->id) }}" class="blog-mini-li" data-ajax="false">
+                                                 <span class="game_date">{{$game_date}}</span><br/>
                                                  <br/>
-                                                 <span class="game_date">{{$game_date}}</span>
-                                                 <h3><span style="color: #ff9000;" class="orangose_blog-mini">
+                                                 <div class="thumb-size" > <img style="max-width:100%  !important; height:auto; display:inline;" src="images/{!! 'thmb-'.$item->imgPath !!}" title="sample"/></div>
+                                                 <h3><span style="color: orange;" class="orangose_blog-mini">
                                                          @if(strlen($item->title) <= 25)
 
                                                              {{  $item->title }}
@@ -75,7 +74,7 @@
 
 
                                                      </span> </h3>
-                                                 <span class="p_blog-mini"><p>{!!   str_limit($strip, 20, $end = '...') !!}</p></span>
+                                                 <span class="p_blog-mini"><p>{!!   str_limit($strip, 10, $end = '...') !!}</p></span>
                                              </a></li>
 
 
@@ -440,26 +439,15 @@
 
 
 
-img.mini-blog-img {
-    border: 1px #ff9000 solid;
-    max-width:100%  !important; height:auto; display:inline;
-}
 
-.ui-mobile a img, .ui-mobile fieldset {
-    border-width: 1px;
-}
 
-    .ui-navbar li .ui-btn {
-        font-size: .7em !important;
-        display: block;
-        margin: 0;
-        border-right-width: 0;
-    }
+   
+
 
     span.p_blog-mini p {
 
         text-align:center;
-        white-space: normal !important;
+        /*white-space: normal !important;*/
 
     }
 
@@ -478,7 +466,7 @@ img.mini-blog-img {
         }
 
         span.game_date {
-            font-size: .7em;
+            font-size: .9em;
         }
 
         ul.blog-mini-li {
