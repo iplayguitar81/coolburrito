@@ -1500,6 +1500,7 @@ if (typeof Object.create !== "function") {
         addClassActive : false,
         transitionStyle : false,
 
+        
         beforeUpdate : false,
         afterUpdate : false,
         beforeInit : false,
