@@ -322,8 +322,8 @@
 
     #owl-manip li{
 
-        margin-left:auto;
-        margin-right:auto;
+        margin-left:auto !important;
+        margin-right:auto !important;
 
     }
 
