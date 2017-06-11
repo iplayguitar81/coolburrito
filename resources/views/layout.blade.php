@@ -482,7 +482,8 @@
 //                    paginationNumbers: true,
                     scrollPerPage: false,
                     dots: true,
-                    dotsEach: true
+                    dotsEach: true,
+                    center: true
                 },
                 pswpOptions = {
                     bgOpacity: 0.9,
