@@ -327,6 +327,9 @@
 
     }
 
+    .owl-carousel .owl-theme {
+        display: inline !important;
+    }
 
     img.logo-show {
 
