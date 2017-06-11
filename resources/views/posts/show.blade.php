@@ -316,6 +316,16 @@
 
     }
 
+    #owl-manip{
+
+    }
+
+    #owl-manip li{
+
+        margin-left:auto;
+        margin-right:auto;
+
+    }
 
 
     img.logo-show {
