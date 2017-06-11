@@ -1460,7 +1460,8 @@ if (typeof Object.create !== "function") {
         itemsMobile : [479, 1],
         singleItem : false,
         itemsScaleUp : false,
-
+        center: true,
+        
         slideSpeed : 200,
         paginationSpeed : 800,
         rewindSpeed : 1000,
