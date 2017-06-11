@@ -81,7 +81,7 @@
                 {{--<a class="btn prev btn-danger">Previous</a>--}}
                 {{--<a class="btn next btn-danger">Next</a>--}}
                 {{--</div>--}}
-
+<div id="owl-manip">
                 <ul class="owl-carousel">
                     @foreach($post->images as $image)
 
@@ -98,6 +98,7 @@
                     @endforeach
 
                 </ul>
+</div>
 
             </div>
                 @endif
