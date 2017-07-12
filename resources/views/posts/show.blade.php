@@ -340,7 +340,7 @@
 
     ul.owl-carousel{
 
-        /*text-align:center;*/
+        text-align:center;
     }
 
 
