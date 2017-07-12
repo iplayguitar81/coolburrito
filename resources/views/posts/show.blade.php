@@ -338,6 +338,12 @@
 
 
 
+    ul.owl-carousel{
+        padding:0;
+        text-align:center;
+    }
+
+
 </style>
 
 
