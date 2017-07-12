@@ -336,7 +336,7 @@
         height:auto !important;
     }
 
-ul.owl-carousel.owl-theme {
+.owl-carousel.owl-theme {
     display:inline !important;
 }
 
