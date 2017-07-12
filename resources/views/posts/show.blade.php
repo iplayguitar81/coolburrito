@@ -341,6 +341,7 @@
     ul.owl-carousel{
 
         text-align:center;
+        padding: 0;
     }
 
 
