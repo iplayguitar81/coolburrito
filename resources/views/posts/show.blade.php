@@ -337,7 +337,7 @@
     }
 
 ul.owl-carousel.owl-theme {
-    display:inline !important;
+    /*display:inline !important;*/
 }
 
 </style>
