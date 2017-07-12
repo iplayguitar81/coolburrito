@@ -336,9 +336,7 @@
         height:auto !important;
     }
 
-.owl-carousel.owl-theme {
-    display:inline !important;
-}
+
 
 </style>
 
