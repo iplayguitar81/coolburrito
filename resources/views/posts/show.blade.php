@@ -94,7 +94,7 @@
                         {{--*/ $thumb_path= substr($image->file_path, 7);/*--}}
                         <li class="owl-trick">
                             <a href="{{url($image->file_path)}}" data-ajax="false"  data-size="{{$dimensions}}" data-title="{{$image->caption}}">
-                                <img class="img-responsive" src="{{url('images/thmb-'.$thumb_path)}}" alt="1"></a></li>
+                                <img class="" src="{{url('images/thmb-'.$thumb_path)}}" alt="1"></a></li>
                     @endforeach
 
                 </ul>
