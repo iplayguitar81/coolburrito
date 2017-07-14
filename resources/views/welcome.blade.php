@@ -449,7 +449,11 @@
     }
 
 
-   
+    .fb-like-box, .fb-like-box span, .fb-like-box.fb_iframe_widget span iframe {
+        width: 100% !important;
+        position: relative;
+        text-align:center !important;
+    }
 
 
     span.p_blog-mini p {
