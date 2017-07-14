@@ -243,7 +243,10 @@
             {{--<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>--}}
             <br/>
             <br/>
+
+            <div class="center-likes">
             <div class="fb-like-box" data-href="https://www.facebook.com/checkenginefree" data-colorscheme="dark" data-show-faces="false" data-header="true" data-stream="false" data-show-border="true"></div>
+            </div>
             <br/>
             <br/>
 
@@ -440,7 +443,10 @@
 <style>
 
 
+    .center-likes{
 
+        text-align:center;
+    }
 
 
    
