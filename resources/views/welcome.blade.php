@@ -449,11 +449,20 @@
     }
 
 
-    .fb-like-box, .fb-like-box span, .fb-like-box.fb_iframe_widget span iframe {
-        width: 100% !important;
+
+    .center-likes {
         position: relative;
-        text-align:center !important;
+        padding: 0;
+        padding-top: 55px;
     }
+    .fb-like {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%);
+    }
+
 
 
     span.p_blog-mini p {
