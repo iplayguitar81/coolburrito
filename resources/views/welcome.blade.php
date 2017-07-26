@@ -239,9 +239,7 @@
             </div>
             <br/>
             <hr>
-            <br/>
             {{--<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>--}}
-            <br/>
             <br/>
 
             <div class="center-likes">
