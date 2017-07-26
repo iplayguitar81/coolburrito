@@ -200,8 +200,7 @@
 
 
 <style scoped>
-    @import "https://fonts.googleapis.com/css?family=Pacifico";
-    @import "https://fonts.googleapis.com/css?family=Boogaloo";
+
     @import "https://cdnjs.cloudflare.com/ajax/libs/dropzone/4.3.0/min/dropzone.min.css";
     @import "{{url('/css/default-skin.css')}}";
     {{--@import "{{url('/css/jquery.mobile-1.4.3.min.css')}}";--}}
@@ -507,9 +506,6 @@
 
 <!-- Swiper JS -->
 
-
-{{--<script src="{{url('/js/owl.carousel.js')}}"></script>--}}
-{{--<script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>--}}
 
 <script src="{{url('/js/photoswipe.min.js')}}"></script>
 <script src="{{url('/js/photoswipe-ui-default.min.js')}}"></script>
