@@ -83,61 +83,6 @@
 
 
 
-
-
-
-
-
-
-
-
-                      {{--<img style="height:200px;width:45%; float:left;" class="" src="images/{!! 'thmb-'.$item->imgPath !!}">--}}
-                                 {{--  <h2>{!! $item->title !!} <p>{{$game_date}}</p>--}}
-                                             {{--<p>{!! str_limit($item->body, $limit = 35, $end = '...') !!}</p></h2>--}}
-                                 {{--    --}}
-
-
-
-
-                                 {{--<div  style="width:100%;">--}}
-                                     {{--<a href="{{ url('posts', $item->id) }}" class="ui-btn ui-icon-carat-r ui-btn-icon-right" data-ajax="false">--}}
-                                         {{--<img class="" src="images/{!! 'thmb-'.$item->imgPath !!}">--}}
-
-                                         {{--<h2>{!! $item->title !!}</h2>--}}
-                                         {{--<p>{{$game_date}}</p>--}}
-                                         {{--<p>{!! str_limit($item->body, $limit = 35, $end = '...') !!}</p></a>--}}
-
-                                     {{--@php--}}
-                                     {{--$i++;--}}
-                                     {{--@endphp--}}
-
-
-                                     {{--@if( $i <= (count($posts)-1))--}}
-                                         {{--<hr/>--}}
-                                         {{--@else--}}
-
-                                     {{--@endif--}}
-
-                                 {{--</div>--}}
-
-
-
-
-
-                             {{--<div class="ui-grid-solo">--}}
-                             {{--<div class="ui-block-a">{{$game_date}}--}}
-                             {{--<h2>{!! $item->title !!}</h2>--}}
-                             {{--<p>{!! str_limit($item->body, $limit = 35, $end = '...') !!}</p></div>--}}
-                             {{--</div>--}}
-
-                             {{--<div class="ui-grid-a">--}}
-                             {{--<div class="ui-block-a"><div class="ui-bar ui-bar-a" style="height:160px"><img class="ui-li-thumb" src="images/{!! $item->imgPath !!}" ></div></div>--}}
-                             {{--<div class="ui-block-b"><div class="ui-bar ui-bar-a" style="height:160px">{{$game_date}}--}}
-                             {{--<h2>{!! $item->title !!}</h2>--}}
-                             {{--<p>{!! str_limit($item->body, $limit = 35, $end = '...') !!}</p></div></div>--}}
-                             {{--</div><!-- /grid-a -->--}}
-                             {{--<br/>--}}
-
                          @endforeach
                         </ul>
 
@@ -415,15 +360,10 @@
         <p class="disclaimer">*We make no guarantees that the location information given on this site is accurate.  If you find that there is an inaccurate location listing then please take the time to report it to us using the ''Report this as inaccurate' link.  This will help to ensure that the integrity of our data is to the benefit of yourself and other users.  If you wish to add a new location that folks are able to get their check engine light diagnosed for free then please visit the contact page in order to submit that information to us.  Once it is confirmed we will add it to our databases.  We also make no guarantees that the location listed will offer a free check engine light diagnostic.  This site makes a point of listing the chains that are famous for making such offerings.  Thanks for visiting!  Please tell your friends!  :D</p>
     </div><!-- /footer -->
 
-    {{--<script type="text/javascript"  src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js" ></script>--}}
-
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
-
     <script type="text/javascript" src="https://www.google.com/jsapi"></script>
     <script type="text/javascript" src="/js/jquery.validate.min.js"></script>
     <script type="text/javascript" src="//code.jquery.com/mobile/1.4.3/jquery.mobile-1.4.3.min.js" ></script>
-
-
 
     <script type="text/javascript" src="https://maps-api-ssl.google.com/maps/api/js?key=AIzaSyBS5pkvW9RGZEcNC04MWLQoA3DySvAFLmg&amp;sensor=true&amp;v=3&amp;libraries=geometry" ></script>
     <script type="text/javascript" async>
@@ -503,30 +443,8 @@
         }
     }
 </style>
-    <!-- jQuery library (served from Google) -->
-
-    <!-- bxSlider Javascript file -->
 
 
-    {{--<script src="js/jquery.glide.js"></script>--}}
 
-
-    <script>
-
-//        $(document).ready(function(){
-//
-//        var tallest = 0;
-//        $('.blog-mini-li').each(function() {
-//            var thisHeight = $(this).height();
-//            if(thisHeight > tallest) {
-//                tallest = thisHeight;
-//            }
-//        });
-//        $('.blog-mini-li').height(tallest);
-//
-//        });
-
-
-    </script>
 
 @endsection
