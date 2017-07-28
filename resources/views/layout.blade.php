@@ -507,8 +507,8 @@
 <!-- Swiper JS -->
 
 
-<script src="{{url('/js/photoswipe.min.js')}}"></script>
-<script src="{{url('/js/photoswipe-ui-default.min.js')}}"></script>
+<script defer src="{{url('/js/photoswipe.min.js')}}"></script>
+<script defer src="{{url('/js/photoswipe-ui-default.min.js')}}"></script>
 
 
 
