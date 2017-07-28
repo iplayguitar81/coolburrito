@@ -162,8 +162,7 @@
 
 
 <style scoped>
-    @import "https://fonts.googleapis.com/css?family=Pacifico";
-    @import "https://fonts.googleapis.com/css?family=Boogaloo";
+
     @import "https://cdnjs.cloudflare.com/ajax/libs/dropzone/4.3.0/min/dropzone.min.css";
     @import "{{url('/css/default-skin.css')}}";
     @import "{{url('/css/lightslider.css')}}";
